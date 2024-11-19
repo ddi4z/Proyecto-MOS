@@ -7,6 +7,7 @@ import sys
 
 sys.path.append('optimizacion/')
 from cargadorDeParametros import CargadorDeParametros
+from visualizador import Visualizador
 
 p = CargadorDeParametros()
 
@@ -48,4 +49,6 @@ M.H = Var(M.E, M.E, M.V, within=Binary)
 
 M.K = Var(M.V,M.T, within=Binary)
 M.S = Var(M.V, M.N, within=Binary)
+
+v = Visualizador(p.clientes, p.almacenes, p.estaciones)
 
