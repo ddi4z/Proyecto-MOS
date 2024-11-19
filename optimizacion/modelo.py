@@ -3,44 +3,49 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pyomo.environ import *
 from pyomo.opt import SolverFactory
+import sys
 
+sys.path.append('optimizacion/')
+from cargadorDeParametros import CargadorDeParametros
 
+p = CargadorDeParametros()
 
 # Definicición de conjuntos
+M = ConcreteModel()
 
 # Nodos
-N = RangeSet(1, len(clientes) + len(almacenes) + len(estaciones))
+M.N = RangeSet(1, len(p.clientes) + len(p.almacenes) + len(p.estaciones))
 
 # Clientes
-C = RangeSet(1, len(clientes))
+M.C = RangeSet(1, len(p.clientes))
 
 # Almacenes
-A = RangeSet(len(clientes) + 1, len(clientes) + len(almacenes))
+M.A = RangeSet(len(p.clientes) + 1, len(p.clientes) + len(p.almacenes))
 
 # Estaciones
-E = RangeSet(len(clientes) + len(almacenes) + 1, len(clientes) + len(almacenes) + len(estaciones))
+M.E = RangeSet(len(p.clientes) + len(p.almacenes) + 1, len(p.clientes) + len(p.almacenes) + len(p.estaciones))
 
 # Vehículos
-V = RangeSet(1, len(vehiculos))
+M.V = RangeSet(1, len(p.vehiculos))
 
 # Tipos de vehículos
 # 1:Gas Car | 2:Drone | 3:Solar EV
-T = RangeSet(1, 3)
+M.T = RangeSet(1, 3)
 
 # Definición de parámetros
 
 
 # Variables de decisión
-X = Var(A, C, V, within=Binary)
-Y = Var(C, C, V, within=Binary)
-Z = Var(C, A, V, within=Binary)
+M.X = Var(M.A, M.C, M.V, within=Binary)
+M.Y = Var(M.C, M.C, M.V, within=Binary)
+M.Z = Var(M.C, M.A, M.V, within=Binary)
 
-W = Var(C, E, V, within=Binary)
-U = Var(E, C, V, within=Binary)
-M = Var(A, E, V, within=Binary)
-L = Var(E, A, V, within=Binary)
-H = Var(E, E, V, within=Binary)
+M.W = Var(M.C, M.E, M.V, within=Binary)
+M.U = Var(M.E, M.C, M.V, within=Binary)
+M.M = Var(M.A, M.E, M.V, within=Binary)
+M.L = Var(M.E, M.A, M.V, within=Binary)
+M.H = Var(M.E, M.E, M.V, within=Binary)
 
-K = Var(V,T, within=Binary)
-S = Var(V, N, within=Binary)
+M.K = Var(M.V,M.T, within=Binary)
+M.S = Var(M.V, M.N, within=Binary)
 
