@@ -30,7 +30,6 @@ M.E = RangeSet(len(p.clientes) + len(p.almacenes) + 1, len(p.clientes) + len(p.a
 M.V = RangeSet(1, len(p.vehiculos))
 
 # Tipos de vehículos
-# 1:Gas Car | 2:Drone | 3:Solar EV
 M.T = RangeSet(1, 3)
 
 
@@ -132,6 +131,9 @@ def c_recarga_diario_t():
 def c_mantenimiento_diario():
     return sum(sum(p.TIPOS_VEHICULO[v,t]* p.COSTOS_MANTENIMIENTO_DIARIO[t] for t in M.T) for v in M.V)
 
-M.FO = Objective(expr = c_carga_diario() + c_distancia_diario() + c_tiempo_diario() + c_recarga_diario_t() + c_mantenimiento_diario(), sense=minimize)
+def costo_total():
+    return c_carga_diario() + c_distancia_diario() + c_tiempo_diario() + c_recarga_diario_t() + c_mantenimiento_diario()
+
+M.FO = Objective(rule=costo_total, sense=minimize)
 v = Visualizador(p.clientes, p.almacenes, p.estaciones)
 
