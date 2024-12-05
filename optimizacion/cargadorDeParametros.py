@@ -17,6 +17,7 @@ class CargadorDeParametros:
         self.eficienciaEnergetica = [0,0.15,0.15]
         self.clientes, self.almacenes, self.vehiculos, self.estaciones = self.cargarCasoDePrueba()
 
+        # Parámetros de las rutas entre almacenes, clientes y estaciones
         # Distancias
         self.D_ai = np.zeros((2, len(self.almacenes), len(self.clientes)))
         self.D_ia = np.zeros((2, len(self.clientes), len(self.almacenes)))
