@@ -67,11 +67,11 @@ def t_kg_v_diario():
     return x + z + u
 
 def d_viaje_diario_t():
-    xy = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * (M.X[a,i,v] * p.D_ai + M.Y[i,a,v] * p.D_ia) for t in M.T) for i in M.C) for a in M.A) for v in M.V)
-    zz = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * (M.Z[i,j,v] * p.D_ij + M.Z[j,i,v] * p.D_ij) for t in M.T) for j in M.C) for i in M.C) for v in M.V)
-    wu = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * (M.W[i,e,v] * p.D_ie + M.U[e,i,v] * p.D_ei) for t in M.T) for e in M.E) for i in M.C) for v in M.V)
-    mm = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * (M.M[e,f,v] * p.D_ef + M.M[f,e,v] * p.D_fe) for t in M.T) for f in M.E) for e in M.E) for v in M.V)
-    lh = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * (M.L[e,a,v] * p.D_ea + M.H[a,e,v] * p.D_ae) for t in M.T) for e in M.E) for a in M.A) for v in M.V)
+    xy = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * (M.X[a,i,v] * p.D_ai[t,a,i] + M.Y[i,a,v] * p.D_ia[t,i,a]) for t in M.T) for i in M.C) for a in M.A) for v in M.V)
+    zz = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * (M.Z[i,j,v] * p.D_ij[t,i,j] + M.Z[j,i,v] * p.D_ij[t,j,i]) for t in M.T) for j in M.C) for i in M.C) for v in M.V)
+    wu = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * (M.W[i,e,v] * p.D_ie[t,i,e] + M.U[e,i,v] * p.D_ei[t,e,i]) for t in M.T) for e in M.E) for i in M.C) for v in M.V)
+    mm = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * (M.M[e,f,v] * p.D_ef[t,e,f] + M.M[f,e,v] * p.D_fe[t,f,e]) for t in M.T) for f in M.E) for e in M.E) for v in M.V)
+    lh = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * (M.L[e,a,v] * p.D_ea[t,e,a] + M.H[a,e,v] * p.D_ae[t,a,e]) for t in M.T) for e in M.E) for a in M.A) for v in M.V)
     return xy + zz + wu + mm + lh
 
 def q_energia_diaria_t():
@@ -91,23 +91,41 @@ def t_recarga_diario_t():
 # Función objetivo
 
 def c_carga_diario():
-    x = 
-    z = 
-    u = 
-    return
+    x = sum(sum(sum(M.X[a,i,v] * p.DEMANDAS[i] * p.TIEMPO_CARGA_MINUTO * p.COSTO_CARGA_MINUTO for i in M.C) for a in M.A) for v in M.V)
+    z = sum(sum(sum(M.Z[i,j,v] * p.DEMANDAS[j] * p.TIEMPO_CARGA_MINUTO * p.COSTO_CARGA_MINUTO for j in M.C) for i in M.C) for v in M.V)
+    u = sum(sum(sum(M.U[e,i,v] * p.DEMANDAS[i] * p.TIEMPO_CARGA_MINUTO * p.COSTO_CARGA_MINUTO for i in M.C) for e in M.E) for v in M.V)
+    return x + z + u
 
 def c_distancia_diario():
-    return
+    xy = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * p.TARIFAS_FLETE[t] * (M.X[a,i,v] * p.D_ai[t,a,i] + M.Y[i,a,v] * p.D_ia[t,i,a]) for t in M.T) for i in M.C) for a in M.A) for v in M.V)
+    zz = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * p.TARIFAS_FLETE[t] * (M.Z[i,j,v] * p.D_ij[t,i,j] + M.Z[j,i,v] * p.D_ij[t,j,i]) for t in M.T) for j in M.C) for i in M.C) for v in M.V)
+    wu = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * p.TARIFAS_FLETE[t] * (M.W[i,e,v] * p.D_ie[t,i,e] + M.U[e,i,v] * p.D_ei[t,e,i]) for t in M.T) for e in M.E) for i in M.C) for v in M.V)
+    mm = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * p.TARIFAS_FLETE[t] * (M.M[e,f,v] * p.D_ef[t,e,f] + M.M[f,e,v] * p.D_fe[t,f,e]) for t in M.T) for f in M.E) for e in M.E) for v in M.V)
+    lh = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * p.TARIFAS_FLETE[t] * (M.L[e,a,v] * p.D_ea[t,e,a] + M.H[a,e,v] * p.D_ae[t,a,e]) for t in M.T) for e in M.E) for a in M.A) for v in M.V)
+    return xy + zz + wu + mm + lh
 
 def c_tiempo_diario():
-    return
+    xy = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * p.TARIFAS_TIEMPO[t] * (M.X[a,i,v] * p.t_ai[t,a,i] + M.Y[i,a,v] * p.t_ia[t,i,a]) for t in M.T) for i in M.C) for a in M.A) for v in M.V)
+    zz = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * p.TARIFAS_TIEMPO[t] * (M.Z[i,j,v] * p.t_ij[t,i,j] + M.Z[j,i,v] * p.t_ij[t,j,i]) for t in M.T) for j in M.C) for i in M.C) for v in M.V)
+    wu = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * p.TARIFAS_TIEMPO[t] * (M.W[i,e,v] * p.t_ie[t,i,e] + M.U[e,i,v] * p.t_ei[t,e,i]) for t in M.T) for e in M.E) for i in M.C) for v in M.V)
+    mm = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * p.TARIFAS_TIEMPO[t] * (M.M[e,f,v] * p.t_ef[t,e,f] + M.M[f,e,v] * p.t_fe[t,f,e]) for t in M.T) for f in M.E) for e in M.E) for v in M.V)
+    lh = sum(sum(sum(sum(p.TIPOS_VEHICULO[v,t] * p.TARIFAS_TIEMPO[t] * (M.L[e,a,v] * p.t_ea[t,e,a] + M.H[a,e,v] * p.t_ae[t,a,e]) for t in M.T) for e in M.E) for a in M.A) for v in M.V)
+    return xy + zz + wu + mm + lh
 
-def c_energia_unidad_t():
+def c_energia_diario():
+    x = sum(sum(sum(sum(M.X[a,i,v] * p.TIPOS_VEHICULO[v,t] * p.COSTOS_RECARGA_UNIDAD_ENERGIA[t] * (p.RANGOS[v] / p.EFICIENCIAS_ENERGETICAS[t]) for t in M.T) for i in M.C) for a in M.A) for v in M.V)
+    u = sum(sum(sum(sum(M.U[e,i,v] * p.TIPOS_VEHICULO[v,t] * p.COSTOS_RECARGA_UNIDAD_ENERGIA[t] * (p.RANGOS[v] / p.EFICIENCIAS_ENERGETICAS[t]) for t in M.T) for e in M.E) for i in M.C) for v in M.V)
+    m = sum(sum(sum(sum(M.M[e,f,v] * p.TIPOS_VEHICULO[v,t] * p.COSTOS_RECARGA_UNIDAD_ENERGIA[t] * (p.RANGOS[v] / p.EFICIENCIAS_ENERGETICAS[t]) for t in M.T) for f in M.E) for e in M.E) for v in M.V)
+    lh = sum(sum(sum(sum((M.L[e,a,v] + M.H[a,e,v]) * p.TIPOS_VEHICULO[v,t] * p.COSTOS_RECARGA_UNIDAD_ENERGIA[t] * (p.RANGOS[v] / p.EFICIENCIAS_ENERGETICAS[t]) for t in M.T) for a in M.A) for e in M.E) for v in M.V)
+    return x + u + m + lh
+
+def c_tiempo_energia_diario():
+    
     return
 
 def c_recarga_diario_t():
-    return
-
+    return c_energia_diario() + c_tiempo_energia_diario()
+ 
 def c_mantenimiento_diario():
     return
 
