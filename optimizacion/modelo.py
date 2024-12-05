@@ -120,14 +120,17 @@ def c_energia_diario():
     return x + u + m + lh
 
 def c_tiempo_energia_diario():
-    
-    return
+    x = sum(sum(sum(sum(M.X[a,i,v] * p.TIPOS_VEHICULO[v,t] * p.TIEMPOS_RECARGA_COMPLETA[t] for t in M.T) for i in M.C) for a in M.A) for v in M.V)
+    u = sum(sum(sum(sum(M.U[e,i,v] * p.TIPOS_VEHICULO[v,t] * p.TIEMPOS_RECARGA_COMPLETA[t] for t in M.T) for i in M.C) for e in M.E) for v in M.V)
+    m = sum(sum(sum(sum(M.M[e,f,v] * p.TIPOS_VEHICULO[v,t] * p.TIEMPOS_RECARGA_COMPLETA[t] for t in M.T) for f in M.E) for e in M.E) for v in M.V)
+    lh = sum(sum(sum(sum((M.L[e,a,v] + M.H[a,e,v]) * p.TIPOS_VEHICULO[v,t] * p.TIEMPOS_RECARGA_COMPLETA[t] for t in M.T) for a in M.A) for e in M.E) for v in M.V)
+    return x + u + m + lh
 
 def c_recarga_diario_t():
     return c_energia_diario() + c_tiempo_energia_diario()
  
 def c_mantenimiento_diario():
-    return
+    return sum(sum(p.TIPOS_VEHICULO[v,t]* p.COSTOS_MANTENIMIENTO_DIARIO[t] for t in M.T) for v in M.V)
 
 M.FO = Objective(expr = c_carga_diario() + c_distancia_diario() + c_tiempo_diario() + c_recarga_diario_t() + c_mantenimiento_diario(), sense=minimize)
 v = Visualizador(p.clientes, p.almacenes, p.estaciones)
