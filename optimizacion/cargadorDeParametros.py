@@ -28,7 +28,6 @@ class CargadorDeParametros:
         self.T_ae = np.zeros((3, len(self.almacenes), len(self.estaciones)))
         self.T_ea = np.zeros((3, len(self.estaciones), len(self.almacenes)))
         self.T_ef = np.zeros((3, len(self.estaciones), len(self.estaciones)))
-        self.obtenerMatricesDeTiempoYDistancia()
 
         # Parámetros de los clientes
         self.DEMANDAS = self.clientes["Product"].to_numpy()
@@ -52,6 +51,9 @@ class CargadorDeParametros:
         self.VELOCIDADES_PROMEDIO = [None, 40, None]
         self.EFICIENCIAS_ENERGETICAS = [10, 1/0.15, 1/0.15]
         self.TIEMPO_CARGA_MINUTO = 1/5
+
+        # Carga de distancias y tiempos 
+        self.obtenerMatricesDeTiempoYDistancia()
         
         # Parámetros de los costos vehiculares
         self.TARIFAS_FLETE = [5000, 500, 4000]
@@ -95,14 +97,14 @@ class CargadorDeParametros:
         matrizTiempo[1] = matrizDistancia[1] / self.VELOCIDADES_PROMEDIO[1]
 
     def obtenerMatricesDeTiempoYDistancia(self):
-        self.calcularMatrizDistanciaYTiempo(self.D_tai, self.T_tai,  self.almacenes, self.clientes)
-        self.calcularMatrizDistanciaYTiempo(self.D_tia, self.T_tia,  self.clientes, self.almacenes)
-        self.calcularMatrizDistanciaYTiempo(self.D_tij, self.T_tij,  self.clientes, self.clientes)
-        self.calcularMatrizDistanciaYTiempo(self.D_tei, self.T_tei, self.estaciones, self.clientes)
-        self.calcularMatrizDistanciaYTiempo(self.D_tie, self.T_tie,  self.clientes, self.estaciones)
-        self.calcularMatrizDistanciaYTiempo(self.D_tae, self.T_tae, self.almacenes, self.estaciones)
-        self.calcularMatrizDistanciaYTiempo(self.D_tea, self.T_tea, self.estaciones, self.almacenes)
-        self.calcularMatrizDistanciaYTiempo(self.D_tef, self.T_tef, self.estaciones, self.estaciones)
+        self.calcularMatrizDistanciaYTiempo(self.D_ai, self.T_ai,  self.almacenes, self.clientes)
+        self.calcularMatrizDistanciaYTiempo(self.D_ia, self.T_ia,  self.clientes, self.almacenes)
+        self.calcularMatrizDistanciaYTiempo(self.D_ij, self.T_ij,  self.clientes, self.clientes)
+        self.calcularMatrizDistanciaYTiempo(self.D_ei, self.T_ei, self.estaciones, self.clientes)
+        self.calcularMatrizDistanciaYTiempo(self.D_ie, self.T_ie,  self.clientes, self.estaciones)
+        self.calcularMatrizDistanciaYTiempo(self.D_ae, self.T_ae, self.almacenes, self.estaciones)
+        self.calcularMatrizDistanciaYTiempo(self.D_ea, self.T_ea, self.estaciones, self.almacenes)
+        self.calcularMatrizDistanciaYTiempo(self.D_ef, self.T_ef, self.estaciones, self.estaciones)
 
     def obtenerMatrizTipoVehiculo(self):
         tipos_vehiculo = np.zeros((len(self.vehiculos), 3))
