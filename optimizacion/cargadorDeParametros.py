@@ -7,62 +7,59 @@ import requests
 class CargadorDeParametros:
     def __init__(self):
         # Carga de datos
-        self.clientes, self.almacenes, self.vehiculos, self.estaciones = self.cargarCasoDePrueba()
+        self.clientes, self.almacenes, self.vehiculos, self.estaciones, self.capacidades_almacenes = self.cargarCasoDePrueba()
 
         # Distancias
-        self.D_tai = np.zeros((3, len(self.almacenes), len(self.clientes)))
-        self.D_tia = np.zeros((3, len(self.clientes), len(self.almacenes)))
-        self.D_tij = np.zeros((3, len(self.clientes), len(self.clientes)))
-        self.D_tei = np.zeros((3, len(self.estaciones), len(self.clientes)))
-        self.D_tie = np.zeros((3, len(self.clientes), len(self.estaciones)))
-        self.D_tae = np.zeros((3, len(self.almacenes), len(self.estaciones)))
-        self.D_tea = np.zeros((3, len(self.estaciones), len(self.almacenes)))
-        self.D_tef = np.zeros((3, len(self.estaciones), len(self.estaciones)))
+        self.D_ai = np.zeros((3, len(self.almacenes), len(self.clientes)))
+        self.D_ia = np.zeros((3, len(self.clientes), len(self.almacenes)))
+        self.D_ij = np.zeros((3, len(self.clientes), len(self.clientes)))
+        self.D_ei = np.zeros((3, len(self.estaciones), len(self.clientes)))
+        self.D_ie = np.zeros((3, len(self.clientes), len(self.estaciones)))
+        self.D_ae = np.zeros((3, len(self.almacenes), len(self.estaciones)))
+        self.D_ea = np.zeros((3, len(self.estaciones), len(self.almacenes)))
+        self.D_ef = np.zeros((3, len(self.estaciones), len(self.estaciones)))
 
         # Tiempos
-        self.T_tai = np.zeros((3, len(self.almacenes), len(self.clientes)))
-        self.T_tia = np.zeros((3, len(self.clientes), len(self.almacenes)))
-        self.T_tij = np.zeros((3, len(self.clientes), len(self.clientes)))
-        self.T_tei = np.zeros((3, len(self.estaciones), len(self.clientes)))
-        self.T_tie = np.zeros((3, len(self.clientes), len(self.estaciones)))
-        self.T_tae = np.zeros((3, len(self.almacenes), len(self.estaciones)))
-        self.T_tea = np.zeros((3, len(self.estaciones), len(self.almacenes)))
-        self.T_tef = np.zeros((3, len(self.estaciones), len(self.estaciones)))
+        self.T_ai = np.zeros((3, len(self.almacenes), len(self.clientes)))
+        self.T_ia = np.zeros((3, len(self.clientes), len(self.almacenes)))
+        self.T_ij = np.zeros((3, len(self.clientes), len(self.clientes)))
+        self.T_ei = np.zeros((3, len(self.estaciones), len(self.clientes)))
+        self.T_ie = np.zeros((3, len(self.clientes), len(self.estaciones)))
+        self.T_ae = np.zeros((3, len(self.almacenes), len(self.estaciones)))
+        self.T_ea = np.zeros((3, len(self.estaciones), len(self.almacenes)))
+        self.T_ef = np.zeros((3, len(self.estaciones), len(self.estaciones)))
         self.obtenerMatricesDeTiempoYDistancia()
 
         # Parámetros de los clientes
-        self.DEMANDAS = []
-        self.LONGITUDES_CLIENTES = []
-        self.LATITUDES_CLIENTES = []
+        self.DEMANDAS = self.clientes["Product"].to_numpy()
+        self.LONGITUDES_CLIENTES = self.clientes["Longitude"].to_numpy()
+        self.LATITUDES_CLIENTES = self.clientes["Latitude"].to_numpy()
 
         # Parámetros de los almacenes
-        self.CAPACIDADES_PRODUCTOS_ALMACENES = []
-        self.LONGITUDES_ALMACENES = []
-        self.LATITUDES_ALMACENES = []
+        self.CAPACIDADES_PRODUCTOS_ALMACENES = self.capacidades_almacenes["Product"].to_numpy()
+        self.LONGITUDES_ALMACENES = self.almacenes["Longitude"].to_numpy()
+        self.LATITUDES_ALMACENES =  self.almacenes["Latitude"].to_numpy()
 
         # Parámetros de las estaciones de recarga
-        self.LONGITUDES_ESTACIONES = []
-        self.LATITUDES_ESTACIONES = self.estaciones["Longitude"].to_numpy()
+        self.LONGITUDES_ESTACIONES = self.estaciones["Longitude"].to_numpy()
+        self.LATITUDES_ESTACIONES = self.estaciones["Latitude"].to_numpy()
 
         # Parámetros de los vehículos
-        self.TIPOS_VEHICULO = []
-        self.CAPACIDADES_PRODUCTOS_VEHICULO = []
+        self.TIPOS_VEHICULO = self.obtenerMatrizTipoVehiculo()
+        self.CAPACIDADES_PRODUCTOS_VEHICULO = self.vehiculos["Capacity"].to_numpy()
         self.RANGOS = self.vehiculos["Range"].to_numpy()
-        self.TIEMPOS_RECARGA_COMPLETA = [0.1,2,0]
+        self.TIEMPOS_RECARGA_COMPLETA = [1, 20, 0]
         self.VELOCIDADES_PROMEDIO = [None, 40, None]
-        self.EFICIENCIAS_ENERGETICAS = [0,0.15,0.15]
-        self.TIEMPOS_CARGA_MINUTO = []
+        self.EFICIENCIAS_ENERGETICAS = [10, 1/0.15, 1/0.15]
+        self.TIEMPO_CARGA_MINUTO = 1/5
         
         # Parámetros de los costos vehiculares
         self.TARIFAS_FLETE = [5000, 500, 4000]
         self.TARIFAS_TIEMPO = [500, 500, 500]
         self.COSTOS_MANTENIMIENTO_DIARIO = [30000, 3000, 21000]
         self.COSTOS_RECARGA_UNIDAD_ENERGIA = [16000, 220.73, 0]
-        self.TIEMPO_CARGA_MINUTO = 1/5
         self.COSTO_CARGA_MINUTO = 500
         
-        
-
 
     def calcularDistanciaHarvesiana(self, matriz, conjuntoDatos1, conjuntoDatos2):
         for i in range(len(conjuntoDatos1)):
@@ -107,12 +104,25 @@ class CargadorDeParametros:
         self.calcularMatrizDistanciaYTiempo(self.D_tea, self.T_tea, self.estaciones, self.almacenes)
         self.calcularMatrizDistanciaYTiempo(self.D_tef, self.T_tef, self.estaciones, self.estaciones)
 
+    def obtenerMatrizTipoVehiculo(self):
+        tipos_vehiculo = np.zeros((len(self.vehiculos), 3))
+        for i in range(len(self.vehiculos)):
+            tipo_vehiculo = self.vehiculos["VehicleType"][i]
+            if tipo_vehiculo == "Gas Car":
+                tipos_vehiculo[i][0] = 1
+            elif tipo_vehiculo == "drone":
+                tipos_vehiculo[i][1] = 1
+            elif tipo_vehiculo == "EV":
+                tipos_vehiculo[i][2] = 1
+        return tipos_vehiculo
+
     def cargarCaso(self, rutaBase):
         clientes = pd.read_csv(f"{rutaBase}Clients.csv")
         almacenes = pd.read_csv(f"{rutaBase}Depots.csv")
         vehiculos = pd.read_csv(f"{rutaBase}Vehicles.csv")
         estaciones = pd.read_csv(f"{rutaBase}RechargeNodes.csv")
-        return clientes, almacenes, vehiculos, estaciones
+        capacidades_almacenes = pd.read_csv(f"{rutaBase}DepotCapacities.csv")
+        return clientes, almacenes, vehiculos, estaciones, capacidades_almacenes
 
     def cargarCasoDePrueba(self):
         print("1. Caso base")
