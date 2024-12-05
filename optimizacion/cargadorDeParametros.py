@@ -85,10 +85,7 @@ class CargadorDeParametros:
     def cargarCaso(self, rutaBase):
         clientes = pd.read_csv(f"{rutaBase}Clients.csv")
         almacenes = pd.read_csv(f"{rutaBase}Depots.csv")
-        if rutaBase.count("case_1_base") > 0:
-            vehiculos = pd.read_csv(f"{rutaBase}multi_vehicles.csv")
-        else:
-            vehiculos = pd.read_csv(f"{rutaBase}Vehicles.csv")
+        vehiculos = pd.read_csv(f"{rutaBase}Vehicles.csv")
         estaciones = pd.read_csv(f"{rutaBase}RechargeNodes.csv")
         return clientes, almacenes, vehiculos, estaciones
 
@@ -102,9 +99,10 @@ class CargadorDeParametros:
         rutaPorDefecto = "optimizacion/Proyecto Seneca Libre/"
         rutas = [
             "case_1_base/",
-            "case_2_5_clients_per_vehicle/",
-            "case_3_big_distances_small_demands/",
-            "case_4_capacitated_depots/"
+            "case_2_cost/",
+            "case_3_supply_limits/",
+            "case_4_multi_product/"
+            "case_5_recharge_nodes/",
         ]
         return self.cargarCaso(rutaPorDefecto + rutas[caso - 1])
 

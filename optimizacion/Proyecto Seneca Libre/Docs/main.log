@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.11)  13 NOV 2024 19:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.11)  1 DEC 2024 15:14
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -23,21 +22,25 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen141
-)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen142
-) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count196
@@ -87,83 +90,110 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+)
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+)
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
-) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
-) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
- (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
-) (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+)
+(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+)
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+)
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+)
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+))
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+)
+(/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
- (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count274
-) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count275
 )
 \@linkdim=\dimen152
 \Hy@linkcounter=\count276
 \Hy@pagecounter=\count277
- (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count278
- (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
+
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -176,16 +206,20 @@ Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
 \c@Hy@tempcnt=\count279
- (/usr/share/texmf-dist/tex/latex/url/url.sty
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4784.
 \XeTeXLinkMargin=\dimen153
- (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count280
 \Field@Width=\dimen154
@@ -197,7 +231,8 @@ Package hyperref Info: backreferencing OFF on input line 6078.
 Package hyperref Info: Link coloring OFF on input line 6083.
 Package hyperref Info: Link coloring with OCG OFF on input line 6088.
 Package hyperref Info: PDF/A mode OFF on input line 6093.
- (/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+
+(/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -206,26 +241,33 @@ package with kernel methods
 \c@Hfootnote=\count283
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
 
 (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
 )
 \Fld@listcount=\count284
 \c@bookmark@seq@number=\count285
- (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
 )
 \Hy@SectionHShift=\skip53
-) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count286
@@ -240,7 +282,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen162
 \Gm@layoutvoffset=\dimen163
 \Gm@dimlist=\toks23
-) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+)
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip54
 \enit@outerparindent=\dimen164
@@ -248,8 +291,10 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box53
 \enit@count@id=\count289
 \enitdp@description=\count290
-) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+)
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
 \f@nch@headwidth=\skip55
 \f@nch@O@elh=\skip56
 \f@nch@O@erh=\skip57
@@ -259,7 +304,8 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip61
 \f@nch@O@olf=\skip62
 \f@nch@O@orf=\skip63
-) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+)
+(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box54
 \beforetitleunit=\skip64
@@ -270,80 +316,156 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidth=\dimen167
 \titlewidthlast=\dimen168
 \titlewidthfirst=\dimen169
-) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
+)
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2024/02/07 v24.2 The Babel package
 \babel@savecnt=\count291
 \U@D=\dimen170
 \l@unhyphenated=\language8
- (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+
+(/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count292
- (/usr/share/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-\es@quottoks=\toks26
-\es@quotdepth=\count293
-Package babel Info: Making " an active character on input line 570.
-Package babel Info: Making . an active character on input line 675.
-Package babel Info: Making < an active character on input line 722.
-Package babel Info: Making > an active character on input line 722.
-)) (/usr/share/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
-Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 11.
-) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count294
-\l__pdf_internal_box=\box55
-) (./main.aux
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
+Package babel Info: You haven't specified a language as a class or package
+(babel)             option. I'll load 'nil'. Reported on input line 4258.
+
+(/usr/share/texmf-dist/tex/generic/babel/nil.ldf
+Language: nil 2024/02/07 v24.2 Nil language
+\l@nil=\language9
+))
+(/usr/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
 )
+\XKV@depth=\count293
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/usr/share/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box55
+)
+\tc@llx=\dimen171
+\tc@lly=\dimen172
+\tc@urx=\dimen173
+\tc@ury=\dimen174
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen175
+\adjbox@Height=\dimen176
+\adjbox@Depth=\dimen177
+\adjbox@Totalheight=\dimen178
+\adjbox@pwidth=\dimen179
+\adjbox@pheight=\dimen180
+\adjbox@pdepth=\dimen181
+\adjbox@ptotalheight=\dimen182
+
+(/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count294
+)
+(/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box56
+\sift@deathcycles=\count295
+\@vwid@loff=\dimen183
+\@vwid@roff=\dimen184
+))
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count296
+\lst@gtempboxa=\box57
+\lst@token=\toks28
+\lst@length=\count297
+\lst@currlwidth=\dimen185
+\lst@column=\count298
+\lst@pos=\count299
+\lst@lostspace=\dimen186
+\lst@width=\dimen187
+\lst@newlines=\count300
+\lst@lineno=\count301
+\lst@maxwidth=\dimen188
+
+(/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
+\c@lstnumber=\count302
+\lst@skipnumbers=\count303
+\lst@framebox=\box58
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/02/21 1.10 listings configuration
+))
+Package: listings 2024/02/21 1.10 (Carsten Heinz)
+
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count304
+\l__pdf_internal_box=\box59
+) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
- (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen171
-\scratchbox=\box56
-\nofMPsegments=\count296
-\nofMParguments=\count297
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen172
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count305
+\scratchdimen=\dimen189
+\scratchbox=\box60
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen190
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks30
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (/usr/share/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
- (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
-Package hyperref Info: Link coloring OFF on input line 34.
- (./main.out) (./main.out)
+Package hyperref Info: Link coloring OFF on input line 29.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -382,225 +504,752 @@ Package hyperref Info: Link coloring OFF on input line 34.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 34.
-LaTeX Info: Redefining \% on input line 34.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
+\c@lstlisting=\count311
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+Overfull \hbox (19.44247pt too wide) in paragraph at lines 40--41
+\OT1/cmr/m/n/12 desarrollamos un modelo matem^^Satico integral dise~nado para o
+ptimizar las rutas de suministro,
+ []
+
+
+Overfull \hbox (2.73154pt too wide) in paragraph at lines 40--41
+\OT1/cmr/m/n/12 mejorar la puntualidad de las entregas y equilibrar la carga de
+ trabajo de los transportistas. 
+ []
+
+
+Overfull \hbox (0.80379pt too wide) in paragraph at lines 42--43
+[]\OT1/cmr/m/n/12 En esta segunda fase, el objetivo principal es implementar y 
+validar el modelo dise~nado,
+ []
+
+
+Overfull \hbox (3.31903pt too wide) in paragraph at lines 46--47
+\OT1/cmr/m/n/12 est^^Sandares de servicio, asegurando la sostenibilidad en el c
+ompetitivo mercado del comercio
+ []
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
+Overfull \hbox (22.09782pt too wide) in paragraph at lines 57--58
+[]\OT1/cmr/m/n/12 Resoluci^^Son del problema utilizando \OT1/cmr/bx/n/12 algori
+tmos gen^^Seticos \OT1/cmr/m/n/12 como m^^Setodo heur^^S^^Pstico
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+Overfull \hbox (17.54877pt too wide) in paragraph at lines 77--78
+[]\OT1/cmr/bx/n/12 Demanda[$\OML/cmm/m/it/12 kg$\OT1/cmr/bx/n/12 ]: \OT1/cmr/m/
+n/12 Cantidad de producto solicitada por el cliente, expresada en kilogramos
+ []
+
+
+Overfull \hbox (22.64954pt too wide) in paragraph at lines 77--78
+\OT1/cmr/m/n/12 considerar la demanda de cada producto por separado \OT1/cmr/bx
+/n/12 i.e \OT1/cmr/m/n/12 `Producto-Type-A', `Producto-
+ []
 
 [2{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-LaTeX Info: Redefining \. on input line 100.
-LaTeX Info: Redefining \% on input line 100.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+Overfull \hbox (0.93434pt too wide) in paragraph at lines 100--101
+\OT1/cmr/m/n/12 Los datos de veh^^S^^Pculos disponibles incluyen informaci^^Son
+ detallada sobre el tipo de veh^^S^^Pculo,
+ []
 
 [3]
-LaTeX Info: Redefining \. on input line 147.
-LaTeX Info: Redefining \% on input line 147.
+Overfull \hbox (30.12485pt too wide) in paragraph at lines 113--114
+[]\OT1/cmr/bx/n/12 Costo de Mantenimiento Diario \OT1/cmr/m/n/12 ($[]$): Costo 
+diario de mantenimiento
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+Overfull \hbox (13.5077pt too wide) in paragraph at lines 118--119
+[]\OT1/cmr/bx/n/12 Eficiencia Energ^^Setica \OT1/cmr/m/n/12 ($[]$): Eficiencia 
+en consumo de electricidad,
+ []
+
+
+Overfull \hbox (0.80379pt too wide) in paragraph at lines 121--122
+[]\OT1/cmr/m/n/12 Formula para hallar el combustible o energia que se necesita 
+para recorrer una distancia
+ []
+
+
+Overfull \hbox (36.85487pt too wide) detected at line 133
+[]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4]
-Overfull \hbox (78.6709pt too wide) in paragraph at lines 179--180
-\OT1/cmtt/m/n/12 articles / 16316467014801-[]How-[]do-[]I-[]use-[]Gurobi-[]with-[]open-[]source-[]modeling-[]frameworks$[]\OT1/cmr/m/n/12 .
+Overfull \hbox (12.81477pt too wide) in paragraph at lines 169--171
+\OT1/cmr/m/n/12 Los nodos de recarga representan estaciones donde los veh^^S^^P
+culos pueden recargar combustible
  []
-
-LaTeX Info: Redefining \. on input line 180.
-LaTeX Info: Redefining \% on input line 180.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-Overfull \hbox (17.49323pt too wide) in paragraph at lines 183--184
-\OT1/cmr/m/n/12 sul-tar es-te en-la-ce: []$\OT1/cmtt/m/n/12 https : / / ergo-[]code . github . io / HiGHS / dev / interfaces / python/$[]\OT1/cmr/m/n/12 .
+Overfull \hbox (34.68172pt too wide) in paragraph at lines 201--201
+|[]\OT1/cmr/bx/n/14.4 Herramientas de Ayuda, Recursos Adicionales y Consideraci
+ones| 
  []
 
 
-Overfull \hbox (209.50867pt too wide) in paragraph at lines 183--184
-\OT1/cmr/m/n/12 bi^^Sen, un tu-to-rial de ins-ta-la-ci^^Son y uso est^^Sa dis-po-ni-ble en Blo-que Neon en \OT1/cmtt/m/n/12 Contenido/Proyecto/HiGHsSolverTutorial.ipynb\OT1/cmr/m/n/12 . 
+Overfull \hbox (19.34248pt too wide) in paragraph at lines 203--204
+\OT1/cmr/m/n/12 Para el desarrollo del proyecto, se recomienda utilizar herrami
+entas avanzadas de optimizaci^^Son
  []
 
 
-Overfull \hbox (316.48865pt too wide) in paragraph at lines 198--199
-\OT1/cmr/m/n/12 tu-to-rial: []$\OT1/cmtt/m/n/12 https : / / medium . com / walmartglobaltech / finding-[]and-[]plotting-[]optimal-[]route-[]using-[]open-[]source-[]api-[]in-[]python-[]cdcda596996c$[]\OT1/cmr/m/n/12 . 
+Overfull \hbox (21.53134pt too wide) in paragraph at lines 207--208
+\OT1/cmr/m/n/12 vehicular de manera eficiente, especialmente en los casos de ma
+yor complejidad y escalabilidad.
  []
 
-LaTeX Info: Redefining \. on input line 203.
-LaTeX Info: Redefining \% on input line 203.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+Overfull \hbox (116.22092pt too wide) in paragraph at lines 211--212
+\OT1/cmtt/m/n/12 en-[]us / articles / 16316467014801-[]How-[]do-[]I-[]use-[]Gur
+obi-[]with-[]open-[]source-[]modeling-[]frameworks$[]\OT1/cmr/m/n/12 .
+ []
+
+
+Overfull \hbox (23.02911pt too wide) in paragraph at lines 213--214
+[]\OT1/cmr/bx/n/12 CPLEX: \OT1/cmr/m/n/12 CPLEX, desarrollado por IBM, es otro 
+solver de alto rendimiento ampliamente
+ []
 
 [6]
-LaTeX Info: Redefining \. on input line 230.
-LaTeX Info: Redefining \% on input line 230.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7]
-LaTeX Info: Redefining \. on input line 244.
-LaTeX Info: Redefining \% on input line 244.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[8]
-LaTeX Info: Redefining \. on input line 277.
-LaTeX Info: Redefining \% on input line 277.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
-
-[9]
-LaTeX Info: Redefining \. on input line 303.
-LaTeX Info: Redefining \% on input line 303.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
-
-[10]
-LaTeX Info: Redefining \. on input line 328.
-LaTeX Info: Redefining \% on input line 328.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[11]
-Overfull \hbox (13.00914pt too wide) in paragraph at lines 335--336
-\OT1/cmr/m/n/12 Por ejem-plo, un ar-chi-vo de ru-tas pa-ra el pri-mer ca-so est^^Sandar del equi-po .[]ptimizadores"ser^^S^^Pa
+Overfull \hbox (30.91019pt too wide) in paragraph at lines 221--222
+\OT1/cmtt/m/n/12 github . io / HiGHS / dev / interfaces / python/$[]\OT1/cmr/m/
+n/12 , y m^^Sas detalles t^^Secnicos pueden encontrarse
  []
 
-LaTeX Info: Redefining \. on input line 381.
-LaTeX Info: Redefining \% on input line 381.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+Overfull \hbox (1.42369pt too wide) in paragraph at lines 225--226
+[] \OT1/cmr/bx/n/12 Opciones a habilitar en Pyomo para HiGHS: \OT1/cmr/m/n/12 E
+l solver \OT1/cmr/bx/n/12 HiGHS \OT1/cmr/m/n/12 es una herramienta
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.228 ...exttt{solver.options['time_limit'] = 300}
+                                                   (establece un límite de ...
+
+? 
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.228 ...exttt{solver.options['time_limit'] = 300}
+                                                   (establece un límite de ...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 228.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.228 ...ns['time_limit'] = 300} (establece un lí
+                                                  mite de 5 minutos).
+? 
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.228 ...ns['time_limit'] = 300} (establece un lí
+                                                  mite de 5 minutos).
+? 
+
+LaTeX Warning: Command \i invalid in math mode on input line 228.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229     \item
+                \textbf{--parallel}: Habilita el uso de múltiples núcleos ...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229     \item \textbf
+                       {--parallel}: Habilita el uso de múltiples núcleos ...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229     \item \textbf
+                       {--parallel}: Habilita el uso de múltiples núcleos ...
+
+? 
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 229.
+
+LaTeX Warning: Command \' invalid in math mode on input line 229.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.229 ...extbf{--parallel}: Habilita el uso de mú
+                                                  ltiples núcleos para mejo...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 229.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.229 ...allel}: Habilita el uso de múltiples nú
+                                                  cleos para mejorar el rend...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230     \item
+                \textbf{--presolve}: Controla el nivel de preprocesamiento p...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.230     \item \textbf
+                       {--presolve}: Controla el nivel de preprocesamiento p...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.230     \item \textbf
+                       {--presolve}: Controla el nivel de preprocesamiento p...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.230     \item \textbf
+                       {--presolve}: Controla el nivel de preprocesamiento p...
+
+? 
+
+Overfull \hbox (870.86603pt too wide) in paragraph at lines 228--230
+\OT1/cmr/m/n/12 expresado en segundos. Ejemplo: \OT1/cmtt/m/n/12 solver.options
+['time$[]\OML/cmm/m/it/12 imit[]\OT1/cmr/m/n/12 ] = 300(\OML/cmm/m/it/12 establ
+eceunl[]$ 
+ []
+
+
+Overfull \hbox (2.07497pt too wide) in paragraph at lines 230--231
+\OT1/cmr/m/n/12 de resolverlo. Puede ajustarse en niveles como \OT1/cmtt/m/n/12
+ 'off'\OT1/cmr/m/n/12 , \OT1/cmtt/m/n/12 'on'\OT1/cmr/m/n/12 , o \OT1/cmtt/m/n/
+12 'advanced'\OT1/cmr/m/n/12 . Ejemplo:
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.231 ...ttt{solver.options['mip_rel_gap'] = 0.01}
+                                                   (tolera una solución den...
+
+? 
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.231 ...ttt{solver.options['mip_rel_gap'] = 0.01}
+                                                   (tolera una solución den...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 231.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.231 ...ip_rel_gap'] = 0.01} (tolera una solució
+                                                  n dentro del 1\% del ópti...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 231.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.231 ...olera una solución dentro del 1\% del ó
+                                                  ptimo).
+? 
+
+! LaTeX Error: Command \end{itemize} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 \end{itemize}
+                   
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 \end{itemize}
+                   
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 \end{itemize}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.232 \end{itemize}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.232 \end{itemize}
+                   
+? 
+
+Overfull \hbox (80.58197pt too wide) in paragraph at lines 231--233
+\OT1/cmr/m/n/12 mixta (MIP). Ejemplo: \OT1/cmtt/m/n/12 solver.options['mip$[]\O
+ML/cmm/m/it/12 el[]ap[]\OT1/cmr/m/n/12 ] = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0
+1(\OML/cmm/m/it/12 toleraunasoluci[]ndentrodel\OT1/cmr/m/n/12 1%\OML/cmm/m/it/1
+2 del[]ptimo\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :$ 
+ []
+
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/02/21 1.10 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 234.
+ [7]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
+55.
+
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 255.
+
+Overfull \hbox (21.40079pt too wide) in paragraph at lines 260--261
+\OT1/cmr/m/n/12 verificaci^^Son del estado del solver garantiza que los resulta
+dos sean interpretados correctamente. 
+ []
+
+[8]
+Overfull \hbox (154.77126pt too wide) in paragraph at lines 277--278
+\OT1/cmtt/m/n/12 walmartglobaltech / finding-[]and-[]plotting-[]optimal-[]route
+-[]using-[]open-[]source-[]api-[]in-[]python-[]cdcda596996c$[]\OT1/cmr/m/n/12 .
+
+ []
+
+
+Overfull \hbox (13.27171pt too wide) in paragraph at lines 292--293
+\OT1/cmr/m/n/12 Para garantizar que todos los estudiantes tengan la oportunidad
+ de desarrollar e implementar
+ []
+
+[9]
+Overfull \hbox (0.251pt too wide) in paragraph at lines 300--302
+\OT1/cmr/m/n/12 incluir^^San las ubicaciones sugeridas para los centros en ambo
+s escenarios, permitiendo
+ []
+
+
+Overfull \hbox (5.77887pt too wide) in paragraph at lines 303--305
+[]\OT1/cmr/bx/n/12 Ajustes en los Costos y Par^^Sametros Operativos: \OT1/cmr/m
+/n/12 Los costos y otros par^^Sametros,
+ []
+
+
+Overfull \hbox (23.27592pt too wide) in paragraph at lines 306--308
+\OT1/cmr/bx/n/12 geogr^^Safica \OT1/cmr/m/n/12 de cada uno. Estos elementos gar
+antizan que las soluciones sean comparables
+ []
+
+
+Overfull \hbox (19.24664pt too wide) in paragraph at lines 309--311
+\OT1/cmr/m/n/12 con simplificaciones o modificaciones en su modelado, siempre q
+ue estas sean justificadas
+ []
+
+[10]
+Overfull \hbox (31.81041pt too wide) in paragraph at lines 329--331
+\OT1/cmr/m/n/12 Es crucial que cualquier ajuste realizado en el modelo respete 
+la coherencia y la representatividad
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+[]\OT1/cmr/bx/n/12 N^^Sumero
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\OT1/cmr/bx/n/12 de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+[]\OT1/cmr/bx/n/12 N^^Sumero
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\OT1/cmr/bx/n/12 de
+ []
+
+
+Overfull \hbox (4.782pt too wide) in paragraph at lines 346--346
+[]\OT1/cmr/bx/n/12 Capacidad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\OT1/cmr/bx/n/12 Promedio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\OT1/cmr/bx/n/12 de
+ []
+
+
+Overfull \hbox (13.20282pt too wide) in paragraph at lines 346--346
+[]\OT1/cmr/bx/n/12 Demanda
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\OT1/cmr/bx/n/12 por
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+[]\OT1/cmr/bx/n/12 Relaci^^Son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\OT1/cmr/bx/n/12 Veh^^S^^Pculo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+[]\OT1/cmr/bx/n/12 Restricciones
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+[]\OT1/cmr/m/n/12 Gas Car:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+\OT1/cmr/m/n/12 120 kg,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+[]\OT1/cmr/m/n/12 Gasolina:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+\OT1/cmr/m/n/12 150 km,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+\OT1/cmr/m/n/12 EV:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+\OT1/cmr/m/n/12 Infinito,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+[]\OT1/cmr/m/n/12 Gas Car:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+\OT1/cmr/m/n/12 120 kg,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+[]\OT1/cmr/m/n/12 Gasolina:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+\OT1/cmr/m/n/12 150 km,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+\OT1/cmr/m/n/12 EV:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+\OT1/cmr/m/n/12 Infinito,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+[]\OT1/cmr/m/n/12 Penalizaci^^Son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+\OT1/cmr/m/n/12 seg^^Sun costo:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+\OT1/cmr/m/n/12 10 puntos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+\OT1/cmr/m/n/12 adicionales =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+[]\OT1/cmr/m/n/12 Gas Car:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+\OT1/cmr/m/n/12 120 kg,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+[]\OT1/cmr/m/n/12 Gasolina:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+\OT1/cmr/m/n/12 150 km,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+\OT1/cmr/m/n/12 EV:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+\OT1/cmr/m/n/12 Infinito,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+[]\OT1/cmr/m/n/12 Overflow en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+\OT1/cmr/m/n/12 centros de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+\OT1/cmr/m/n/12 distribuci^^Son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+[]\OT1/cmr/m/n/12 Gasolina:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+\OT1/cmr/m/n/12 150 km,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+\OT1/cmr/m/n/12 EV:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+\OT1/cmr/m/n/12 Infinito,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+[]\OT1/cmr/m/n/12 Variada
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+\OT1/cmr/m/n/12 para 3
+ []
+
+
+Overfull \hbox (7.9759pt too wide) in paragraph at lines 350--350
+\OT1/cmr/m/n/12 productos| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+[]\OT1/cmr/m/n/12 Veh^^S^^Pculos y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+\OT1/cmr/m/n/12 centros de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+\OT1/cmr/m/n/12 distribuci^^Son
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 350--350
+\OT1/cmr/m/n/12 adaptados a la
+ []
+
+
+Overfull \hbox (11.96617pt too wide) in paragraph at lines 358--360
+\OT1/cmr/m/n/12 Este caso asegura que el modelo es capaz de producir rutas v^^S
+alidas y respetar las restricciones
+ []
 
 [12]
-LaTeX Info: Redefining \. on input line 407.
-LaTeX Info: Redefining \% on input line 407.
+Overfull \hbox (15.5833pt too wide) in paragraph at lines 391--392
+\OT1/cmr/bx/n/12 Objetivo\OT1/cmr/m/n/12 : Analizar la habilidad del modelo par
+a manejar m^^Sultiples demandas y restricciones
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+Overfull \hbox (2.35748pt too wide) in paragraph at lines 394--395
+\OT1/cmr/m/n/12 Los casos especiales premian la creatividad y la aplicaci^^Son 
+de t^^Secnicas avanzadas. Permiten
+ []
 
 [13]
-LaTeX Info: Redefining \. on input line 432.
-LaTeX Info: Redefining \% on input line 432.
+Overfull \hbox (7.55788pt too wide) in paragraph at lines 420--421
+[]\OT1/cmr/m/n/12 Asegurarse de que el modelo sea generalizable y no requiera m
+odificaciones adicionales
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+Overfull \hbox (12.19672pt too wide) in paragraph at lines 425--426
+\OT1/cmr/m/n/12 permitir^^Sa evaluar las secuencias de nodos visitados por cada
+ veh^^S^^Pculo y analizar la efectividad
+ []
 
 [14]
-LaTeX Info: Redefining \. on input line 459.
-LaTeX Info: Redefining \% on input line 459.
+Overfull \hbox (4.53616pt too wide) in paragraph at lines 478--479
+[]\OT1/cmr/m/n/12 El veh^^S^^Pculo \OT1/cmtt/m/n/12 V02 \OT1/cmr/m/n/12 sigue s
+u propia secuencia de nodos comenzando en \OT1/cmtt/m/n/12 N003 \OT1/cmr/m/n/12
+ y terminando
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+Overfull \hbox (43.02814pt too wide) in paragraph at lines 482--484
+\OT1/cmr/m/n/12 obtenida, que debe incluirse en un archivo con el prefijo \OT1/
+cmtt/m/n/12 Caso[]Objetivo \OT1/cmr/m/n/12 o \OT1/cmtt/m/n/12 CasoEspecial[]Obj
+etivo
+ []
 
 [15]
-LaTeX Info: Redefining \. on input line 464.
-LaTeX Info: Redefining \% on input line 464.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16]
+Overfull \hbox (15.82323pt too wide) in paragraph at lines 571--573
+[] \OT1/cmr/bx/n/12 3. Casos Est^^Sandar (80%) \OT1/cmr/m/n/12 Cada caso est^^S
+andar tendr^^Sa entregables espec^^S^^Pficos, ponderados
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+Overfull \hbox (8.07776pt too wide) in paragraph at lines 575--576
+[]\OT1/cmr/bx/n/12 Visualizaci^^Son de Rutas (25%): \OT1/cmr/m/n/12 Claridad, d
+ise~no y creatividad en la representaci^^Son
+ []
 
-[16] (./main.aux
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
-)
+[17] [18] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F349ABD6AE1B42E1F2B39B1E5F36A6D9;8758.
+(rerunfilecheck)             Checksum: 3A299BA8DE2624B6A07AC7DED37FA818;8199.
  ) 
 Here is how much of TeX's memory you used:
- 12421 strings out of 476014
- 189167 string characters out of 5792004
- 1941187 words of memory out of 5000000
- 34332 multiletter control sequences out of 15000+600000
- 568293 words of font info for 75 fonts, out of 8000000 for 9000
+ 14935 strings out of 476014
+ 226154 string characters out of 5792004
+ 2048187 words of memory out of 5000000
+ 36769 multiletter control sequences out of 15000+600000
+ 569006 words of font info for 78 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 75i,12n,79p,1058b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (16 pages, 197432 bytes).
+ 75i,12n,79p,668b,2175s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/tex
+mf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/cm-super/sfti1200.pfb>
+Output written on main.pdf (18 pages, 224032 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 284 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 321 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 383 PDF objects out of 1000 (max. 8388607)
+ 331 compressed objects within 4 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 305 words of extra memory for PDF output out of 10000 (max. 10000000)
 
