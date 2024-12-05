@@ -19,24 +19,24 @@ class CargadorDeParametros:
 
         # Parámetros de las rutas entre almacenes, clientes y estaciones
         # Distancias
-        self.D_ai = np.zeros((2, len(self.almacenes), len(self.clientes)))
-        self.D_ia = np.zeros((2, len(self.clientes), len(self.almacenes)))
-        self.D_ij = np.zeros((2, len(self.clientes), len(self.clientes)))
-        self.D_ei = np.zeros((2, len(self.estaciones), len(self.clientes)))
-        self.D_ie = np.zeros((2, len(self.clientes), len(self.estaciones)))
-        self.D_ae = np.zeros((2, len(self.almacenes), len(self.estaciones)))
-        self.D_ea = np.zeros((2, len(self.estaciones), len(self.almacenes)))
-        self.D_ef = np.zeros((2, len(self.estaciones), len(self.estaciones)))
+        self.D_tai = np.zeros((3, len(self.almacenes), len(self.clientes)))
+        self.D_tia = np.zeros((3, len(self.clientes), len(self.almacenes)))
+        self.D_tij = np.zeros((3, len(self.clientes), len(self.clientes)))
+        self.D_tei = np.zeros((3, len(self.estaciones), len(self.clientes)))
+        self.D_tie = np.zeros((3, len(self.clientes), len(self.estaciones)))
+        self.D_tae = np.zeros((3, len(self.almacenes), len(self.estaciones)))
+        self.D_tea = np.zeros((3, len(self.estaciones), len(self.almacenes)))
+        self.D_tef = np.zeros((3, len(self.estaciones), len(self.estaciones)))
 
         # Tiempos
-        self.T_ai = np.zeros((2, len(self.almacenes), len(self.clientes)))
-        self.T_ia = np.zeros((2, len(self.clientes), len(self.almacenes)))
-        self.T_ij = np.zeros((2, len(self.clientes), len(self.clientes)))
-        self.T_ei = np.zeros((2, len(self.estaciones), len(self.clientes)))
-        self.T_ie = np.zeros((2, len(self.clientes), len(self.estaciones)))
-        self.T_ae = np.zeros((2, len(self.almacenes), len(self.estaciones)))
-        self.T_ea = np.zeros((2, len(self.estaciones), len(self.almacenes)))
-        self.T_ef = np.zeros((2, len(self.estaciones), len(self.estaciones)))
+        self.T_tai = np.zeros((3, len(self.almacenes), len(self.clientes)))
+        self.T_tia = np.zeros((3, len(self.clientes), len(self.almacenes)))
+        self.T_tij = np.zeros((3, len(self.clientes), len(self.clientes)))
+        self.T_tei = np.zeros((3, len(self.estaciones), len(self.clientes)))
+        self.T_tie = np.zeros((3, len(self.clientes), len(self.estaciones)))
+        self.T_tae = np.zeros((3, len(self.almacenes), len(self.estaciones)))
+        self.T_tea = np.zeros((3, len(self.estaciones), len(self.almacenes)))
+        self.T_tef = np.zeros((3, len(self.estaciones), len(self.estaciones)))
         self.obtenerMatricesDeTiempoYDistancia()
 
 
@@ -64,24 +64,25 @@ class CargadorDeParametros:
         datos = respuesta.json()
         for i in range(len(coordenadasFilas)):
             for j in range(len(coordenadasColumnas)):
-                matrizDistancia[i][j] = datos['distances'][i][j]
-                matrizTiempo[i][j] = datos['durations'][i][j]
+                for t in [0,2]:
+                    matrizDistancia[t][i][j] = datos['distances'][i][j]
+                    matrizTiempo[t][i][j] = datos['durations'][i][j]
 
 
     def calcularMatrizDistanciaYTiempo(self, matrizDistancia, matrizTiempo, conjuntoDatos1, conjuntoDatos2):
-        self.calcularDistanciaYTiempoRuta(matrizDistancia[0], matrizTiempo[0], conjuntoDatos1, conjuntoDatos2)
+        self.calcularDistanciaYTiempoRuta(matrizDistancia, matrizTiempo, conjuntoDatos1, conjuntoDatos2)
         self.calcularDistanciaHarvesiana(matrizDistancia[1], conjuntoDatos1, conjuntoDatos2)
         matrizTiempo[1] = matrizDistancia[1] / 40
 
     def obtenerMatricesDeTiempoYDistancia(self):
-        self.calcularMatrizDistanciaYTiempo(self.D_ai, self.T_ai,  self.almacenes, self.clientes)
-        self.calcularMatrizDistanciaYTiempo(self.D_ia, self.T_ia,  self.clientes, self.almacenes)
-        self.calcularMatrizDistanciaYTiempo(self.D_ij, self.T_ij,  self.clientes, self.clientes)
-        self.calcularMatrizDistanciaYTiempo(self.D_ei, self.T_ei, self.estaciones, self.clientes)
-        self.calcularMatrizDistanciaYTiempo(self.D_ie, self.T_ie,  self.clientes, self.estaciones)
-        self.calcularMatrizDistanciaYTiempo(self.D_ae, self.T_ae, self.almacenes, self.estaciones)
-        self.calcularMatrizDistanciaYTiempo(self.D_ea, self.T_ea, self.estaciones, self.almacenes)
-        self.calcularMatrizDistanciaYTiempo(self.D_ef, self.T_ef, self.estaciones, self.estaciones)
+        self.calcularMatrizDistanciaYTiempo(self.D_tai, self.T_tai,  self.almacenes, self.clientes)
+        self.calcularMatrizDistanciaYTiempo(self.D_tia, self.T_tia,  self.clientes, self.almacenes)
+        self.calcularMatrizDistanciaYTiempo(self.D_tij, self.T_tij,  self.clientes, self.clientes)
+        self.calcularMatrizDistanciaYTiempo(self.D_tei, self.T_tei, self.estaciones, self.clientes)
+        self.calcularMatrizDistanciaYTiempo(self.D_tie, self.T_tie,  self.clientes, self.estaciones)
+        self.calcularMatrizDistanciaYTiempo(self.D_tae, self.T_tae, self.almacenes, self.estaciones)
+        self.calcularMatrizDistanciaYTiempo(self.D_tea, self.T_tea, self.estaciones, self.almacenes)
+        self.calcularMatrizDistanciaYTiempo(self.D_tef, self.T_tef, self.estaciones, self.estaciones)
 
     def cargarCaso(self, rutaBase):
         clientes = pd.read_csv(f"{rutaBase}Clients.csv")
