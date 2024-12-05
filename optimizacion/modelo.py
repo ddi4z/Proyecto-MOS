@@ -33,36 +33,7 @@ M.V = RangeSet(1, len(p.vehiculos))
 # 1:Gas Car | 2:Drone | 3:Solar EV
 M.T = RangeSet(1, 3)
 
-# Definición de parámetros
-# Parámetros de los clientes
-DEMANDAS = []
-LONGITUDES_CLIENTES = []
-LATITUDES_CLIENTES = []
 
-# Parámetros de los almacenes
-CAPACIDADES_PRODUCTOS_ALMACENES = []
-LONGITUDES_ALMACENES = []
-LATITUDES_ALMACENES = []
-
-# Parámetros de las estaciones de recarga
-LONGITUDES_ESTACIONES = []
-LATITUDES_ESTACIONES = []
-
-# Parámetros de los vehículos
-TIPOS_VEHICULO = []
-CAPACIDADES_PRODUCTOS_VEHICULO = []
-RANGOS = []
-TIEMPOS_RECARGA_COMPLETA = []
-VELOCIDADES_PROMEDIO = []
-EFICIENCIAS_ENERGETICAS = []
-TIEMPOS_CARGA_MINUTO = []
-
-# Parámetros de los costos vehiculares
-TARIFAS_FLETE = []
-TARIFAS_TIEMPO = []
-COSTOS_MANTENIMIENTO_DIARIO = []
-COSTOS_RECARGA_UNIDAD_ENERGIA = []
-COSTOS_CARGA_MINUTO = []
 
 # Variables de decisión
 
