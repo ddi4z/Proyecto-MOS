@@ -6,18 +6,9 @@ import requests
 
 class CargadorDeParametros:
     def __init__(self):
-        # Cuadro 1: Parámetros de Costos y Eficiencia para Vehículo
-        # Gas Car | Drone | Solar EV
-        self.tarifaFlete = [5000, 500, 4000]
-        self.tarifaTiempo = [500, 500, 500]
-        self.costoMantenimiento = [30000, 3000, 21000]
-        self.costoRecarga = [16000, 220.73, 0]
-        self.tiempoRecarga = [0.1,2,0]
-        self.eficienteCombustible = [10,0,0]
-        self.eficienciaEnergetica = [0,0.15,0.15]
+        # Carga de datos
         self.clientes, self.almacenes, self.vehiculos, self.estaciones = self.cargarCasoDePrueba()
 
-        # Parámetros de las rutas entre almacenes, clientes y estaciones
         # Distancias
         self.D_tai = np.zeros((3, len(self.almacenes), len(self.clientes)))
         self.D_tia = np.zeros((3, len(self.clientes), len(self.almacenes)))
@@ -39,6 +30,38 @@ class CargadorDeParametros:
         self.T_tef = np.zeros((3, len(self.estaciones), len(self.estaciones)))
         self.obtenerMatricesDeTiempoYDistancia()
 
+        # Parámetros de los clientes
+        self.DEMANDAS = []
+        self.LONGITUDES_CLIENTES = []
+        self.LATITUDES_CLIENTES = []
+
+        # Parámetros de los almacenes
+        self.CAPACIDADES_PRODUCTOS_ALMACENES = []
+        self.LONGITUDES_ALMACENES = []
+        self.LATITUDES_ALMACENES = []
+
+        # Parámetros de las estaciones de recarga
+        self.LONGITUDES_ESTACIONES = []
+        self.LATITUDES_ESTACIONES = self.estaciones["Longitude"].to_numpy()
+
+        # Parámetros de los vehículos
+        self.TIPOS_VEHICULO = []
+        self.CAPACIDADES_PRODUCTOS_VEHICULO = []
+        self.RANGOS = self.vehiculos["Range"].to_numpy()
+        self.TIEMPOS_RECARGA_COMPLETA = [0.1,2,0]
+        self.VELOCIDADES_PROMEDIO = [None, 40, None]
+        self.EFICIENCIAS_ENERGETICAS = [0,0.15,0.15]
+        self.TIEMPOS_CARGA_MINUTO = []
+        
+        # Parámetros de los costos vehiculares
+        self.TARIFAS_FLETE = [5000, 500, 4000]
+        self.TARIFAS_TIEMPO = [500, 500, 500]
+        self.COSTOS_MANTENIMIENTO_DIARIO = [30000, 3000, 21000]
+        self.COSTOS_RECARGA_UNIDAD_ENERGIA = [16000, 220.73, 0]
+        self.TIEMPO_CARGA_MINUTO = 1/5
+        self.COSTO_CARGA_MINUTO = 500
+        
+        
 
 
     def calcularDistanciaHarvesiana(self, matriz, conjuntoDatos1, conjuntoDatos2):
@@ -72,7 +95,7 @@ class CargadorDeParametros:
     def calcularMatrizDistanciaYTiempo(self, matrizDistancia, matrizTiempo, conjuntoDatos1, conjuntoDatos2):
         self.calcularDistanciaYTiempoRuta(matrizDistancia, matrizTiempo, conjuntoDatos1, conjuntoDatos2)
         self.calcularDistanciaHarvesiana(matrizDistancia[1], conjuntoDatos1, conjuntoDatos2)
-        matrizTiempo[1] = matrizDistancia[1] / 40
+        matrizTiempo[1] = matrizDistancia[1] / self.VELOCIDADES_PROMEDIO[1]
 
     def obtenerMatricesDeTiempoYDistancia(self):
         self.calcularMatrizDistanciaYTiempo(self.D_tai, self.T_tai,  self.almacenes, self.clientes)
