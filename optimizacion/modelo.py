@@ -154,13 +154,9 @@ M.FO = Objective(rule=costo_total, sense=minimize)
 
 solver_name = "scip"
 solver = SolverFactory(solver_name)
-
 solver.options['limits/time'] = 570
 solver.options['heuristics'] = 'aggressive'
 solver.options['limits/absgap'] = 10 
-
-
-
-result = solver.solve(model, tee=True)
+result = solver.solve(M, tee=True)
 
 M.display()
