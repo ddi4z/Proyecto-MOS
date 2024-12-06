@@ -151,6 +151,56 @@ def costo_total(model):
 
 M.FO = Objective(rule=costo_total, sense=minimize)
 
+# Restricciones
+
+# 2.7.1
+M.abastecimiento = ConstraintList()
+for i in M.C:
+    M.abastecimiento.add(sum(sum(M.X[a,i,v] for a in M.A) for v in M.V) + sum(sum(M.Z[j,i,v] for j in M.C) for v in M.V) + sum(sum(M.U[e,i,v] for e in M.E) for v in M.V) == 1)
+    M.abastecimiento.add(sum(sum(M.Y[i,a,v] for a in M.A) for v in M.V) + sum(sum(M.Z[i,j,v] for j in M.C) for v in M.V) + sum(sum(M.W[i,e,v] for e in M.E) for v in M.V) == 1)
+
+M.capacidadAlmacen = ConstraintList()
+for a in M.A:
+    M.capacidadAlmacen.add(sum(sum(p.DEMANDAS[i - 1] * M.X[a,i,v] for i in M.C) for v in M.V) <= p.CAPACIDADES_PRODUCTOS_ALMACENES[a - 1])
+
+M.capacidadVehiculo = ConstraintList()
+for v in M.V:
+    M.capacidadVehiculo.add(sum(sum(p.DEMANDAS[i - 1] * M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(p.DEMANDAS[j - 1] * M.Z[i,j,v] for i in M.C) for j in M.C) + sum(sum(p.DEMANDAS[i - 1] * M.U[e,i,v] for i in M.C) for e in M.E) <= sum(p.TIPOS_VEHICULO[v - 1, t - 1] * p.CAPACIDADES_PRODUCTOS_VEHICULO[t - 1] for t in M.T))
+
+M.rangoVehiculo = ConstraintList()
+for v in M.V:
+    M.rangoVehiculo.add(d_viaje_diario_t() <= p.RANGOS[v - 1])
+
+# 2.7.3
+M.salidaUnicaAlmacen = ConstraintList()
+for v in M.V:
+    M.salidaUnicaAlmacen.add(sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(M.H[a,e,v] for e in M.E) for a in M.A) <= 1)
+
+M.entradaUnicaAlmacen = ConstraintList()
+for v in M.V:
+    M.entradaUnicaAlmacen.add(sum(sum(M.Y[i,a,v] for i in M.C) for a in M.A) + sum(sum(M.L[e,a,v] for e in M.E) for a in M.A) <= 1)
+
+M.salidaYVuelta = ConstraintList()
+for v in M.V:
+    M.salidaYVuelta.add(sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(M.H[a,e,v] for e in M.E) for a in M.A) - sum(sum(M.Y[i,a,v] for i in M.C) for a in M.A) + sum(sum(M.L[e,a,v] for e in M.E) for a in M.A) == 0)
+
+# 2.7.4
+M.entradaUnicaCliente = ConstraintList()
+for i in M.C:
+    for v in M.V:
+        M.entradaUnicaCliente.add(sum(M.X[a,i,v] for a in M.A) + sum(M.Z[j,i,v] for j in M.C) + sum(M.U[e,i,v] for e in M.E) <= 1)
+
+M.salidaUnicaCliente = ConstraintList()
+for i in M.C:
+    for v in M.V:
+        M.salidaUnicaCliente.add(sum(M.Y[i,a,v] for a in M.A) + sum(M.Z[i,j,v] for j in M.C) + sum(M.W[i,e,v] for e in M.E) <= 1)
+
+M.entradaYSalidaCliente = ConstraintList()
+for i in M.C:
+    for v in M.V:
+        M.entradaYSalidaCliente.add(sum(M.X[a,i,v] for a in M.A) + sum(M.Z[j,i,v] for j in M.C) + sum(M.U[e,i,v] for e in M.E) - sum(M.Y[i,a,v] for a in M.A) - sum(M.Z[i,j,v] for j in M.C) - sum(M.W[i,e,v] for e in M.E) == 0)
+
+
 
 solver_name = "scip"
 solver = SolverFactory(solver_name)
@@ -160,3 +210,5 @@ solver.options['limits/absgap'] = 10
 result = solver.solve(M, tee=True)
 
 M.display()
+
+v = Visualizador(p.clientes, p.almacenes, p.estaciones)
