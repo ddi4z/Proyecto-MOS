@@ -155,5 +155,4 @@ M.FO = Objective(rule=costo_total, sense=minimize)
 solver = SolverFactory('scip')
 result = solver.solve(M, tee=True)  
 
-# Imprimir resultados
 M.display()
