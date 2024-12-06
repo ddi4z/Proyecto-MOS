@@ -158,6 +158,12 @@ def costo_total(model):
 
 M.FO = Objective(rule=costo_total, sense=minimize)
 M.COSTO_CARGA_DIARIO = c_carga_diario()
+M.COSTO_DISTANCIA_DIARIO = c_distancia_diario()
+M.COSTO_TIEMPO_DIARIO = c_tiempo_diario()
+M.COSTO_RECARGA_DIARIO = c_recarga_diario_t()
+M.COSTO_ENERGIA_DIARIO = c_energia_diario()
+M.COSTO_TIEMPO_ENERGIA_DIARIO = c_tiempo_energia_diario()
+M.COSTO_MANTENIMIENTO_DIARIO = c_mantenimiento_diario()
 
 # Restricciones
 
@@ -194,25 +200,25 @@ for v in M.V:
 
 # 2.7.2 Restricciones del grafo 
 
-# Prohibición de subtoures
-M.subtoures = ConstraintList()
-for v in M.V:
-    # Z_ijv
-    for i in M.C:
-        for j in M.C:
-            if i != j:
-                M.subtoures.add(M.S[v,i] - M.S[v,j] + M.Z[i,j,v] * N() <= N() - 1)
+# # Prohibición de subtoures
+# M.subtoures = ConstraintList()
+# for v in M.V:
+#     # Z_ijv
+#     for i in M.C:
+#         for j in M.C:
+#             if i != j:
+#                 M.subtoures.add(M.S[v,i] - M.S[v,j] + M.Z[i,j,v] * N() <= N() - 1)
                 
-    for e in M.E:
-        # W_iev y U_eiv
-        for i in M.C:
-            M.subtoures.add(M.S[v,i] - M.S[v,indiceEstacion(e)] + M.W[i,e,v] * N() <= N() - 1)
-            M.subtoures.add(M.S[v,indiceEstacion(e)] - M.S[v,i] + M.U[e,i,v] * N() <= N() - 1)
+#     for e in M.E:
+#         # W_iev y U_eiv
+#         for i in M.C:
+#             M.subtoures.add(M.S[v,i] - M.S[v,indiceEstacion(e)] + M.W[i,e,v] * N() <= N() - 1)
+#             M.subtoures.add(M.S[v,indiceEstacion(e)] - M.S[v,i] + M.U[e,i,v] * N() <= N() - 1)
 
-        # M_efv
-        for f in M.E:
-            if e != f:
-                M.subtoures.add(M.S[v,indiceEstacion(e)] - M.S[v,indiceEstacion(f)] + M.M[e,f,v] * N() <= N() - 1)
+#         # M_efv
+#         for f in M.E:
+#             if e != f:
+#                 M.subtoures.add(M.S[v,indiceEstacion(e)] - M.S[v,indiceEstacion(f)] + M.M[e,f,v] * N() <= N() - 1)
 
 # 2.7.3 Restricciones de los vehículos y los almacenes
 

@@ -110,6 +110,12 @@ class Visualizador:
             archivo.write("DESGLOSE DE COSTOS\n")
             archivo.write(f"Costo total: {pyomo_value(self.M.FO)} COP\n")
             archivo.write(f"Costo de carga diario: {pyomo_value(self.M.COSTO_CARGA_DIARIO)} COP\n")
+            archivo.write(f"Costo de distancia diario: {pyomo_value(self.M.COSTO_DISTANCIA_DIARIO)} COP\n")
+            archivo.write(f"Costo de tiempo diario: {pyomo_value(self.M.COSTO_TIEMPO_DIARIO)} COP\n")
+            archivo.write(f"Costo de recarga diario: {pyomo_value(self.M.COSTO_RECARGA_DIARIO)} COP\n")
+            archivo.write(f"- Costo de energía diario: {pyomo_value(self.M.COSTO_ENERGIA_DIARIO)} COP\n")
+            archivo.write(f"- Costo de tiempo de recarga diario: {pyomo_value(self.M.COSTO_TIEMPO_ENERGIA_DIARIO)} COP\n")
+            archivo.write(f"Costo de mantenimiento diario: {pyomo_value(self.M.COSTO_MANTENIMIENTO_DIARIO)} COP\n")
 
             # Rutas tomadas por los vehículos
             archivo.write("\nRUTAS TOMADAS POR LOS VEHÍCULOS")

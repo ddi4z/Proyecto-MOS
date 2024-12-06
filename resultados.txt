@@ -1,7 +1,12 @@
 DESGLOSE DE COSTOS
 Costo total: 271700.0 COP
 Costo de carga diario: 37700.0 COP
-0.0 COP
+Costo de distancia diario: 0.0 COP
+Costo de tiempo diario: 0.0 COP
+Costo de recarga diario: 0.0 COP
+- Costo de energía diario: 0.0 COP
+- Costo de tiempo de recarga diario: 0.0 COP
+Costo de mantenimiento diario: 234000.0 COP
 
 RUTAS TOMADAS POR LOS VEHÍCULOS
 VEHÍCULO 1:
