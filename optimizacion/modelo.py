@@ -157,6 +157,7 @@ def costo_total(model):
     return c_carga_diario() + c_distancia_diario() + c_tiempo_diario() + c_recarga_diario_t() + c_mantenimiento_diario()
 
 M.FO = Objective(rule=costo_total, sense=minimize)
+M.COSTO_CARGA_DIARIO = c_carga_diario()
 
 # Restricciones
 

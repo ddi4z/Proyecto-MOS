@@ -1,11 +1,16 @@
+import io
 import folium
-from pyomo.environ import *
+from pyomo.environ import value as pyomo_value
 
 class Visualizador:
     def __init__(self, p, M):
         self.p = p
         self.M = M
+        self.path_archivo_resultados = "resultados.txt"
+        self.path_archivo_solucion = "solucion.txt"
         self.visualizar()
+        self.guardar_resultados()
+        self.guardar_solucion()
 
     def hacer_linea(self, mapa, coordenadas_i, coordenadas_j, i, j, color_linea='blue'):
         folium.PolyLine(locations=[(coordenadas_i[i-1][1], coordenadas_i[i-1][2]),
@@ -90,3 +95,57 @@ class Visualizador:
                         self.hacer_linea(mapa, coordenadas_almacenes, coordenadas_estaciones, a, e, self.escoger_color(v))
         
         mapa.save('solucion.html')
+
+    def guardar_resultados(self):
+        with open(self.path_archivo_resultados, "w") as archivo:
+            archivo.write("\nRUTAS TOMADAS POR LOS VEHÍCULOS")
+            for v in self.M.V:
+                archivo.write(f"\nVEHÍCULO {v}:\n")
+                # Salida del almacen (X_aiv y H_aev)
+                for a in self.M.A:
+                    for i in self.M.C:
+                        if self.M.X[a,i,v]() == 1:
+                            archivo.write(f"Almacén {a} -> Cliente {i}\n")
+                    for e in self.M.E:
+                        if self.M.H[a,e,v]() == 1:
+                            archivo.write(f"Almacén {a} -> Estación {e}\n")
+
+                # Recorrido entre clientes (Z_ijv)
+                for i in self.M.C:
+                    for j in self.M.C:
+                        if i != j and self.M.Z[i,j,v]() == 1:
+                            archivo.write(f"Cliente {i} -> Cliente {j}\n")
+
+                # Recorrido entre clientes y estaciones (W_iev y U_eiv)
+                for i in self.M.C:
+                    for e in self.M.E:
+                        if self.M.W[i,e,v]() == 1:
+                            archivo.write(f"Cliente {i} -> Estación {e}\n")
+                        if self.M.U[e,i,v]() == 1:
+                            archivo.write(f"Estación {e} -> Cliente {i}\n")
+
+                # Recorrido entre estaciones (M_efv)
+                for e in self.M.E:
+                    for f in self.M.E:
+                        if e != f and self.M.M[e,f,v]() == 1:
+                            archivo.write(f"Estación {e} -> Estación {f}\n")
+
+                # Entrada al almacen (Y_iav y L_eav)
+                for a in self.M.A:
+                    for i in self.M.C:
+                        if self.M.Y[i,a,v]() == 1:
+                            archivo.write(f"Cliente {i} -> Almacén {a}\n")
+                    for e in self.M.E:
+                        if self.M.L[e,a,v]() == 1:
+                            archivo.write(f"Estación {e} -> Almacén {a}\n")
+                archivo.write("\n")
+
+
+    def guardar_solucion(self):
+        buffer = io.StringIO()
+        self.M.display(ostream=buffer)
+        contenido_display = buffer.getvalue()
+        buffer.close()
+        
+        with open(self.path_archivo_solucion, "w", encoding="utf-8") as archivo:
+            archivo.write(contenido_display)
