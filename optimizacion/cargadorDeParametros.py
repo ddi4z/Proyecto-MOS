@@ -91,14 +91,14 @@ class CargadorDeParametros:
         for i in range(len(coordenadasFilas)):
             for j in range(len(coordenadasColumnas)):
                 for t in [0,2]:
-                    matrizDistancia[t][i][j] = datos['distances'][i][j]
-                    matrizTiempo[t][i][j] = datos['durations'][i][j]
+                    matrizDistancia[t][i][j] = datos['distances'][i][j] / 1000
+                    matrizTiempo[t][i][j] = datos['durations'][i][j] / 60 
 
 
     def calcularMatrizDistanciaYTiempo(self, matrizDistancia, matrizTiempo, conjuntoDatos1, conjuntoDatos2):
         self.calcularDistanciaYTiempoRuta(matrizDistancia, matrizTiempo, conjuntoDatos1, conjuntoDatos2)
         self.calcularDistanciaHarvesiana(matrizDistancia[1], conjuntoDatos1, conjuntoDatos2)
-        matrizTiempo[1] = matrizDistancia[1] / self.VELOCIDADES_PROMEDIO[1]
+        matrizTiempo[1] = matrizDistancia[1] / (self.VELOCIDADES_PROMEDIO[1] / 60)
 
     def obtenerMatricesDeTiempoYDistancia(self):
         self.calcularMatrizDistanciaYTiempo(self.D_ai, self.T_ai,  self.almacenes, self.clientes)
