@@ -1,82 +1,82 @@
 DESGLOSE DE COSTOS
 Costo total: 0 COP
 Costo de carga diario: 37700.0 COP
-Costo de distancia diario: 1048991.7894108996 COP
-Costo de tiempo diario: 151126.8507830162 COP
-Costo de recarga diario: 2481827.571174009 COP
-- Costo de energía diario: 2481758.571174009 COP
-- Costo de tiempo de recarga diario: 69.0 COP
+Costo de distancia diario: 1213153.197332722 COP
+Costo de tiempo diario: 189706.2126657494 COP
+Costo de recarga diario: 1053316.741087472 COP
+- Costo de energía diario: 1053252.741087472 COP
+- Costo de tiempo de recarga diario: 64.0 COP
 Costo de mantenimiento diario: 234000.0 COP
 
 RUTAS TOMADAS POR LOS VEHÍCULOS
 VEHÍCULO 1:
-Cliente 13 -> Cliente 1
-Cliente 14 -> Cliente 8
-Cliente 15 -> Cliente 5
-Cliente 17 -> Cliente 4
-Cliente 18 -> Cliente 2
-Cliente 19 -> Cliente 7
-Cliente 22 -> Cliente 3
-Cliente 24 -> Cliente 6
+Almacén 6 -> Cliente 6
+Cliente 1 -> Cliente 15
+Cliente 2 -> Cliente 8
+Cliente 3 -> Cliente 16
+Cliente 4 -> Cliente 1
+Cliente 5 -> Cliente 14
+Cliente 6 -> Cliente 23
+Cliente 7 -> Cliente 9
+Cliente 13 -> Almacén 6
 
 
 VEHÍCULO 2:
 Almacén 1 -> Cliente 24
-Almacén 4 -> Cliente 14
-Almacén 4 -> Cliente 19
-Almacén 5 -> Cliente 23
-Almacén 6 -> Cliente 20
-Cliente 16 -> Cliente 9
-Cliente 20 -> Cliente 11
-Cliente 21 -> Cliente 12
-Cliente 23 -> Cliente 10
+Cliente 8 -> Cliente 11
+Cliente 9 -> Cliente 10
+Cliente 10 -> Cliente 7
+Cliente 11 -> Cliente 20
+Cliente 12 -> Cliente 17
+Cliente 18 -> Almacén 6
 
 
 VEHÍCULO 3:
-Almacén 5 -> Cliente 21
 Almacén 7 -> Cliente 13
-Almacén 7 -> Cliente 16
-Almacén 10 -> Cliente 22
+Cliente 22 -> Almacén 4
 
 
 VEHÍCULO 4:
+Almacén 10 -> Cliente 22
+Cliente 17 -> Almacén 4
 
 
 VEHÍCULO 5:
+Almacén 2 -> Cliente 2
+Cliente 15 -> Almacén 4
 
 
 VEHÍCULO 6:
-Cliente 4 -> Almacén 4
-Cliente 9 -> Almacén 9
+Almacén 4 -> Cliente 19
+Cliente 24 -> Almacén 1
 
 
 VEHÍCULO 7:
-Cliente 2 -> Almacén 2
+Almacén 5 -> Cliente 5
+Cliente 19 -> Almacén 2
 
 
 VEHÍCULO 8:
-Cliente 1 -> Almacén 1
-Cliente 7 -> Almacén 7
-Cliente 10 -> Almacén 10
-Cliente 11 -> Almacén 11
+Almacén 3 -> Cliente 3
+Cliente 14 -> Almacén 3
 
 
 VEHÍCULO 9:
-Cliente 3 -> Almacén 3
-Cliente 5 -> Almacén 5
-Cliente 6 -> Almacén 6
-Cliente 8 -> Almacén 8
-Cliente 12 -> Almacén 12
+Almacén 4 -> Cliente 4
+Cliente 23 -> Almacén 3
 
 
 VEHÍCULO 10:
-Almacén 7 -> Cliente 15
+Almacén 1 -> Cliente 12
+Cliente 16 -> Almacén 10
 
 
 VEHÍCULO 11:
-Almacén 5 -> Cliente 17
+Almacén 6 -> Cliente 18
+Cliente 21 -> Almacén 3
 
 
 VEHÍCULO 12:
-Almacén 6 -> Cliente 18
+Almacén 3 -> Cliente 21
+Cliente 20 -> Almacén 9
 

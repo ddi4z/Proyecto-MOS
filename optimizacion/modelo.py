@@ -170,8 +170,6 @@ M.COSTO_MANTENIMIENTO_DIARIO = c_mantenimiento_diario()
 
 # 2.7.1 Restricciones propias de clientes, almacenes y vehículos 
 
-# 2.7.1 Restricciones propias de clientes, almacenes y vehículos 
-
 M.abastecimientoEntrada = ConstraintList()
 M.abastecimientoSalida = ConstraintList()
 for i in M.C:
@@ -208,10 +206,23 @@ for v in M.V:
     M.rangoVehiculo.add(d_distancia_diaria_v() <= p.RANGOS[v - 1])
 
     # Rango del vehículo con recargas intermedias
-    # M.rangoVehiculoRecargas.add(d_distancia_diaria_v() <= p.RANGOS[v - 1] * C_veces_recarga(v))
+    M.rangoVehiculoRecargas.add(d_distancia_diaria_v() <= p.RANGOS[v - 1] * C_veces_recarga(v))
 
 
-# 2.7.4 Restricciones de los vehículos y los clientes
+# 2.7.3 Restricciones de los vehículos y los almacenes
+
+M.salidaUnicaAlmacen = ConstraintList()
+M.entradaUnicaAlmacen = ConstraintList()
+M.salidaYVuelta = ConstraintList()
+for v in M.V:
+    # Salida única del almacén (nodo de origen)
+    M.salidaUnicaAlmacen.add(sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(M.H[a,e,v] for e in M.E) for a in M.A) <= 1)
+    # Entrada única al almacén (nodo de destino)
+    M.entradaUnicaAlmacen.add(sum(sum(M.Y[i,a,v] for i in M.C) for a in M.A) + sum(sum(M.L[e,a,v] for e in M.E) for a in M.A) <= 1)
+    # Salida y vuelta a un almacén de un vehículo
+    M.salidaYVuelta.add(sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(M.H[a,e,v] for e in M.E) for a in M.A) - 
+                        sum(sum(M.Y[i,a,v] for i in M.C) for a in M.A) - sum(sum(M.L[e,a,v] for e in M.E) for a in M.A) == 0)
+
 
 
 # Solución del modelo con SCIP
