@@ -51,7 +51,7 @@ class CargadorDeParametros:
         # Parámetros de los vehículos
         self.TIPOS_VEHICULO = self.obtenerMatrizTipoVehiculo()
         self.CAPACIDADES_PRODUCTOS_VEHICULO = self.vehiculos["Capacity"].to_numpy()
-        self.RANGOS = self.vehiculos["Range"].to_numpy()
+        self.RANGOS = self.vehiculos["Range"].to_numpy() * 10000000
         self.TIEMPOS_RECARGA_COMPLETA = [1, 20, 0]
         self.VELOCIDADES_PROMEDIO = [None, 40, None]
         self.EFICIENCIAS_ENERGETICAS = [10, 1/0.15, 1/0.15]

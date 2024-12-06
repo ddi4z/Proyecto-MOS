@@ -178,6 +178,8 @@ for i in M.C:
     # Abastecimiento único al cliente (salida)
     M.abastecimientoSalida.add(sum(sum(M.Y[i,a,v] for a in M.A) for v in M.V) + sum(sum(M.Z[i,j,v] for j in M.C) for v in M.V) + sum(sum(M.W[i,e,v] for e in M.E) for v in M.V) == 1)
 
+    
+
 # Capacidad de los almacenes
 M.capacidadAlmacen = ConstraintList()
 for a in M.A:
@@ -208,7 +210,11 @@ for v in M.V:
     # Rango del vehículo con recargas intermedias
     M.rangoVehiculoRecargas.add(d_distancia_diaria_v() <= p.RANGOS[v - 1] * C_veces_recarga(v))
 
+# 2.7.2 Restricciones del grafo 
 
+
+                
+                
 # 2.7.3 Restricciones de los vehículos y los almacenes
 
 M.salidaUnicaAlmacen = ConstraintList()
@@ -224,6 +230,23 @@ for v in M.V:
                         sum(sum(M.Y[i,a,v] for i in M.C) for a in M.A) - sum(sum(M.L[e,a,v] for e in M.E) for a in M.A) == 0)
 
 
+
+
+
+# 2.7.5. Restricciones de los vehículos y las estaciones de carga
+
+M.entradaUnicaEstacion = ConstraintList()
+M.salidaUnicaEstacion = ConstraintList()
+M.entradaYSalidaEstacion = ConstraintList()
+for e in M.E:
+    for v in M.V:
+        # Entrada única a la estación
+        M.entradaUnicaEstacion.add(sum(M.H[a,e,v] for a in M.A) + sum(M.W[i,e,v] for i in M.C) + sum(M.M[f,e,v] for f in M.E) <= 1)
+        # Salida única de la estación
+        M.salidaUnicaEstacion.add(sum(M.L[e,a,v] for a in M.A) + sum(M.U[e,i,v] for i in M.C) + sum(M.M[e,f,v] for f in M.E) <= 1)
+        # Entrada y salida de la estación de recarga
+        M.entradaYSalidaEstacion.add(sum(M.H[a,e,v] for a in M.A) + sum(M.W[i,e,v] for i in M.C) + sum(M.M[f,e,v] for f in M.E) -
+                                     sum(M.L[e,a,v] for a in M.A) - sum(M.U[e,i,v] for i in M.C) - sum(M.M[e,f,v] for f in M.E) == 0)
 
 # Solución del modelo con SCIP
 
