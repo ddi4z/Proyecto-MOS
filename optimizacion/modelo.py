@@ -149,13 +149,13 @@ def c_tiempo_energia_diario():
     return x + u + m + lh
 
 def c_recarga_diario_t():
-    return c_energia_diario() + c_tiempo_energia_diario()
+    return c_distancia_diario() + c_energia_diario() + c_tiempo_energia_diario()
  
 def c_mantenimiento_diario():
     return sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * p.COSTOS_MANTENIMIENTO_DIARIO[t - 1] for t in M.T) for v in M.V)
 
-def costo_total(model):
-    return 0
+def costo_total(M):
+    return c_recarga_diario_t() + c_mantenimiento_diario()
 
 M.FO = Objective(rule=costo_total, sense=minimize)
 M.COSTO_CARGA_DIARIO = c_carga_diario()
@@ -212,7 +212,25 @@ for v in M.V:
 
 # 2.7.2 Restricciones del grafo 
 
+# Prohibición de subtoures
+""" M.subtoures = ConstraintList()
+for v in M.V:
+    # Z_ijv
+    for i in M.C:
+        for j in M.C:
+            if i != j:
+                M.subtoures.add(M.S[v,i] - M.S[v,j] + M.Z[i,j,v] * N() <= N() - 1)
+                
+    for e in M.E:
+        # W_iev y U_eiv
+        for i in M.C:
+            M.subtoures.add(M.S[v,i] - M.S[v,indiceEstacion(e)] + M.W[i,e,v] * N() <= N() - 1)
+            M.subtoures.add(M.S[v,indiceEstacion(e)] - M.S[v,i] + M.U[e,i,v] * N() <= N() - 1)
 
+        # M_efv
+        for f in M.E:
+            if e != f:
+                M.subtoures.add(M.S[v,indiceEstacion(e)] - M.S[v,indiceEstacion(f)] + M.M[e,f,v] * N() <= N() - 1) """
                 
                 
 # 2.7.3 Restricciones de los vehículos y los almacenes
