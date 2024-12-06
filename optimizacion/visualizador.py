@@ -1,4 +1,5 @@
 import io
+import math
 import folium
 from pyomo.environ import value as pyomo_value
 
@@ -13,9 +14,34 @@ class Visualizador:
         self.guardar_solucion()
 
     def hacer_linea(self, mapa, coordenadas_i, coordenadas_j, i, j, color_linea='blue'):
-        x1, y1 = coordenadas_i[i-1][1], coordenadas_i[i-1][2]
-        x2, y2 = coordenadas_j[j-1][1], coordenadas_j[j-1][2]
+        x1, y1 = coordenadas_i[i - 1][1], coordenadas_i[i - 1][2]
+        x2, y2 = coordenadas_j[j - 1][1], coordenadas_j[j - 1][2]
+
         folium.PolyLine(locations=[(x1, y1), (x2, y2)], color=color_linea, weight=4).add_to(mapa)
+
+        # Calcular el ángulo de rotación de la flecha
+        dx = x2 - x1
+        dy = y2 - y1
+        angle = math.degrees(math.atan2(dy, dx))
+
+        # Tamaño del triángulo ajustado
+        size = 0.0005
+
+        # Calcular las coordenadas del triángulo (flecha)
+        point1 = (x2, y2)  # Punta de la flecha
+        point2 = (x2 - size * math.cos(math.radians(angle + 150)), 
+                y2 - size * math.sin(math.radians(angle + 150)))
+        point3 = (x2 - size * math.cos(math.radians(angle - 150)), 
+                y2 - size * math.sin(math.radians(angle - 150)))
+
+        # Dibujar la flecha como un polígono
+        folium.Polygon(
+            locations=[point1, point2, point3, point1],
+            color=color_linea,
+            fill=True,
+            fill_color=color_linea,
+            fill_opacity=1
+        ).add_to(mapa)
         
     def escoger_color(self, v):
         color_linea = 'blue'
