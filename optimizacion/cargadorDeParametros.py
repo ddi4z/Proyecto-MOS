@@ -8,26 +8,30 @@ class CargadorDeParametros:
     def __init__(self):
         # Carga de datos
         self.clientes, self.almacenes, self.vehiculos, self.estaciones, self.capacidades_almacenes = self.cargarCasoDePrueba()
+        self.num_clientes = len(self.clientes)
+        self.num_almacenes = len(self.almacenes)
+        self.num_vehiculos = len(self.vehiculos)
+        self.num_estaciones = len(self.estaciones)
 
         # Distancias
-        self.D_ai = np.zeros((3, len(self.almacenes), len(self.clientes)))
-        self.D_ia = np.zeros((3, len(self.clientes), len(self.almacenes)))
-        self.D_ij = np.zeros((3, len(self.clientes), len(self.clientes)))
-        self.D_ei = np.zeros((3, len(self.estaciones), len(self.clientes)))
-        self.D_ie = np.zeros((3, len(self.clientes), len(self.estaciones)))
-        self.D_ae = np.zeros((3, len(self.almacenes), len(self.estaciones)))
-        self.D_ea = np.zeros((3, len(self.estaciones), len(self.almacenes)))
-        self.D_ef = np.zeros((3, len(self.estaciones), len(self.estaciones)))
+        self.D_ai = np.zeros((3, self.num_almacenes, self.num_clientes))
+        self.D_ia = np.zeros((3, self.num_clientes, self.num_almacenes))
+        self.D_ij = np.zeros((3, self.num_clientes, self.num_clientes))
+        self.D_ei = np.zeros((3, self.num_estaciones, self.num_clientes))
+        self.D_ie = np.zeros((3, self.num_clientes, self.num_estaciones))
+        self.D_ae = np.zeros((3, self.num_almacenes, self.num_estaciones))
+        self.D_ea = np.zeros((3, self.num_estaciones, self.num_almacenes))
+        self.D_ef = np.zeros((3, self.num_estaciones, self.num_estaciones))
 
         # Tiempos
-        self.T_ai = np.zeros((3, len(self.almacenes), len(self.clientes)))
-        self.T_ia = np.zeros((3, len(self.clientes), len(self.almacenes)))
-        self.T_ij = np.zeros((3, len(self.clientes), len(self.clientes)))
-        self.T_ei = np.zeros((3, len(self.estaciones), len(self.clientes)))
-        self.T_ie = np.zeros((3, len(self.clientes), len(self.estaciones)))
-        self.T_ae = np.zeros((3, len(self.almacenes), len(self.estaciones)))
-        self.T_ea = np.zeros((3, len(self.estaciones), len(self.almacenes)))
-        self.T_ef = np.zeros((3, len(self.estaciones), len(self.estaciones)))
+        self.T_ai = np.zeros((3, self.num_almacenes, self.num_clientes))
+        self.T_ia = np.zeros((3, self.num_clientes, self.num_almacenes))
+        self.T_ij = np.zeros((3, self.num_clientes, self.num_clientes))
+        self.T_ei = np.zeros((3, self.num_estaciones, self.num_clientes))
+        self.T_ie = np.zeros((3, self.num_clientes, self.num_estaciones))
+        self.T_ae = np.zeros((3, self.num_almacenes, self.num_estaciones))
+        self.T_ea = np.zeros((3, self.num_estaciones, self.num_almacenes))
+        self.T_ef = np.zeros((3, self.num_estaciones, self.num_estaciones))
 
         # Parámetros de los clientes
         self.DEMANDAS = self.clientes["Product"].to_numpy()
@@ -107,8 +111,8 @@ class CargadorDeParametros:
         self.calcularMatrizDistanciaYTiempo(self.D_ef, self.T_ef, self.estaciones, self.estaciones)
 
     def obtenerMatrizTipoVehiculo(self):
-        tipos_vehiculo = np.zeros((len(self.vehiculos), 3))
-        for i in range(len(self.vehiculos)):
+        tipos_vehiculo = np.zeros((self.num_vehiculos, 3))
+        for i in range(self.num_vehiculos):
             tipo_vehiculo = self.vehiculos["VehicleType"][i]
             if tipo_vehiculo == "Gas Car":
                 tipos_vehiculo[i][0] = 1

@@ -21,28 +21,28 @@ M = ConcreteModel()
 # Nodos
 
 
-M.N = RangeSet(1, len(p.clientes) + len(p.almacenes) + len(p.estaciones))
+M.N = RangeSet(1, p.num_clientes + p.num_almacenes + p.num_estaciones)
 
 # Clientes
-M.C = RangeSet(1, len(p.clientes))
+M.C = RangeSet(1, p.num_clientes)
 
 # Almacenes
-M.A = RangeSet(1, len(p.almacenes))
+M.A = RangeSet(1, p.num_almacenes)
 
 # Estaciones
-M.E = RangeSet(1, len(p.estaciones))
+M.E = RangeSet(1, p.num_estaciones)
 
 # Vehículos
-M.V = RangeSet(1, len(p.vehiculos))
+M.V = RangeSet(1, p.num_vehiculos)
 
 # Tipos de vehículos
 M.T = RangeSet(1, 3)
 
 def indiceEstacion(e):
-    return e + len(p.clientes) + len(p.almacenes)
+    return e + p.num_clientes + p.num_almacenes
 
 def indiceAlmacen(a):
-    return a + len(p.clientes)
+    return a + p.num_clientes
 
 def indice(c):
     return c - 1
@@ -211,4 +211,4 @@ result = solver.solve(M, tee=True)
 
 M.display()
 
-v = Visualizador(p.clientes, p.almacenes, p.estaciones)
+v = Visualizador(p, M)
