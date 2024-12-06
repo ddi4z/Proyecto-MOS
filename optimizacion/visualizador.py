@@ -15,8 +15,7 @@ class Visualizador:
     def hacer_linea(self, mapa, coordenadas_i, coordenadas_j, i, j, color_linea='blue'):
         x1, y1 = coordenadas_i[i-1][1], coordenadas_i[i-1][2]
         x2, y2 = coordenadas_j[j-1][1], coordenadas_j[j-1][2]
-        
-        folium.PolyLine(locations=[(x1, y1), (x2, y2)], color=color_linea,weight=4).add_to(mapa)
+        folium.PolyLine(locations=[(x1, y1), (x2, y2)], color=color_linea, weight=4).add_to(mapa)
         
     def escoger_color(self, v):
         color_linea = 'blue'
@@ -106,7 +105,13 @@ class Visualizador:
         mapa.save('solucion.html')
 
     def guardar_resultados(self):
-        with open(self.path_archivo_resultados, "w") as archivo:
+        with open(self.path_archivo_resultados, "w", encoding="utf-8") as archivo:
+            # Desglose de costos
+            archivo.write("DESGLOSE DE COSTOS\n")
+            archivo.write(f"Costo total: {pyomo_value(self.M.FO)} COP\n")
+            archivo.write(f"Costo de carga diario: {pyomo_value(self.M.COSTO_CARGA_DIARIO)} COP\n")
+
+            # Rutas tomadas por los vehículos
             archivo.write("\nRUTAS TOMADAS POR LOS VEHÍCULOS")
             for v in self.M.V:
                 archivo.write(f"\nVEHÍCULO {v}:\n")
