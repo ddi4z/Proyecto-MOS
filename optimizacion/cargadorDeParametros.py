@@ -8,6 +8,7 @@ class CargadorDeParametros:
     def __init__(self):
         # Carga de datos
         self.clientes, self.almacenes, self.vehiculos, self.estaciones, self.capacidades_almacenes = self.cargarCasoDePrueba()
+
         self.num_clientes = len(self.clientes)
         self.num_almacenes = len(self.almacenes)
         self.num_vehiculos = len(self.vehiculos)

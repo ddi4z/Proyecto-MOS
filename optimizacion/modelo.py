@@ -43,8 +43,7 @@ def indiceEstacion(e):
 def indiceAlmacen(a):
     return a + p.num_clientes
 
-def indice(c):
-    return c - 1
+
 
 # Variables de decisión
 
@@ -66,6 +65,8 @@ M.M = Var(M.E, M.E, M.V, within=Binary)
 M.L = Var(M.E, M.A, M.V, within=Binary)
 M.H = Var(M.A, M.E, M.V, within=Binary)
 
+for e in M.E:
+    print(f"")
 # Subtoures
 M.S = Var(M.V, M.N, within=NonNegativeIntegers)
 
@@ -154,7 +155,7 @@ def c_mantenimiento_diario():
     return sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * p.COSTOS_MANTENIMIENTO_DIARIO[t - 1] for t in M.T) for v in M.V)
 
 def costo_total(model):
-    return c_carga_diario() + c_distancia_diario() + c_tiempo_diario() + c_recarga_diario_t() + c_mantenimiento_diario()
+    return 0
 
 M.FO = Objective(rule=costo_total, sense=minimize)
 M.COSTO_CARGA_DIARIO = c_carga_diario()
@@ -166,6 +167,8 @@ M.COSTO_TIEMPO_ENERGIA_DIARIO = c_tiempo_energia_diario()
 M.COSTO_MANTENIMIENTO_DIARIO = c_mantenimiento_diario()
 
 # Restricciones
+
+# 2.7.1 Restricciones propias de clientes, almacenes y vehículos 
 
 # 2.7.1 Restricciones propias de clientes, almacenes y vehículos 
 
@@ -182,6 +185,15 @@ M.capacidadAlmacen = ConstraintList()
 for a in M.A:
     M.capacidadAlmacen.add(sum(sum(p.DEMANDAS[i - 1] * M.X[a,i,v] for i in M.C) for v in M.V) <= p.CAPACIDADES_PRODUCTOS_ALMACENES[a - 1])
 
+
+def d_distancia_diaria_v():
+    xy = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * (M.X[a,i,v] * p.D_ai[t - 1,a - 1,i - 1] + M.Y[i,a,v] * p.D_ia[t - 1,i - 1,a - 1]) for t in M.T) for i in M.C) for a in M.A)
+    zz = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * M.Z[i,j,v] * p.D_ij[t - 1,i - 1,j - 1] for t in M.T) for j in M.C) for i in M.C)
+    wu = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * (M.W[i,e,v] * p.D_ie[t - 1,i - 1,e - 1] + M.U[e,i,v] * p.D_ei[t - 1,e - 1,i - 1]) for t in M.T) for e in M.E) for i in M.C)
+    mm = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * M.M[e,f,v] * p.D_ef[t - 1,e - 1,f - 1] for t in M.T) for f in M.E) for e in M.E)
+    lh = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * (M.L[e,a,v] * p.D_ea[t - 1,e - 1,a - 1] + M.H[a,e,v] * p.D_ae[t - 1,a - 1,e - 1]) for t in M.T) for e in M.E) for a in M.A)
+    return xy + zz + wu + mm + lh
+
 M.capacidadVehiculo = ConstraintList()
 # Una restricción incluye a la otra
 M.rangoVehiculo = ConstraintList()
@@ -193,84 +205,20 @@ for v in M.V:
     
     # Una restricción incluye a la otra
     # Rango del vehículo sin tener en cuenta las recargas intermedias
-    M.rangoVehiculo.add(d_viaje_diario_t() <= p.RANGOS[v - 1])
+    M.rangoVehiculo.add(d_distancia_diaria_v() <= p.RANGOS[v - 1])
 
     # Rango del vehículo con recargas intermedias
-    M.rangoVehiculoRecargas.add(d_viaje_diario_t() <= p.RANGOS[v - 1] * C_veces_recarga(v))
+    # M.rangoVehiculoRecargas.add(d_distancia_diaria_v() <= p.RANGOS[v - 1] * C_veces_recarga(v))
 
-# 2.7.2 Restricciones del grafo 
-
-# # Prohibición de subtoures
-# M.subtoures = ConstraintList()
-# for v in M.V:
-#     # Z_ijv
-#     for i in M.C:
-#         for j in M.C:
-#             if i != j:
-#                 M.subtoures.add(M.S[v,i] - M.S[v,j] + M.Z[i,j,v] * N() <= N() - 1)
-                
-#     for e in M.E:
-#         # W_iev y U_eiv
-#         for i in M.C:
-#             M.subtoures.add(M.S[v,i] - M.S[v,indiceEstacion(e)] + M.W[i,e,v] * N() <= N() - 1)
-#             M.subtoures.add(M.S[v,indiceEstacion(e)] - M.S[v,i] + M.U[e,i,v] * N() <= N() - 1)
-
-#         # M_efv
-#         for f in M.E:
-#             if e != f:
-#                 M.subtoures.add(M.S[v,indiceEstacion(e)] - M.S[v,indiceEstacion(f)] + M.M[e,f,v] * N() <= N() - 1)
-
-# 2.7.3 Restricciones de los vehículos y los almacenes
-
-M.salidaUnicaAlmacen = ConstraintList()
-M.entradaUnicaAlmacen = ConstraintList()
-M.salidaYVuelta = ConstraintList()
-for v in M.V:
-    # Salida única del almacén (nodo de origen)
-    M.salidaUnicaAlmacen.add(sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(M.H[a,e,v] for e in M.E) for a in M.A) <= 1)
-    # Entrada única al almacén (nodo de destino)
-    M.entradaUnicaAlmacen.add(sum(sum(M.Y[i,a,v] for i in M.C) for a in M.A) + sum(sum(M.L[e,a,v] for e in M.E) for a in M.A) <= 1)
-    # Salida y vuelta a un almacén de un vehículo
-    M.salidaYVuelta.add(sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(M.H[a,e,v] for e in M.E) for a in M.A) - 
-                        sum(sum(M.Y[i,a,v] for i in M.C) for a in M.A) - sum(sum(M.L[e,a,v] for e in M.E) for a in M.A) == 0)
 
 # 2.7.4 Restricciones de los vehículos y los clientes
 
-M.entradaUnicaCliente = ConstraintList()
-M.salidaUnicaCliente = ConstraintList()
-M.entradaYSalidaCliente = ConstraintList()
-for i in M.C:
-    for v in M.V:
-        # Entrada única al cliente
-        M.entradaUnicaCliente.add(sum(M.X[a,i,v] for a in M.A) + sum(M.Z[j,i,v] for j in M.C) + sum(M.U[e,i,v] for e in M.E) <= 1)
-        # Salida única del cliente
-        M.salidaUnicaCliente.add(sum(M.Y[i,a,v] for a in M.A) + sum(M.Z[i,j,v] for j in M.C) + sum(M.W[i,e,v] for e in M.E) <= 1)
-        # Entrada y salida del cliente
-        M.entradaYSalidaCliente.add(sum(M.X[a,i,v] for a in M.A) + sum(M.Z[j,i,v] for j in M.C) + sum(M.U[e,i,v] for e in M.E) - 
-                                    sum(M.Y[i,a,v] for a in M.A) - sum(M.Z[i,j,v] for j in M.C) - sum(M.W[i,e,v] for e in M.E) == 0)
-
-# 2.7.5. Restricciones de los vehículos y las estaciones de carga
-
-M.entradaUnicaEstacion = ConstraintList()
-M.saidaUnicaEstacion = ConstraintList()
-M.entradaYSalidaEstacion = ConstraintList()
-for e in M.E:
-    for v in M.V:
-        # Entrada única a la estación
-        M.entradaUnicaEstacion.add(sum(M.H[a,e,v] for a in M.A) + sum(M.W[i,e,v] for i in M.C) + sum(M.M[f,e,v] for f in M.E) <= 1)
-        # Salida única de la estación
-        M.saidaUnicaEstacion.add(sum(M.L[e,a,v] for a in M.A) + sum(M.U[e,i,v] for i in M.C) + sum(M.M[e,f,v] for f in M.E) <= 1)
-        # Entrada y salida de la estación de recarga
-        M.entradaYSalidaEstacion.add(sum(M.H[a,e,v] for a in M.A) + sum(M.W[i,e,v] for i in M.C) + sum(M.M[f,e,v] for f in M.E) -
-                                     sum(M.L[e,a,v] for a in M.A) - sum(M.U[e,i,v] for i in M.C) - sum(M.M[e,f,v] for f in M.E) == 0)
 
 # Solución del modelo con SCIP
 
 solver_name = "scip"
 solver = SolverFactory(solver_name)
-solver.options['limits/time'] = 570
-solver.options['heuristics'] = 'aggressive'
-solver.options['limits/absgap'] = 10 
+
 result = solver.solve(M, tee=True)
 
 # Visualización de la solución
