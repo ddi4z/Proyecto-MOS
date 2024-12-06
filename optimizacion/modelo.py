@@ -171,6 +171,35 @@ M.rangoVehiculo = ConstraintList()
 for v in M.V:
     M.rangoVehiculo.add(d_viaje_diario_t() <= p.RANGOS[v - 1])
 
+# 2.7.2
+def N():
+    return sum(sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) for v in M.V) + sum(sum(sum(M.H[a,e,v] for e in M.E) for a in M.A) for v in M.V) 
+
+
+def indiceEstacion(e):
+    return e + len(p.clientes) + len(p.almacenes)
+
+def indiceAlmacen(a):
+    return a + len(p.clientes)
+
+
+
+
+M.subtoures = ConstraintList()
+for v in M.V:
+    for i in M.C:
+        for j in M.C:
+            if i != j:
+                M.subtoures.add(M.S[v,i] - M.S[v,j] + M.Z[i,j,v] * N() <= N() - 1)
+                
+    for e in M.E:
+        for i in M.C:
+            M.subtoures.add(M.S[v,i] - M.S[v,indiceEstacion(e)] + M.W[i,e,v] * N() <= N() - 1)
+            M.subtoures.add(M.S[v,indiceEstacion(e)] - M.S[v,i] + M.U[e,i,v] * N() <= N() - 1)
+    
+        for f in M.E:
+            if e != f:
+                M.subtoures.add(M.S[v,indiceEstacion(e)] - M.S[v,indiceEstacion(f)] + M.M[e,f,v] * N() <= N() - 1)
 # 2.7.3
 M.salidaUnicaAlmacen = ConstraintList()
 for v in M.V:
@@ -210,5 +239,6 @@ solver.options['limits/absgap'] = 10
 result = solver.solve(M, tee=True)
 
 M.display()
+
 
 v = Visualizador(p, M)
