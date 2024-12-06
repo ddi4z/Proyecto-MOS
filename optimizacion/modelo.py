@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pyomo.environ import *
 from pyomo.opt import SolverFactory
+from pyomo.contrib.appsi.solvers import Highs
 import sys
 
 
@@ -38,10 +39,10 @@ M.V = RangeSet(1, len(p.vehiculos))
 M.T = RangeSet(1, 3)
 
 def indiceEstacion(e):
-    return e - len(p.clientes) - len(p.almacenes) - 1
+    return e + len(p.clientes) + len(p.almacenes)
 
 def indiceAlmacen(a):
-    return a - len(p.clientes) - 1
+    return a + len(p.clientes)
 
 def indice(c):
     return c - 1
@@ -151,3 +152,8 @@ def costo_total(model):
 M.FO = Objective(rule=costo_total, sense=minimize)
 
 
+solver = SolverFactory('scip')
+result = solver.solve(M, tee=True)  
+
+# Imprimir resultados
+M.display()
