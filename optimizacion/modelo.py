@@ -153,6 +153,7 @@ M.FO = Objective(rule=costo_total, sense=minimize)
 
 
 solver = SolverFactory('scip')
+solver.options['time_limit'] = 570
 result = solver.solve(M, tee=True)  
 
 M.display()
