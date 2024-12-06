@@ -67,7 +67,7 @@ M.L = Var(M.E, M.A, M.V, within=Binary)
 M.H = Var(M.A, M.E, M.V, within=Binary)
 
 # Subtoures
-M.S = Var(M.V, M.N, within=Binary)
+M.S = Var(M.V, M.N, within=NonNegativeIntegers)
 
 # Funciones auxiliares
 
