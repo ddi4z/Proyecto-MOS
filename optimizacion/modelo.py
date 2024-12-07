@@ -241,7 +241,20 @@ for v in M.V:
     # Salida y vuelta a un almacén de un vehículo
     M.salidaYVuelta.add(sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(M.H[a,e,v] for e in M.E) for a in M.A) - 
                         sum(sum(M.Y[i,a,v] for i in M.C) for a in M.A) - sum(sum(M.L[e,a,v] for e in M.E) for a in M.A) == 0)
-        
+
+# 2.7.4. Restricciones de los vehículos y los clientes
+
+M.visitaClientesIntermediosSalida = ConstraintList()
+M.visitaClientesIntermediosEntrada = ConstraintList()
+for v in M.V:
+    for ii in M.C:
+        for jj in M.C:
+            if ii != jj:
+                M.visitaClientesIntermediosSalida.add(M.Z[ii,jj,v] <= 
+                                                      sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(M.H[a,e,v] for e in M.E) for a in M.A))
+                M.visitaClientesIntermediosEntrada.add(M.Z[ii,jj,v] <= 
+                                                      sum(sum(M.Y[i,a,v] for i in M.C) for a in M.A) + sum(sum(M.L[e,a,v] for e in M.E) for a in M.A))
+
 # 2.7.5. Restricciones de los vehículos y las estaciones de carga
 
 M.entradaUnicaEstacion = ConstraintList()

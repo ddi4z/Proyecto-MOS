@@ -63,9 +63,6 @@ class Visualizador:
         centro = [4.6097, -74.0817]
         mapa = folium.Map(location=centro, zoom_start=13)
 
-        # este sirve
-        self.hacer_linea(mapa, coordenadas_clientes, coordenadas_clientes, 1, 2, "purple")
-
         # Agregar puntos al mapa
         for i, lat, lon in coordenadas_estaciones:
             folium.Marker(location=(lat, lon), popup=f"Estación {i}", icon=folium.Icon(color='blue')).add_to(mapa)
