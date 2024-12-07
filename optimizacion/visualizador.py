@@ -1,6 +1,7 @@
 import io
 import math
 import folium
+import numpy as np
 from pyomo.environ import value as pyomo_value
 import csv
 
@@ -128,7 +129,7 @@ class Visualizador:
                         numeroLineas += 1
                         self.hacer_linea(mapa, coordenadas_almacenes, coordenadas_estaciones, a, e, self.escoger_color(v))
         
-        # print(f"Se han agregado {numeroLineas} líneas al mapa")
+        print(f"Se han agregado {numeroLineas} líneas al mapa")
         mapa.save(self.path_archivo_resultados_html)
 
     def guardar_resultados_txt(self):
@@ -147,11 +148,15 @@ class Visualizador:
             # Rutas tomadas por los vehículos
             archivo.write("\nRUTAS TOMADAS POR LOS VEHÍCULOS")
             for v in self.M.V:
+                capacidadAlmacen = np.zeros(self.p.num_productos)
+                productosTransportados = np.zeros(self.p.num_productos)
                 archivo.write(f"\nVEHÍCULO {v}:\n")
                 # Salida del almacen (X_aiv y H_aev)
                 for a in self.M.A:
                     for i in self.M.C:
                         if self.M.X[a,i,v]() == 1:
+                            capacidadAlmacen = self.p.CAPACIDADES_PRODUCTOS_ALMACENES[:,a - 1]
+                            productosTransportados += self.p.DEMANDAS[:,i - 1]
                             archivo.write(f"Almacén {a} -> Cliente {i}\n")
                     for e in self.M.E:
                         if self.M.H[a,e,v]() == 1:
@@ -161,6 +166,7 @@ class Visualizador:
                 for i in self.M.C:
                     for j in self.M.C:
                         if i != j and self.M.Z[i,j,v]() == 1:
+                            productosTransportados += self.p.DEMANDAS[:,j - 1]
                             archivo.write(f"Cliente {i} -> Cliente {j}\n")
 
                 # Recorrido entre clientes y estaciones (W_iev y U_eiv)
@@ -169,6 +175,7 @@ class Visualizador:
                         if self.M.W[i,e,v]() == 1:
                             archivo.write(f"Cliente {i} -> Estación {e}\n")
                         if self.M.U[e,i,v]() == 1:
+                            productosTransportados += self.p.DEMANDAS[:,i - 1]
                             archivo.write(f"Estación {e} -> Cliente {i}\n")
 
                 # Recorrido entre estaciones (M_efv)
@@ -185,6 +192,9 @@ class Visualizador:
                     for e in self.M.E:
                         if self.M.L[e,a,v]() == 1:
                             archivo.write(f"Estación {e} -> Almacén {a}\n")
+                
+                archivo.write(f"Productos transportados: {productosTransportados}\n")
+                archivo.write(f"Capacidad del almacén: {capacidadAlmacen}\n")
                 archivo.write("\n")
 
 

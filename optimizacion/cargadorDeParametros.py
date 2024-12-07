@@ -7,12 +7,14 @@ import requests
 class CargadorDeParametros:
     def __init__(self):
         # Carga de datos
+        self.esCaso4 = False
         self.rutaCarpeta = ""
         self.clientes, self.almacenes, self.vehiculos, self.estaciones, self.capacidades_almacenes = self.cargarCasoDePrueba()
         self.num_clientes = len(self.clientes)
         self.num_almacenes = len(self.almacenes)
         self.num_vehiculos = len(self.vehiculos)
         self.num_estaciones = len(self.estaciones)
+        self.num_productos = 3 if self.esCaso4 else 1
 
         # Distancias
         self.D_ai = np.zeros((3, self.num_almacenes, self.num_clientes))
@@ -35,12 +37,26 @@ class CargadorDeParametros:
         self.T_ef = np.zeros((3, self.num_estaciones, self.num_estaciones))
 
         # Parámetros de los clientes
-        self.DEMANDAS = self.clientes["Product"].to_numpy()
+        if self.esCaso4:
+            self.DEMANDAS = np.zeros((3, self.num_clientes))
+            self.DEMANDAS[0] = self.clientes["Product-Type-A"].to_numpy()
+            self.DEMANDAS[1] = self.clientes["Product-Type-B"].to_numpy()
+            self.DEMANDAS[2] = self.clientes["Product-Type-C"].to_numpy()
+        else:
+            self.DEMANDAS = np.zeros((1, self.num_clientes))
+            self.DEMANDAS[0] = self.clientes["Product"].to_numpy()
         self.LONGITUDES_CLIENTES = self.clientes["Longitude"].to_numpy()
         self.LATITUDES_CLIENTES = self.clientes["Latitude"].to_numpy()
 
         # Parámetros de los almacenes
-        self.CAPACIDADES_PRODUCTOS_ALMACENES = self.capacidades_almacenes["Product"].to_numpy()
+        if self.esCaso4:
+            self.CAPACIDADES_PRODUCTOS_ALMACENES = np.zeros((3, self.num_almacenes))
+            self.CAPACIDADES_PRODUCTOS_ALMACENES[0]  = self.capacidades_almacenes["Product-Type-A"].to_numpy()
+            self.CAPACIDADES_PRODUCTOS_ALMACENES[1]  = self.capacidades_almacenes["Product-Type-B"].to_numpy()
+            self.CAPACIDADES_PRODUCTOS_ALMACENES[2]  = self.capacidades_almacenes["Product-Type-C"].to_numpy()
+        else:
+            self.CAPACIDADES_PRODUCTOS_ALMACENES = np.zeros((1, self.num_almacenes))
+            self.CAPACIDADES_PRODUCTOS_ALMACENES[0] = self.capacidades_almacenes["Product"].to_numpy()
         self.LONGITUDES_ALMACENES = self.almacenes["Longitude"].to_numpy()
         self.LATITUDES_ALMACENES =  self.almacenes["Latitude"].to_numpy()
 
@@ -145,9 +161,12 @@ class CargadorDeParametros:
         print("1. Caso base")
         print("2. Caso 5 clientes por vehiculo")
         print("3. Caso grandes distancias poca demanda")
-        print("4. Caso multiproducto NO DISPONIBLE")
+        print("4. Caso multiproducto")
         print("5. Caso estaciones de recarga")
         caso = int(input("Digite el número del caso de prueba: "))
+
+        if caso == 4:
+            self.esCaso4 = True
 
         rutaPorDefecto = "optimizacion/Proyecto Seneca Libre/"
         rutas = [

@@ -36,6 +36,8 @@ M.V = RangeSet(1, p.num_vehiculos)
 # Tipos de vehículos
 M.T = RangeSet(1, 3)
 
+M.TP = RangeSet(1, p.num_productos)
+
 # Conversiones de índices de los nodos
 def indiceEstacion(e):
     return e + p.num_clientes + p.num_almacenes
@@ -81,9 +83,9 @@ def C_veces_recarga(v):
 # Variables dependientes
 
 def t_kg_v_diario():
-    x = sum(sum(sum(M.X[a,i,v] * p.DEMANDAS[i - 1] * p.TIEMPO_CARGA_MINUTO for i in M.C) for a in M.A) for v in M.V)
-    z = sum(sum(sum(M.Z[i,j,v] * p.DEMANDAS[j - 1] * p.TIEMPO_CARGA_MINUTO for i in M.C) for j in M.C) for v in M.V)
-    u = sum(sum(sum(M.U[e,i,v] * p.DEMANDAS[i - 1] * p.TIEMPO_CARGA_MINUTO for i in M.C) for e in M.E) for v in M.V)
+    x = sum(sum(sum(M.X[a,i,v] * sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * p.TIEMPO_CARGA_MINUTO for i in M.C) for a in M.A) for v in M.V)
+    z = sum(sum(sum(M.Z[i,j,v] * sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * p.TIEMPO_CARGA_MINUTO for i in M.C) for j in M.C) for v in M.V)
+    u = sum(sum(sum(M.U[e,i,v] * sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * p.TIEMPO_CARGA_MINUTO for i in M.C) for e in M.E) for v in M.V)
     return x + z + u
 
 def d_viaje_diario_t():
@@ -111,9 +113,9 @@ def t_recarga_diario_t():
 # Función objetivo
 
 def c_carga_diario():
-    x = sum(sum(sum(M.X[a,i,v] * p.DEMANDAS[i - 1] * p.TIEMPO_CARGA_MINUTO * p.COSTO_CARGA_MINUTO for i in M.C) for a in M.A) for v in M.V)
-    z = sum(sum(sum(M.Z[i,j,v] * p.DEMANDAS[j - 1] * p.TIEMPO_CARGA_MINUTO * p.COSTO_CARGA_MINUTO for j in M.C) for i in M.C) for v in M.V)
-    u = sum(sum(sum(M.U[e,i,v] * p.DEMANDAS[i - 1] * p.TIEMPO_CARGA_MINUTO * p.COSTO_CARGA_MINUTO for i in M.C) for e in M.E) for v in M.V)
+    x = sum(sum(sum(M.X[a,i,v] * sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * p.TIEMPO_CARGA_MINUTO * p.COSTO_CARGA_MINUTO for i in M.C) for a in M.A) for v in M.V)
+    z = sum(sum(sum(M.Z[i,j,v] * sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * p.TIEMPO_CARGA_MINUTO * p.COSTO_CARGA_MINUTO for j in M.C) for i in M.C) for v in M.V)
+    u = sum(sum(sum(M.U[e,i,v] * sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * p.TIEMPO_CARGA_MINUTO * p.COSTO_CARGA_MINUTO for i in M.C) for e in M.E) for v in M.V)
     return x + z + u
 
 def c_distancia_diario():
@@ -176,10 +178,27 @@ for i in M.C:
     # Abastecimiento único al cliente (salida)
     M.abastecimientoSalida.add(sum(sum(M.Y[i,a,v] for a in M.A) for v in M.V) + sum(sum(M.Z[i,j,v] for j in M.C) for v in M.V) + sum(sum(M.W[i,e,v] for e in M.E) for v in M.V) == 1)
 
+
+
 # Capacidad de los almacenes
 M.capacidadAlmacen = ConstraintList()
+def calcularCargaVehiculo(tp, a, v):
+    return (
+        sum(M.X[a, i, v] * p.DEMANDAS[tp - 1][i - 1] for i in M.C) +
+        sum(M.Z[i, j, v] * p.DEMANDAS[tp - 1][j - 1] for i in M.C for j in M.C) +
+        sum(M.U[e, i, v] * p.DEMANDAS[tp - 1][i - 1] for e in M.E for i in M.C)
+    )
+
+# Añadir la restricción
 for a in M.A:
-    M.capacidadAlmacen.add(sum(sum(p.DEMANDAS[i - 1] * M.X[a,i,v] for i in M.C) for v in M.V) <= p.CAPACIDADES_PRODUCTOS_ALMACENES[a - 1])
+    for tp in M.TP:
+        M.capacidadAlmacen.add(
+            sum(
+                (sum(M.X[a, i, v] for i in M.C) + sum(M.H[a, e, v] for e in M.E)) *
+                calcularCargaVehiculo(tp, a, v)
+                for v in M.V
+            ) <= p.CAPACIDADES_PRODUCTOS_ALMACENES[tp - 1][a - 1]
+        )
 
 def d_distancia_diaria_v(v):
     xy = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * (M.X[a,i,v] * p.D_ai[t - 1,a - 1,i - 1] + M.Y[i,a,v] * p.D_ia[t - 1,i - 1,a - 1]) for t in M.T) for i in M.C) for a in M.A)
@@ -195,8 +214,7 @@ M.rangoVehiculo = ConstraintList()
 M.rangoVehiculoRecargas = ConstraintList()
 for v in M.V:
     # Capacidad de los vehículos
-    M.capacidadVehiculo.add(sum(sum(p.DEMANDAS[i - 1] * M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(p.DEMANDAS[j - 1] * M.Z[i,j,v] for i in M.C) for j in M.C) + sum(sum(p.DEMANDAS[i - 1] * M.U[e,i,v] for i in M.C) for e in M.E) 
-                            <= sum(p.TIPOS_VEHICULO[v - 1, t - 1] * p.CAPACIDADES_PRODUCTOS_VEHICULO[v - 1] for t in M.T))
+    M.capacidadVehiculo.add(sum(sum(sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * M.Z[i,j,v] for i in M.C) for j in M.C) + sum(sum(sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * M.U[e,i,v] for i in M.C) for e in M.E)  <= sum(p.TIPOS_VEHICULO[v - 1, t - 1] * p.CAPACIDADES_PRODUCTOS_VEHICULO[v - 1] for t in M.T))
     
     # Una restricción incluye a la otra
     # Rango del vehículo sin tener en cuenta las recargas intermedias

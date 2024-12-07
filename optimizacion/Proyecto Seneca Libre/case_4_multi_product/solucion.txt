@@ -1,0 +1,2916 @@
+Model unknown
+
+  Variables:
+    X : Size=648, Index=A*C*V
+        Key        : Lower : Value : Upper : Fixed : Stale : Domain
+         (1, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 2, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 2, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 2, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 6, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 7, 4) :     0 :   1.0 :     1 : False : False : Binary
+         (1, 7, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 7, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 9, 2) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 9, 3) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 2, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 2, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 2, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 3, 2) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 3, 3) :     0 :   1.0 :     1 : False : False : Binary
+         (3, 3, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 3, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 3, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 8, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 8, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 8, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 1, 2) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 1, 3) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 3, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 3, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 3, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 6, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 6, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 8, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 8, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 8, 6) :     0 :   1.0 :     1 : False : False : Binary
+         (4, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 2, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 2, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 2, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 4, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 4, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 4, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 5, 2) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 5, 3) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 5, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 5, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 5, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 6, 2) :     0 :   1.0 :     1 : False : False : Binary
+         (6, 6, 3) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 6, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 6, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 7, 2) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 7, 3) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 7, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 7, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 7, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 9, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 9, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 9, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 1, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 1, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 1, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 3, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 3, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 3, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 6, 2) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 6, 3) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 6, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 6, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 8, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 8, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 8, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 2, 2) :     0 :   0.0 :     1 : False : False : Binary
+        (12, 2, 3) :     0 :   0.0 :     1 : False : False : Binary
+        (12, 2, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (12, 2, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (12, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 5, 2) :     0 :   0.0 :     1 : False : False : Binary
+        (12, 5, 3) :     0 :   0.0 :     1 : False : False : Binary
+        (12, 5, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (12, 5, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (12, 5, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (12, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 9, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (12, 9, 5) :     0 :   1.0 :     1 : False : False : Binary
+        (12, 9, 6) :     0 :   0.0 :     1 : False : False : Binary
+    Y : Size=648, Index=C*A*V
+        Key        : Lower : Value : Upper : Fixed : Stale : Domain
+         (1, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 1, 2) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 1, 3) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 5, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 5, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 5, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (1, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 10, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 10, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 10, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 10, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 11, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 11, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 11, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 11, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 11, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 12, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 12, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 12, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 12, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 2, 2) :     0 :   1.0 :     1 : False : False : Binary
+         (2, 2, 3) :     0 :   0.0 :     1 : False : False : Binary
+         (2, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 9, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (2, 9, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (2, 9, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 10, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 10, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 10, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 10, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 11, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 11, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 11, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 11, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 11, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 12, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 12, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 12, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 12, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 3, 2) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 3, 3) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 9, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 9, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 9, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 10, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 10, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 10, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 10, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 11, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 11, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 11, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 11, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 11, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 12, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 12, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 12, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 12, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 4, 2) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 4, 3) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 4, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 4, 5) :     0 :   1.0 :     1 : False : False : Binary
+         (4, 4, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (4, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 10, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 10, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 10, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 10, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 11, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 11, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 11, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 11, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 11, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 12, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 12, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 12, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 12, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 5, 2) :     0 :   0.0 :     1 : False : False : Binary
+         (5, 5, 3) :     0 :   0.0 :     1 : False : False : Binary
+         (5, 5, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (5, 5, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (5, 5, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (5, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (5, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 10, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 10, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 10, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 10, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 11, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 11, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 11, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 11, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 11, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 12, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 12, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 12, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 12, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 6, 2) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 6, 3) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 6, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 6, 6) :     0 :   1.0 :     1 : False : False : Binary
+         (6, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 10, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 10, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 10, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 10, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 11, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 11, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 11, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 11, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 11, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 12, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 12, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 12, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 12, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 7, 2) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 7, 3) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 9, 4) :     0 :   1.0 :     1 : False : False : Binary
+         (7, 9, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 9, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 10, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 10, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 10, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 10, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 11, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 11, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 11, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 11, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 11, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 12, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 12, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 12, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 12, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 4, 4) :     0 :   0.0 :     1 : False : False : Binary
+         (8, 4, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (8, 4, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (8, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 8, 2) :     0 :   0.0 :     1 : False : False : Binary
+         (8, 8, 3) :     0 :   0.0 :     1 : False : False : Binary
+         (8, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (8, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 10, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 10, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 10, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 10, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 11, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 11, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 11, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 11, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 11, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 12, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 12, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 12, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 12, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 9, 2) :     0 :   0.0 :     1 : False : False : Binary
+         (9, 9, 3) :     0 :   1.0 :     1 : False : False : Binary
+         (9, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 10, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 10, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (9, 10, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (9, 10, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (9, 11, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 11, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 11, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 11, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 11, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 12, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 12, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 12, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 12, 6) :     0 :  -0.0 :     1 : False : False : Binary
+    Z : Size=486, Index=C*C*V
+        Key       : Lower : Value : Upper : Fixed : Stale : Domain
+        (1, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 2, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 2, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 5, 2) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 5, 3) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 5, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 5, 5) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 5, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 6, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 6, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 9, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (1, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 1, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 1, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 3, 2) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 3, 3) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 3, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 3, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 3, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 4, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 4, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 4, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 5, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 5, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 6, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 7, 2) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 7, 3) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 7, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 7, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 7, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 8, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 8, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 8, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (2, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 2, 2) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 2, 3) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 2, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 2, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 2, 6) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 4, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 4, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 4, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 5, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 6, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 7, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 7, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 7, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 8, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 8, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 8, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (3, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 2, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 2, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 2, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 3, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 3, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 3, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 6, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 7, 2) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 7, 3) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 7, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 7, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 7, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 8, 2) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 8, 3) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 8, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 8, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 8, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (4, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 1, 2) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 1, 3) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 1, 4) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 1, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 1, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 2, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 2, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 3, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 6, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 6, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 9, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (5, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 1, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 1, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 1, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 2, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 2, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 2, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 3, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 3, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 4, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 4, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 5, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 5, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 5, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 7, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 7, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 8, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 8, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (6, 9, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 9, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (6, 9, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 2, 2) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 2, 3) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 2, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 2, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 2, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 3, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 3, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 3, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 4, 2) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 4, 3) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 4, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 4, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 4, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 6, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 8, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 8, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 8, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (7, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (7, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 2, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (8, 2, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (8, 2, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (8, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 3, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (8, 3, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (8, 3, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (8, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 4, 2) :     0 :   0.0 :     1 : False : False : Binary
+        (8, 4, 3) :     0 :   0.0 :     1 : False : False : Binary
+        (8, 4, 4) :     0 :   1.0 :     1 : False : False : Binary
+        (8, 4, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (8, 4, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (8, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 6, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (8, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 7, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (8, 7, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (8, 7, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (8, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (8, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 1, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (9, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 5, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (9, 5, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 5, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 6, 4) :     0 :   0.0 :     1 : False : False : Binary
+        (9, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
+        (9, 6, 6) :     0 :   0.0 :     1 : False : False : Binary
+        (9, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 8, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 8, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 8, 6) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+        (9, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
+    W : Size=0, Index=C*E*V
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+    U : Size=0, Index=E*C*V
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+    M : Size=0, Index=E*E*V
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+    L : Size=0, Index=E*A*V
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+    H : Size=0, Index=A*E*V
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+    S : Size=126, Index=V*N
+        Key     : Lower : Value : Upper : Fixed : Stale : Domain
+         (1, 1) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (1, 2) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (1, 3) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (1, 4) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (1, 5) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (1, 6) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (1, 7) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (1, 8) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (1, 9) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (1, 10) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (1, 11) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (1, 12) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (1, 13) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (1, 14) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (1, 15) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (1, 16) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (1, 17) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (1, 18) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (1, 19) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (1, 20) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (1, 21) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (2, 1) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (2, 2) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (2, 3) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (2, 4) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (2, 5) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (2, 6) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (2, 7) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (2, 8) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (2, 9) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (2, 10) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (2, 11) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (2, 12) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (2, 13) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (2, 14) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (2, 15) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (2, 16) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (2, 17) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (2, 18) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (2, 19) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (2, 20) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (2, 21) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (3, 1) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (3, 2) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (3, 3) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (3, 4) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (3, 5) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (3, 6) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (3, 7) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (3, 8) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (3, 9) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (3, 10) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (3, 11) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (3, 12) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (3, 13) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (3, 14) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (3, 15) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (3, 16) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (3, 17) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (3, 18) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (3, 19) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (3, 20) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (3, 21) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (4, 1) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (4, 2) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (4, 3) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (4, 4) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (4, 5) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (4, 6) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (4, 7) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (4, 8) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (4, 9) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (4, 10) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (4, 11) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (4, 12) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (4, 13) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (4, 14) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (4, 15) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (4, 16) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (4, 17) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (4, 18) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (4, 19) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (4, 20) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (4, 21) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (5, 1) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (5, 2) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (5, 3) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (5, 4) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (5, 5) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (5, 6) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (5, 7) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (5, 8) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (5, 9) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (5, 10) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (5, 11) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (5, 12) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (5, 13) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (5, 14) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (5, 15) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (5, 16) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (5, 17) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (5, 18) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (5, 19) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (5, 20) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (5, 21) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (6, 1) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (6, 2) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (6, 3) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (6, 4) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (6, 5) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (6, 6) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (6, 7) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (6, 8) :     0 :  None :  None : False :  True : NonNegativeIntegers
+         (6, 9) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (6, 10) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (6, 11) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (6, 12) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (6, 13) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (6, 14) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (6, 15) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (6, 16) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (6, 17) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (6, 18) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (6, 19) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (6, 20) :     0 :  None :  None : False :  True : NonNegativeIntegers
+        (6, 21) :     0 :  None :  None : False :  True : NonNegativeIntegers
+
+  Objectives:
+    FO : Size=1, Index=None, Active=True
+        Key  : Active : Value
+        None :   True : 125293.65548863832
+
+  Constraints:
+    abastecimientoEntrada : Size=9
+        Key : Lower : Body : Upper
+          1 :   1.0 :  1.0 :   1.0
+          2 :   1.0 :  1.0 :   1.0
+          3 :   1.0 :  1.0 :   1.0
+          4 :   1.0 :  1.0 :   1.0
+          5 :   1.0 :  1.0 :   1.0
+          6 :   1.0 :  1.0 :   1.0
+          7 :   1.0 :  1.0 :   1.0
+          8 :   1.0 :  1.0 :   1.0
+          9 :   1.0 :  1.0 :   1.0
+    abastecimientoSalida : Size=9
+        Key : Lower : Body : Upper
+          1 :   1.0 :  1.0 :   1.0
+          2 :   1.0 :  1.0 :   1.0
+          3 :   1.0 :  1.0 :   1.0
+          4 :   1.0 :  1.0 :   1.0
+          5 :   1.0 :  1.0 :   1.0
+          6 :   1.0 :  1.0 :   1.0
+          7 :   1.0 :  1.0 :   1.0
+          8 :   1.0 :  1.0 :   1.0
+          9 :   1.0 :  1.0 :   1.0
+    capacidadAlmacen : Size=36
+        Key : Lower : Body : Upper
+          1 :  None :  5.0 :  14.0
+          2 :  None :  2.0 :   2.0
+          3 :  None :  4.0 :   5.0
+          4 :  None :  0.0 :  16.0
+          5 :  None :  0.0 :   0.0
+          6 :  None :  0.0 :   2.0
+          7 :  None : 15.0 :  24.0
+          8 :  None :  2.0 :   2.0
+          9 :  None :  1.0 :   3.0
+         10 :  None : 15.0 :  16.0
+         11 :  None :  1.0 :   5.0
+         12 :  None :  1.0 :   1.0
+         13 :  None :  0.0 :   7.0
+         14 :  None :  0.0 :   0.0
+         15 :  None :  0.0 :   4.0
+         16 :  None : 14.0 :  14.0
+         17 :  None :  1.0 :   5.0
+         18 :  None :  1.0 :   8.0
+         19 :  None :  0.0 :  17.0
+         20 :  None :  0.0 :   6.0
+         21 :  None :  0.0 :   2.0
+         22 :  None :  0.0 :   3.0
+         23 :  None :  0.0 :   1.0
+         24 :  None :  0.0 :   0.0
+         25 :  None :  0.0 :   6.0
+         26 :  None :  0.0 :   2.0
+         27 :  None :  0.0 :   2.0
+         28 :  None :  0.0 :   3.0
+         29 :  None :  0.0 :   0.0
+         30 :  None :  0.0 :   1.0
+         31 :  None :  0.0 :  26.0
+         32 :  None :  0.0 :   0.0
+         33 :  None :  0.0 :   1.0
+         34 :  None :  7.0 :  12.0
+         35 :  None :  1.0 :   1.0
+         36 :  None :  4.0 :   7.0
+    capacidadVehiculo : Size=6
+        Key : Lower : Body : Upper
+          1 :  None :  0.0 :  197.8817095084044
+          2 :  None : 16.0 : 135.54452491441663
+          3 :  None : 18.0 : 114.38031900663994
+          4 :  None : 45.0 :  52.63370252405913
+          5 :  None : 31.0 :  36.24420491252038
+          6 :  None : 35.0 :   36.2926584575003
+    rangoVehiculo : Size=6
+        Key : Lower : Body              : Upper
+          1 :  None :               0.0 : 145.85207096486445
+          2 :  None :               0.0 :  1304.605971281605
+          3 :  None :               0.0 :   953.172608610164
+          4 :  None : 8.573061884053375 : 17.302304187458727
+          5 :  None : 5.958633253404434 : 16.627680130757895
+          6 :  None : 7.995928497658076 : 13.602810739289229
+    rangoVehiculoRecargas : Size=0
+        Key : Lower : Body : Upper
+    salidaUnicaAlmacen : Size=6
+        Key : Lower : Body : Upper
+          1 :  None :  0.0 :   1.0
+          2 :  None :  1.0 :   1.0
+          3 :  None :  1.0 :   1.0
+          4 :  None :  1.0 :   1.0
+          5 :  None :  1.0 :   1.0
+          6 :  None :  1.0 :   1.0
+    entradaUnicaAlmacen : Size=6
+        Key : Lower : Body : Upper
+          1 :  None :  0.0 :   1.0
+          2 :  None :  1.0 :   1.0
+          3 :  None :  1.0 :   1.0
+          4 :  None :  1.0 :   1.0
+          5 :  None :  1.0 :   1.0
+          6 :  None :  1.0 :   1.0
+    salidaYVuelta : Size=6
+        Key : Lower : Body : Upper
+          1 :   0.0 :  0.0 :   0.0
+          2 :   0.0 :  0.0 :   0.0
+          3 :   0.0 :  0.0 :   0.0
+          4 :   0.0 :  0.0 :   0.0
+          5 :   0.0 :  0.0 :   0.0
+          6 :   0.0 :  0.0 :   0.0
+    visitaClientesIntermediosSalida : Size=432
+        Key : Lower : Body : Upper
+          1 :  None :  0.0 :   0.0
+          2 :  None :  0.0 :   0.0
+          3 :  None :  0.0 :   0.0
+          4 :  None :  0.0 :   0.0
+          5 :  None :  0.0 :   0.0
+          6 :  None :  0.0 :   0.0
+          7 :  None :  0.0 :   0.0
+          8 :  None :  0.0 :   0.0
+          9 :  None :  0.0 :   0.0
+         10 :  None :  0.0 :   0.0
+         11 :  None :  0.0 :   0.0
+         12 :  None :  0.0 :   0.0
+         13 :  None :  0.0 :   0.0
+         14 :  None :  0.0 :   0.0
+         15 :  None :  0.0 :   0.0
+         16 :  None :  0.0 :   0.0
+         17 :  None :  0.0 :   0.0
+         18 :  None :  0.0 :   0.0
+         19 :  None :  0.0 :   0.0
+         20 :  None :  0.0 :   0.0
+         21 :  None :  0.0 :   0.0
+         22 :  None :  0.0 :   0.0
+         23 :  None :  0.0 :   0.0
+         24 :  None :  0.0 :   0.0
+         25 :  None :  0.0 :   0.0
+         26 :  None :  0.0 :   0.0
+         27 :  None :  0.0 :   0.0
+         28 :  None :  0.0 :   0.0
+         29 :  None :  0.0 :   0.0
+         30 :  None :  0.0 :   0.0
+         31 :  None :  0.0 :   0.0
+         32 :  None :  0.0 :   0.0
+         33 :  None :  0.0 :   0.0
+         34 :  None :  0.0 :   0.0
+         35 :  None :  0.0 :   0.0
+         36 :  None :  0.0 :   0.0
+         37 :  None :  0.0 :   0.0
+         38 :  None :  0.0 :   0.0
+         39 :  None :  0.0 :   0.0
+         40 :  None :  0.0 :   0.0
+         41 :  None :  0.0 :   0.0
+         42 :  None :  0.0 :   0.0
+         43 :  None :  0.0 :   0.0
+         44 :  None :  0.0 :   0.0
+         45 :  None :  0.0 :   0.0
+         46 :  None :  0.0 :   0.0
+         47 :  None :  0.0 :   0.0
+         48 :  None :  0.0 :   0.0
+         49 :  None :  0.0 :   0.0
+         50 :  None :  0.0 :   0.0
+         51 :  None :  0.0 :   0.0
+         52 :  None :  0.0 :   0.0
+         53 :  None :  0.0 :   0.0
+         54 :  None :  0.0 :   0.0
+         55 :  None :  0.0 :   0.0
+         56 :  None :  0.0 :   0.0
+         57 :  None :  0.0 :   0.0
+         58 :  None :  0.0 :   0.0
+         59 :  None :  0.0 :   0.0
+         60 :  None :  0.0 :   0.0
+         61 :  None :  0.0 :   0.0
+         62 :  None :  0.0 :   0.0
+         63 :  None :  0.0 :   0.0
+         64 :  None :  0.0 :   0.0
+         65 :  None :  0.0 :   0.0
+         66 :  None :  0.0 :   0.0
+         67 :  None :  0.0 :   0.0
+         68 :  None :  0.0 :   0.0
+         69 :  None :  0.0 :   0.0
+         70 :  None :  0.0 :   0.0
+         71 :  None :  0.0 :   0.0
+         72 :  None :  0.0 :   0.0
+         73 :  None : -1.0 :   0.0
+         74 :  None : -1.0 :   0.0
+         75 :  None : -1.0 :   0.0
+         76 :  None : -1.0 :   0.0
+         77 :  None : -1.0 :   0.0
+         78 :  None : -1.0 :   0.0
+         79 :  None : -1.0 :   0.0
+         80 :  None : -1.0 :   0.0
+         81 :  None : -1.0 :   0.0
+         82 :  None : -1.0 :   0.0
+         83 :  None : -1.0 :   0.0
+         84 :  None : -1.0 :   0.0
+         85 :  None : -1.0 :   0.0
+         86 :  None : -1.0 :   0.0
+         87 :  None : -1.0 :   0.0
+         88 :  None : -1.0 :   0.0
+         89 :  None : -1.0 :   0.0
+         90 :  None : -1.0 :   0.0
+         91 :  None : -1.0 :   0.0
+         92 :  None : -1.0 :   0.0
+         93 :  None : -1.0 :   0.0
+         94 :  None : -1.0 :   0.0
+         95 :  None : -1.0 :   0.0
+         96 :  None : -1.0 :   0.0
+         97 :  None : -1.0 :   0.0
+         98 :  None : -1.0 :   0.0
+         99 :  None : -1.0 :   0.0
+        100 :  None : -1.0 :   0.0
+        101 :  None : -1.0 :   0.0
+        102 :  None : -1.0 :   0.0
+        103 :  None : -1.0 :   0.0
+        104 :  None : -1.0 :   0.0
+        105 :  None : -1.0 :   0.0
+        106 :  None : -1.0 :   0.0
+        107 :  None : -1.0 :   0.0
+        108 :  None : -1.0 :   0.0
+        109 :  None : -1.0 :   0.0
+        110 :  None : -1.0 :   0.0
+        111 :  None : -1.0 :   0.0
+        112 :  None : -1.0 :   0.0
+        113 :  None : -1.0 :   0.0
+        114 :  None : -1.0 :   0.0
+        115 :  None : -1.0 :   0.0
+        116 :  None : -1.0 :   0.0
+        117 :  None : -1.0 :   0.0
+        118 :  None : -1.0 :   0.0
+        119 :  None : -1.0 :   0.0
+        120 :  None : -1.0 :   0.0
+        121 :  None : -1.0 :   0.0
+        122 :  None : -1.0 :   0.0
+        123 :  None : -1.0 :   0.0
+        124 :  None : -1.0 :   0.0
+        125 :  None : -1.0 :   0.0
+        126 :  None : -1.0 :   0.0
+        127 :  None : -1.0 :   0.0
+        128 :  None : -1.0 :   0.0
+        129 :  None : -1.0 :   0.0
+        130 :  None : -1.0 :   0.0
+        131 :  None : -1.0 :   0.0
+        132 :  None : -1.0 :   0.0
+        133 :  None : -1.0 :   0.0
+        134 :  None : -1.0 :   0.0
+        135 :  None : -1.0 :   0.0
+        136 :  None : -1.0 :   0.0
+        137 :  None : -1.0 :   0.0
+        138 :  None : -1.0 :   0.0
+        139 :  None : -1.0 :   0.0
+        140 :  None : -1.0 :   0.0
+        141 :  None : -1.0 :   0.0
+        142 :  None : -1.0 :   0.0
+        143 :  None : -1.0 :   0.0
+        144 :  None : -1.0 :   0.0
+        145 :  None : -1.0 :   0.0
+        146 :  None : -1.0 :   0.0
+        147 :  None : -1.0 :   0.0
+        148 :  None : -1.0 :   0.0
+        149 :  None : -1.0 :   0.0
+        150 :  None : -1.0 :   0.0
+        151 :  None : -1.0 :   0.0
+        152 :  None : -1.0 :   0.0
+        153 :  None : -1.0 :   0.0
+        154 :  None : -1.0 :   0.0
+        155 :  None : -1.0 :   0.0
+        156 :  None : -1.0 :   0.0
+        157 :  None : -1.0 :   0.0
+        158 :  None : -1.0 :   0.0
+        159 :  None : -1.0 :   0.0
+        160 :  None : -1.0 :   0.0
+        161 :  None : -1.0 :   0.0
+        162 :  None : -1.0 :   0.0
+        163 :  None : -1.0 :   0.0
+        164 :  None : -1.0 :   0.0
+        165 :  None : -1.0 :   0.0
+        166 :  None : -1.0 :   0.0
+        167 :  None : -1.0 :   0.0
+        168 :  None : -1.0 :   0.0
+        169 :  None : -1.0 :   0.0
+        170 :  None : -1.0 :   0.0
+        171 :  None : -1.0 :   0.0
+        172 :  None : -1.0 :   0.0
+        173 :  None : -1.0 :   0.0
+        174 :  None : -1.0 :   0.0
+        175 :  None : -1.0 :   0.0
+        176 :  None : -1.0 :   0.0
+        177 :  None : -1.0 :   0.0
+        178 :  None : -1.0 :   0.0
+        179 :  None : -1.0 :   0.0
+        180 :  None : -1.0 :   0.0
+        181 :  None : -1.0 :   0.0
+        182 :  None : -1.0 :   0.0
+        183 :  None : -1.0 :   0.0
+        184 :  None : -1.0 :   0.0
+        185 :  None : -1.0 :   0.0
+        186 :  None : -1.0 :   0.0
+        187 :  None : -1.0 :   0.0
+        188 :  None : -1.0 :   0.0
+        189 :  None : -1.0 :   0.0
+        190 :  None : -1.0 :   0.0
+        191 :  None : -1.0 :   0.0
+        192 :  None : -1.0 :   0.0
+        193 :  None : -1.0 :   0.0
+        194 :  None : -1.0 :   0.0
+        195 :  None : -1.0 :   0.0
+        196 :  None : -1.0 :   0.0
+        197 :  None : -1.0 :   0.0
+        198 :  None : -1.0 :   0.0
+        199 :  None : -1.0 :   0.0
+        200 :  None : -1.0 :   0.0
+        201 :  None : -1.0 :   0.0
+        202 :  None : -1.0 :   0.0
+        203 :  None : -1.0 :   0.0
+        204 :  None : -1.0 :   0.0
+        205 :  None : -1.0 :   0.0
+        206 :  None : -1.0 :   0.0
+        207 :  None : -1.0 :   0.0
+        208 :  None : -1.0 :   0.0
+        209 :  None : -1.0 :   0.0
+        210 :  None : -1.0 :   0.0
+        211 :  None : -1.0 :   0.0
+        212 :  None : -1.0 :   0.0
+        213 :  None : -1.0 :   0.0
+        214 :  None : -1.0 :   0.0
+        215 :  None : -1.0 :   0.0
+        216 :  None : -1.0 :   0.0
+        217 :  None : -1.0 :   0.0
+        218 :  None : -1.0 :   0.0
+        219 :  None : -1.0 :   0.0
+        220 :  None : -1.0 :   0.0
+        221 :  None : -1.0 :   0.0
+        222 :  None : -1.0 :   0.0
+        223 :  None : -1.0 :   0.0
+        224 :  None : -1.0 :   0.0
+        225 :  None : -1.0 :   0.0
+        226 :  None : -1.0 :   0.0
+        227 :  None : -1.0 :   0.0
+        228 :  None : -1.0 :   0.0
+        229 :  None : -1.0 :   0.0
+        230 :  None : -1.0 :   0.0
+        231 :  None : -1.0 :   0.0
+        232 :  None : -1.0 :   0.0
+        233 :  None : -1.0 :   0.0
+        234 :  None : -1.0 :   0.0
+        235 :  None : -1.0 :   0.0
+        236 :  None : -1.0 :   0.0
+        237 :  None : -1.0 :   0.0
+        238 :  None : -1.0 :   0.0
+        239 :  None : -1.0 :   0.0
+        240 :  None : -1.0 :   0.0
+        241 :  None : -1.0 :   0.0
+        242 :  None : -1.0 :   0.0
+        243 :  None : -1.0 :   0.0
+        244 :  None : -1.0 :   0.0
+        245 :  None : -1.0 :   0.0
+        246 :  None : -1.0 :   0.0
+        247 :  None : -1.0 :   0.0
+        248 :  None : -1.0 :   0.0
+        249 :  None :  0.0 :   0.0
+        250 :  None : -1.0 :   0.0
+        251 :  None : -1.0 :   0.0
+        252 :  None : -1.0 :   0.0
+        253 :  None : -1.0 :   0.0
+        254 :  None : -1.0 :   0.0
+        255 :  None : -1.0 :   0.0
+        256 :  None : -1.0 :   0.0
+        257 :  None : -1.0 :   0.0
+        258 :  None : -1.0 :   0.0
+        259 :  None : -1.0 :   0.0
+        260 :  None : -1.0 :   0.0
+        261 :  None : -1.0 :   0.0
+        262 :  None : -1.0 :   0.0
+        263 :  None : -1.0 :   0.0
+        264 :  None : -1.0 :   0.0
+        265 :  None : -1.0 :   0.0
+        266 :  None : -1.0 :   0.0
+        267 :  None : -1.0 :   0.0
+        268 :  None : -1.0 :   0.0
+        269 :  None : -1.0 :   0.0
+        270 :  None : -1.0 :   0.0
+        271 :  None : -1.0 :   0.0
+        272 :  None : -1.0 :   0.0
+        273 :  None : -1.0 :   0.0
+        274 :  None : -1.0 :   0.0
+        275 :  None : -1.0 :   0.0
+        276 :  None :  0.0 :   0.0
+        277 :  None : -1.0 :   0.0
+        278 :  None : -1.0 :   0.0
+        279 :  None : -1.0 :   0.0
+        280 :  None : -1.0 :   0.0
+        281 :  None : -1.0 :   0.0
+        282 :  None : -1.0 :   0.0
+        283 :  None : -1.0 :   0.0
+        284 :  None : -1.0 :   0.0
+        285 :  None : -1.0 :   0.0
+        286 :  None : -1.0 :   0.0
+        287 :  None : -1.0 :   0.0
+        288 :  None : -1.0 :   0.0
+        289 :  None : -1.0 :   0.0
+        290 :  None : -1.0 :   0.0
+        291 :  None : -1.0 :   0.0
+        292 :  None :  0.0 :   0.0
+        293 :  None : -1.0 :   0.0
+        294 :  None : -1.0 :   0.0
+        295 :  None : -1.0 :   0.0
+        296 :  None : -1.0 :   0.0
+        297 :  None : -1.0 :   0.0
+        298 :  None : -1.0 :   0.0
+        299 :  None : -1.0 :   0.0
+        300 :  None : -1.0 :   0.0
+        301 :  None : -1.0 :   0.0
+        302 :  None : -1.0 :   0.0
+        303 :  None : -1.0 :   0.0
+        304 :  None : -1.0 :   0.0
+        305 :  None : -1.0 :   0.0
+        306 :  None : -1.0 :   0.0
+        307 :  None : -1.0 :   0.0
+        308 :  None : -1.0 :   0.0
+        309 :  None : -1.0 :   0.0
+        310 :  None : -1.0 :   0.0
+        311 :  None : -1.0 :   0.0
+        312 :  None : -1.0 :   0.0
+        313 :  None : -1.0 :   0.0
+        314 :  None : -1.0 :   0.0
+        315 :  None : -1.0 :   0.0
+        316 :  None : -1.0 :   0.0
+        317 :  None : -1.0 :   0.0
+        318 :  None : -1.0 :   0.0
+        319 :  None : -1.0 :   0.0
+        320 :  None : -1.0 :   0.0
+        321 :  None : -1.0 :   0.0
+        322 :  None : -1.0 :   0.0
+        323 :  None : -1.0 :   0.0
+        324 :  None : -1.0 :   0.0
+        325 :  None : -1.0 :   0.0
+        326 :  None : -1.0 :   0.0
+        327 :  None : -1.0 :   0.0
+        328 :  None : -1.0 :   0.0
+        329 :  None : -1.0 :   0.0
+        330 :  None : -1.0 :   0.0
+        331 :  None : -1.0 :   0.0
+        332 :  None : -1.0 :   0.0
+        333 :  None : -1.0 :   0.0
+        334 :  None : -1.0 :   0.0
+        335 :  None : -1.0 :   0.0
+        336 :  None : -1.0 :   0.0
+        337 :  None : -1.0 :   0.0
+        338 :  None : -1.0 :   0.0
+        339 :  None : -1.0 :   0.0
+        340 :  None : -1.0 :   0.0
+        341 :  None : -1.0 :   0.0
+        342 :  None : -1.0 :   0.0
+        343 :  None : -1.0 :   0.0
+        344 :  None : -1.0 :   0.0
+        345 :  None : -1.0 :   0.0
+        346 :  None : -1.0 :   0.0
+        347 :  None : -1.0 :   0.0
+        348 :  None : -1.0 :   0.0
+        349 :  None : -1.0 :   0.0
+        350 :  None : -1.0 :   0.0
+        351 :  None : -1.0 :   0.0
+        352 :  None : -1.0 :   0.0
+        353 :  None : -1.0 :   0.0
+        354 :  None : -1.0 :   0.0
+        355 :  None : -1.0 :   0.0
+        356 :  None : -1.0 :   0.0
+        357 :  None : -1.0 :   0.0
+        358 :  None : -1.0 :   0.0
+        359 :  None : -1.0 :   0.0
+        360 :  None : -1.0 :   0.0
+        361 :  None : -1.0 :   0.0
+        362 :  None : -1.0 :   0.0
+        363 :  None : -1.0 :   0.0
+        364 :  None : -1.0 :   0.0
+        365 :  None : -1.0 :   0.0
+        366 :  None : -1.0 :   0.0
+        367 :  None : -1.0 :   0.0
+        368 :  None : -1.0 :   0.0
+        369 :  None : -1.0 :   0.0
+        370 :  None : -1.0 :   0.0
+        371 :  None : -1.0 :   0.0
+        372 :  None : -1.0 :   0.0
+        373 :  None : -1.0 :   0.0
+        374 :  None : -1.0 :   0.0
+        375 :  None : -1.0 :   0.0
+        376 :  None : -1.0 :   0.0
+        377 :  None : -1.0 :   0.0
+        378 :  None :  0.0 :   0.0
+        379 :  None : -1.0 :   0.0
+        380 :  None : -1.0 :   0.0
+        381 :  None : -1.0 :   0.0
+        382 :  None : -1.0 :   0.0
+        383 :  None : -1.0 :   0.0
+        384 :  None : -1.0 :   0.0
+        385 :  None : -1.0 :   0.0
+        386 :  None : -1.0 :   0.0
+        387 :  None : -1.0 :   0.0
+        388 :  None : -1.0 :   0.0
+        389 :  None : -1.0 :   0.0
+        390 :  None : -1.0 :   0.0
+        391 :  None : -1.0 :   0.0
+        392 :  None : -1.0 :   0.0
+        393 :  None : -1.0 :   0.0
+        394 :  None : -1.0 :   0.0
+        395 :  None : -1.0 :   0.0
+        396 :  None : -1.0 :   0.0
+        397 :  None : -1.0 :   0.0
+        398 :  None : -1.0 :   0.0
+        399 :  None : -1.0 :   0.0
+        400 :  None : -1.0 :   0.0
+        401 :  None : -1.0 :   0.0
+        402 :  None : -1.0 :   0.0
+        403 :  None : -1.0 :   0.0
+        404 :  None : -1.0 :   0.0
+        405 :  None : -1.0 :   0.0
+        406 :  None : -1.0 :   0.0
+        407 :  None : -1.0 :   0.0
+        408 :  None : -1.0 :   0.0
+        409 :  None : -1.0 :   0.0
+        410 :  None : -1.0 :   0.0
+        411 :  None : -1.0 :   0.0
+        412 :  None : -1.0 :   0.0
+        413 :  None : -1.0 :   0.0
+        414 :  None : -1.0 :   0.0
+        415 :  None : -1.0 :   0.0
+        416 :  None : -1.0 :   0.0
+        417 :  None : -1.0 :   0.0
+        418 :  None : -1.0 :   0.0
+        419 :  None : -1.0 :   0.0
+        420 :  None : -1.0 :   0.0
+        421 :  None : -1.0 :   0.0
+        422 :  None : -1.0 :   0.0
+        423 :  None : -1.0 :   0.0
+        424 :  None : -1.0 :   0.0
+        425 :  None : -1.0 :   0.0
+        426 :  None : -1.0 :   0.0
+        427 :  None : -1.0 :   0.0
+        428 :  None : -1.0 :   0.0
+        429 :  None : -1.0 :   0.0
+        430 :  None : -1.0 :   0.0
+        431 :  None : -1.0 :   0.0
+        432 :  None : -1.0 :   0.0
+    visitaClientesIntermediosEntrada : Size=432
+        Key : Lower : Body : Upper
+          1 :  None :  0.0 :   0.0
+          2 :  None :  0.0 :   0.0
+          3 :  None :  0.0 :   0.0
+          4 :  None :  0.0 :   0.0
+          5 :  None :  0.0 :   0.0
+          6 :  None :  0.0 :   0.0
+          7 :  None :  0.0 :   0.0
+          8 :  None :  0.0 :   0.0
+          9 :  None :  0.0 :   0.0
+         10 :  None :  0.0 :   0.0
+         11 :  None :  0.0 :   0.0
+         12 :  None :  0.0 :   0.0
+         13 :  None :  0.0 :   0.0
+         14 :  None :  0.0 :   0.0
+         15 :  None :  0.0 :   0.0
+         16 :  None :  0.0 :   0.0
+         17 :  None :  0.0 :   0.0
+         18 :  None :  0.0 :   0.0
+         19 :  None :  0.0 :   0.0
+         20 :  None :  0.0 :   0.0
+         21 :  None :  0.0 :   0.0
+         22 :  None :  0.0 :   0.0
+         23 :  None :  0.0 :   0.0
+         24 :  None :  0.0 :   0.0
+         25 :  None :  0.0 :   0.0
+         26 :  None :  0.0 :   0.0
+         27 :  None :  0.0 :   0.0
+         28 :  None :  0.0 :   0.0
+         29 :  None :  0.0 :   0.0
+         30 :  None :  0.0 :   0.0
+         31 :  None :  0.0 :   0.0
+         32 :  None :  0.0 :   0.0
+         33 :  None :  0.0 :   0.0
+         34 :  None :  0.0 :   0.0
+         35 :  None :  0.0 :   0.0
+         36 :  None :  0.0 :   0.0
+         37 :  None :  0.0 :   0.0
+         38 :  None :  0.0 :   0.0
+         39 :  None :  0.0 :   0.0
+         40 :  None :  0.0 :   0.0
+         41 :  None :  0.0 :   0.0
+         42 :  None :  0.0 :   0.0
+         43 :  None :  0.0 :   0.0
+         44 :  None :  0.0 :   0.0
+         45 :  None :  0.0 :   0.0
+         46 :  None :  0.0 :   0.0
+         47 :  None :  0.0 :   0.0
+         48 :  None :  0.0 :   0.0
+         49 :  None :  0.0 :   0.0
+         50 :  None :  0.0 :   0.0
+         51 :  None :  0.0 :   0.0
+         52 :  None :  0.0 :   0.0
+         53 :  None :  0.0 :   0.0
+         54 :  None :  0.0 :   0.0
+         55 :  None :  0.0 :   0.0
+         56 :  None :  0.0 :   0.0
+         57 :  None :  0.0 :   0.0
+         58 :  None :  0.0 :   0.0
+         59 :  None :  0.0 :   0.0
+         60 :  None :  0.0 :   0.0
+         61 :  None :  0.0 :   0.0
+         62 :  None :  0.0 :   0.0
+         63 :  None :  0.0 :   0.0
+         64 :  None :  0.0 :   0.0
+         65 :  None :  0.0 :   0.0
+         66 :  None :  0.0 :   0.0
+         67 :  None :  0.0 :   0.0
+         68 :  None :  0.0 :   0.0
+         69 :  None :  0.0 :   0.0
+         70 :  None :  0.0 :   0.0
+         71 :  None :  0.0 :   0.0
+         72 :  None :  0.0 :   0.0
+         73 :  None : -1.0 :   0.0
+         74 :  None : -1.0 :   0.0
+         75 :  None : -1.0 :   0.0
+         76 :  None : -1.0 :   0.0
+         77 :  None : -1.0 :   0.0
+         78 :  None : -1.0 :   0.0
+         79 :  None : -1.0 :   0.0
+         80 :  None : -1.0 :   0.0
+         81 :  None : -1.0 :   0.0
+         82 :  None : -1.0 :   0.0
+         83 :  None : -1.0 :   0.0
+         84 :  None : -1.0 :   0.0
+         85 :  None : -1.0 :   0.0
+         86 :  None : -1.0 :   0.0
+         87 :  None : -1.0 :   0.0
+         88 :  None : -1.0 :   0.0
+         89 :  None : -1.0 :   0.0
+         90 :  None : -1.0 :   0.0
+         91 :  None : -1.0 :   0.0
+         92 :  None : -1.0 :   0.0
+         93 :  None : -1.0 :   0.0
+         94 :  None : -1.0 :   0.0
+         95 :  None : -1.0 :   0.0
+         96 :  None : -1.0 :   0.0
+         97 :  None : -1.0 :   0.0
+         98 :  None : -1.0 :   0.0
+         99 :  None : -1.0 :   0.0
+        100 :  None : -1.0 :   0.0
+        101 :  None : -1.0 :   0.0
+        102 :  None : -1.0 :   0.0
+        103 :  None : -1.0 :   0.0
+        104 :  None : -1.0 :   0.0
+        105 :  None : -1.0 :   0.0
+        106 :  None : -1.0 :   0.0
+        107 :  None : -1.0 :   0.0
+        108 :  None : -1.0 :   0.0
+        109 :  None : -1.0 :   0.0
+        110 :  None : -1.0 :   0.0
+        111 :  None : -1.0 :   0.0
+        112 :  None : -1.0 :   0.0
+        113 :  None : -1.0 :   0.0
+        114 :  None : -1.0 :   0.0
+        115 :  None : -1.0 :   0.0
+        116 :  None : -1.0 :   0.0
+        117 :  None : -1.0 :   0.0
+        118 :  None : -1.0 :   0.0
+        119 :  None : -1.0 :   0.0
+        120 :  None : -1.0 :   0.0
+        121 :  None : -1.0 :   0.0
+        122 :  None : -1.0 :   0.0
+        123 :  None : -1.0 :   0.0
+        124 :  None : -1.0 :   0.0
+        125 :  None : -1.0 :   0.0
+        126 :  None : -1.0 :   0.0
+        127 :  None : -1.0 :   0.0
+        128 :  None : -1.0 :   0.0
+        129 :  None : -1.0 :   0.0
+        130 :  None : -1.0 :   0.0
+        131 :  None : -1.0 :   0.0
+        132 :  None : -1.0 :   0.0
+        133 :  None : -1.0 :   0.0
+        134 :  None : -1.0 :   0.0
+        135 :  None : -1.0 :   0.0
+        136 :  None : -1.0 :   0.0
+        137 :  None : -1.0 :   0.0
+        138 :  None : -1.0 :   0.0
+        139 :  None : -1.0 :   0.0
+        140 :  None : -1.0 :   0.0
+        141 :  None : -1.0 :   0.0
+        142 :  None : -1.0 :   0.0
+        143 :  None : -1.0 :   0.0
+        144 :  None : -1.0 :   0.0
+        145 :  None : -1.0 :   0.0
+        146 :  None : -1.0 :   0.0
+        147 :  None : -1.0 :   0.0
+        148 :  None : -1.0 :   0.0
+        149 :  None : -1.0 :   0.0
+        150 :  None : -1.0 :   0.0
+        151 :  None : -1.0 :   0.0
+        152 :  None : -1.0 :   0.0
+        153 :  None : -1.0 :   0.0
+        154 :  None : -1.0 :   0.0
+        155 :  None : -1.0 :   0.0
+        156 :  None : -1.0 :   0.0
+        157 :  None : -1.0 :   0.0
+        158 :  None : -1.0 :   0.0
+        159 :  None : -1.0 :   0.0
+        160 :  None : -1.0 :   0.0
+        161 :  None : -1.0 :   0.0
+        162 :  None : -1.0 :   0.0
+        163 :  None : -1.0 :   0.0
+        164 :  None : -1.0 :   0.0
+        165 :  None : -1.0 :   0.0
+        166 :  None : -1.0 :   0.0
+        167 :  None : -1.0 :   0.0
+        168 :  None : -1.0 :   0.0
+        169 :  None : -1.0 :   0.0
+        170 :  None : -1.0 :   0.0
+        171 :  None : -1.0 :   0.0
+        172 :  None : -1.0 :   0.0
+        173 :  None : -1.0 :   0.0
+        174 :  None : -1.0 :   0.0
+        175 :  None : -1.0 :   0.0
+        176 :  None : -1.0 :   0.0
+        177 :  None : -1.0 :   0.0
+        178 :  None : -1.0 :   0.0
+        179 :  None : -1.0 :   0.0
+        180 :  None : -1.0 :   0.0
+        181 :  None : -1.0 :   0.0
+        182 :  None : -1.0 :   0.0
+        183 :  None : -1.0 :   0.0
+        184 :  None : -1.0 :   0.0
+        185 :  None : -1.0 :   0.0
+        186 :  None : -1.0 :   0.0
+        187 :  None : -1.0 :   0.0
+        188 :  None : -1.0 :   0.0
+        189 :  None : -1.0 :   0.0
+        190 :  None : -1.0 :   0.0
+        191 :  None : -1.0 :   0.0
+        192 :  None : -1.0 :   0.0
+        193 :  None : -1.0 :   0.0
+        194 :  None : -1.0 :   0.0
+        195 :  None : -1.0 :   0.0
+        196 :  None : -1.0 :   0.0
+        197 :  None : -1.0 :   0.0
+        198 :  None : -1.0 :   0.0
+        199 :  None : -1.0 :   0.0
+        200 :  None : -1.0 :   0.0
+        201 :  None : -1.0 :   0.0
+        202 :  None : -1.0 :   0.0
+        203 :  None : -1.0 :   0.0
+        204 :  None : -1.0 :   0.0
+        205 :  None : -1.0 :   0.0
+        206 :  None : -1.0 :   0.0
+        207 :  None : -1.0 :   0.0
+        208 :  None : -1.0 :   0.0
+        209 :  None : -1.0 :   0.0
+        210 :  None : -1.0 :   0.0
+        211 :  None : -1.0 :   0.0
+        212 :  None : -1.0 :   0.0
+        213 :  None : -1.0 :   0.0
+        214 :  None : -1.0 :   0.0
+        215 :  None : -1.0 :   0.0
+        216 :  None : -1.0 :   0.0
+        217 :  None : -1.0 :   0.0
+        218 :  None : -1.0 :   0.0
+        219 :  None : -1.0 :   0.0
+        220 :  None : -1.0 :   0.0
+        221 :  None : -1.0 :   0.0
+        222 :  None : -1.0 :   0.0
+        223 :  None : -1.0 :   0.0
+        224 :  None : -1.0 :   0.0
+        225 :  None : -1.0 :   0.0
+        226 :  None : -1.0 :   0.0
+        227 :  None : -1.0 :   0.0
+        228 :  None : -1.0 :   0.0
+        229 :  None : -1.0 :   0.0
+        230 :  None : -1.0 :   0.0
+        231 :  None : -1.0 :   0.0
+        232 :  None : -1.0 :   0.0
+        233 :  None : -1.0 :   0.0
+        234 :  None : -1.0 :   0.0
+        235 :  None : -1.0 :   0.0
+        236 :  None : -1.0 :   0.0
+        237 :  None : -1.0 :   0.0
+        238 :  None : -1.0 :   0.0
+        239 :  None : -1.0 :   0.0
+        240 :  None : -1.0 :   0.0
+        241 :  None : -1.0 :   0.0
+        242 :  None : -1.0 :   0.0
+        243 :  None : -1.0 :   0.0
+        244 :  None : -1.0 :   0.0
+        245 :  None : -1.0 :   0.0
+        246 :  None : -1.0 :   0.0
+        247 :  None : -1.0 :   0.0
+        248 :  None : -1.0 :   0.0
+        249 :  None :  0.0 :   0.0
+        250 :  None : -1.0 :   0.0
+        251 :  None : -1.0 :   0.0
+        252 :  None : -1.0 :   0.0
+        253 :  None : -1.0 :   0.0
+        254 :  None : -1.0 :   0.0
+        255 :  None : -1.0 :   0.0
+        256 :  None : -1.0 :   0.0
+        257 :  None : -1.0 :   0.0
+        258 :  None : -1.0 :   0.0
+        259 :  None : -1.0 :   0.0
+        260 :  None : -1.0 :   0.0
+        261 :  None : -1.0 :   0.0
+        262 :  None : -1.0 :   0.0
+        263 :  None : -1.0 :   0.0
+        264 :  None : -1.0 :   0.0
+        265 :  None : -1.0 :   0.0
+        266 :  None : -1.0 :   0.0
+        267 :  None : -1.0 :   0.0
+        268 :  None : -1.0 :   0.0
+        269 :  None : -1.0 :   0.0
+        270 :  None : -1.0 :   0.0
+        271 :  None : -1.0 :   0.0
+        272 :  None : -1.0 :   0.0
+        273 :  None : -1.0 :   0.0
+        274 :  None : -1.0 :   0.0
+        275 :  None : -1.0 :   0.0
+        276 :  None :  0.0 :   0.0
+        277 :  None : -1.0 :   0.0
+        278 :  None : -1.0 :   0.0
+        279 :  None : -1.0 :   0.0
+        280 :  None : -1.0 :   0.0
+        281 :  None : -1.0 :   0.0
+        282 :  None : -1.0 :   0.0
+        283 :  None : -1.0 :   0.0
+        284 :  None : -1.0 :   0.0
+        285 :  None : -1.0 :   0.0
+        286 :  None : -1.0 :   0.0
+        287 :  None : -1.0 :   0.0
+        288 :  None : -1.0 :   0.0
+        289 :  None : -1.0 :   0.0
+        290 :  None : -1.0 :   0.0
+        291 :  None : -1.0 :   0.0
+        292 :  None :  0.0 :   0.0
+        293 :  None : -1.0 :   0.0
+        294 :  None : -1.0 :   0.0
+        295 :  None : -1.0 :   0.0
+        296 :  None : -1.0 :   0.0
+        297 :  None : -1.0 :   0.0
+        298 :  None : -1.0 :   0.0
+        299 :  None : -1.0 :   0.0
+        300 :  None : -1.0 :   0.0
+        301 :  None : -1.0 :   0.0
+        302 :  None : -1.0 :   0.0
+        303 :  None : -1.0 :   0.0
+        304 :  None : -1.0 :   0.0
+        305 :  None : -1.0 :   0.0
+        306 :  None : -1.0 :   0.0
+        307 :  None : -1.0 :   0.0
+        308 :  None : -1.0 :   0.0
+        309 :  None : -1.0 :   0.0
+        310 :  None : -1.0 :   0.0
+        311 :  None : -1.0 :   0.0
+        312 :  None : -1.0 :   0.0
+        313 :  None : -1.0 :   0.0
+        314 :  None : -1.0 :   0.0
+        315 :  None : -1.0 :   0.0
+        316 :  None : -1.0 :   0.0
+        317 :  None : -1.0 :   0.0
+        318 :  None : -1.0 :   0.0
+        319 :  None : -1.0 :   0.0
+        320 :  None : -1.0 :   0.0
+        321 :  None : -1.0 :   0.0
+        322 :  None : -1.0 :   0.0
+        323 :  None : -1.0 :   0.0
+        324 :  None : -1.0 :   0.0
+        325 :  None : -1.0 :   0.0
+        326 :  None : -1.0 :   0.0
+        327 :  None : -1.0 :   0.0
+        328 :  None : -1.0 :   0.0
+        329 :  None : -1.0 :   0.0
+        330 :  None : -1.0 :   0.0
+        331 :  None : -1.0 :   0.0
+        332 :  None : -1.0 :   0.0
+        333 :  None : -1.0 :   0.0
+        334 :  None : -1.0 :   0.0
+        335 :  None : -1.0 :   0.0
+        336 :  None : -1.0 :   0.0
+        337 :  None : -1.0 :   0.0
+        338 :  None : -1.0 :   0.0
+        339 :  None : -1.0 :   0.0
+        340 :  None : -1.0 :   0.0
+        341 :  None : -1.0 :   0.0
+        342 :  None : -1.0 :   0.0
+        343 :  None : -1.0 :   0.0
+        344 :  None : -1.0 :   0.0
+        345 :  None : -1.0 :   0.0
+        346 :  None : -1.0 :   0.0
+        347 :  None : -1.0 :   0.0
+        348 :  None : -1.0 :   0.0
+        349 :  None : -1.0 :   0.0
+        350 :  None : -1.0 :   0.0
+        351 :  None : -1.0 :   0.0
+        352 :  None : -1.0 :   0.0
+        353 :  None : -1.0 :   0.0
+        354 :  None : -1.0 :   0.0
+        355 :  None : -1.0 :   0.0
+        356 :  None : -1.0 :   0.0
+        357 :  None : -1.0 :   0.0
+        358 :  None : -1.0 :   0.0
+        359 :  None : -1.0 :   0.0
+        360 :  None : -1.0 :   0.0
+        361 :  None : -1.0 :   0.0
+        362 :  None : -1.0 :   0.0
+        363 :  None : -1.0 :   0.0
+        364 :  None : -1.0 :   0.0
+        365 :  None : -1.0 :   0.0
+        366 :  None : -1.0 :   0.0
+        367 :  None : -1.0 :   0.0
+        368 :  None : -1.0 :   0.0
+        369 :  None : -1.0 :   0.0
+        370 :  None : -1.0 :   0.0
+        371 :  None : -1.0 :   0.0
+        372 :  None : -1.0 :   0.0
+        373 :  None : -1.0 :   0.0
+        374 :  None : -1.0 :   0.0
+        375 :  None : -1.0 :   0.0
+        376 :  None : -1.0 :   0.0
+        377 :  None : -1.0 :   0.0
+        378 :  None :  0.0 :   0.0
+        379 :  None : -1.0 :   0.0
+        380 :  None : -1.0 :   0.0
+        381 :  None : -1.0 :   0.0
+        382 :  None : -1.0 :   0.0
+        383 :  None : -1.0 :   0.0
+        384 :  None : -1.0 :   0.0
+        385 :  None : -1.0 :   0.0
+        386 :  None : -1.0 :   0.0
+        387 :  None : -1.0 :   0.0
+        388 :  None : -1.0 :   0.0
+        389 :  None : -1.0 :   0.0
+        390 :  None : -1.0 :   0.0
+        391 :  None : -1.0 :   0.0
+        392 :  None : -1.0 :   0.0
+        393 :  None : -1.0 :   0.0
+        394 :  None : -1.0 :   0.0
+        395 :  None : -1.0 :   0.0
+        396 :  None : -1.0 :   0.0
+        397 :  None : -1.0 :   0.0
+        398 :  None : -1.0 :   0.0
+        399 :  None : -1.0 :   0.0
+        400 :  None : -1.0 :   0.0
+        401 :  None : -1.0 :   0.0
+        402 :  None : -1.0 :   0.0
+        403 :  None : -1.0 :   0.0
+        404 :  None : -1.0 :   0.0
+        405 :  None : -1.0 :   0.0
+        406 :  None : -1.0 :   0.0
+        407 :  None : -1.0 :   0.0
+        408 :  None : -1.0 :   0.0
+        409 :  None : -1.0 :   0.0
+        410 :  None : -1.0 :   0.0
+        411 :  None : -1.0 :   0.0
+        412 :  None : -1.0 :   0.0
+        413 :  None : -1.0 :   0.0
+        414 :  None : -1.0 :   0.0
+        415 :  None : -1.0 :   0.0
+        416 :  None : -1.0 :   0.0
+        417 :  None : -1.0 :   0.0
+        418 :  None : -1.0 :   0.0
+        419 :  None : -1.0 :   0.0
+        420 :  None : -1.0 :   0.0
+        421 :  None : -1.0 :   0.0
+        422 :  None : -1.0 :   0.0
+        423 :  None : -1.0 :   0.0
+        424 :  None : -1.0 :   0.0
+        425 :  None : -1.0 :   0.0
+        426 :  None : -1.0 :   0.0
+        427 :  None : -1.0 :   0.0
+        428 :  None : -1.0 :   0.0
+        429 :  None : -1.0 :   0.0
+        430 :  None : -1.0 :   0.0
+        431 :  None : -1.0 :   0.0
+        432 :  None : -1.0 :   0.0
+    entradaUnicaEstacion : Size=0
+        Key : Lower : Body : Upper
+    salidaUnicaEstacion : Size=0
+        Key : Lower : Body : Upper
+    entradaYSalidaEstacion : Size=0
+        Key : Lower : Body : Upper
+    visitaEstacionesIntermediasSalida : Size=0
+        Key : Lower : Body : Upper
+    visitaEstacionesIntermediasEntrada : Size=0
+        Key : Lower : Body : Upper

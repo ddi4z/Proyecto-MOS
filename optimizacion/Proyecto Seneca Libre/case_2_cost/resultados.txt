@@ -1,8 +1,8 @@
 DESGLOSE DE COSTOS
-Costo total: 382265.86409101484 COP
-Costo de carga diario: 23200.0 COP
-Costo de distancia diario: 189410.3592485146 COP
-Costo de tiempo diario: 60614.27220610523 COP
+Costo total: 378637.10372742545 COP
+Costo de carga diario: 22400.0 COP
+Costo de distancia diario: 183971.2417697455 COP
+Costo de tiempo diario: 63224.62932128495 COP
 Costo de recarga diario: 1041.2326363949912 COP
 - Costo de energía diario: 1001.2324363949913 COP
 - Costo de tiempo de recarga diario: 40.0002 COP
@@ -10,53 +10,65 @@ Costo de mantenimiento diario: 108000.0 COP
 
 RUTAS TOMADAS POR LOS VEHÍCULOS
 VEHÍCULO 1:
+Productos transportados: [0.]
+Capacidad del almacén: [0.]
 
 
 VEHÍCULO 2:
+Productos transportados: [0.]
+Capacidad del almacén: [0.]
 
 
 VEHÍCULO 3:
-Almacén 2 -> Cliente 2
-Cliente 3 -> Cliente 9
+Almacén 5 -> Cliente 5
 Cliente 8 -> Cliente 23
-Cliente 9 -> Cliente 3
+Cliente 10 -> Cliente 1
 Cliente 19 -> Cliente 26
 Cliente 23 -> Cliente 8
-Cliente 24 -> Cliente 19
+Cliente 25 -> Cliente 13
+Cliente 27 -> Cliente 4
 Cliente 11 -> Almacén 11
+Productos transportados: [56.]
+Capacidad del almacén: [999999.]
 
 
 VEHÍCULO 4:
-Almacén 11 -> Cliente 11
+Almacén 12 -> Cliente 12
 Cliente 1 -> Cliente 10
 Cliente 2 -> Cliente 17
+Cliente 3 -> Cliente 9
 Cliente 4 -> Cliente 27
 Cliente 6 -> Cliente 7
 Cliente 7 -> Cliente 6
-Cliente 10 -> Cliente 1
-Cliente 13 -> Cliente 25
+Cliente 9 -> Cliente 3
 Cliente 14 -> Cliente 15
 Cliente 15 -> Cliente 16
 Cliente 16 -> Cliente 14
-Cliente 17 -> Cliente 20
+Cliente 17 -> Cliente 2
 Cliente 21 -> Cliente 22
 Cliente 22 -> Cliente 21
+Cliente 24 -> Cliente 19
 Cliente 26 -> Cliente 24
-Cliente 27 -> Cliente 4
 Cliente 5 -> Almacén 5
+Productos transportados: [121.]
+Capacidad del almacén: [999999.]
 
 
 VEHÍCULO 5:
-Almacén 2 -> Cliente 28
-Cliente 25 -> Cliente 29
-Cliente 29 -> Cliente 13
-Cliente 30 -> Almacén 4
+Almacén 11 -> Cliente 18
+Cliente 12 -> Cliente 28
+Cliente 13 -> Cliente 29
+Cliente 18 -> Cliente 20
+Cliente 28 -> Almacén 2
+Productos transportados: [33.]
+Capacidad del almacén: [999999.]
 
 
 VEHÍCULO 6:
 Almacén 4 -> Cliente 30
-Cliente 12 -> Cliente 5
-Cliente 20 -> Cliente 18
-Cliente 28 -> Cliente 12
-Cliente 18 -> Almacén 11
+Cliente 29 -> Cliente 25
+Cliente 30 -> Cliente 11
+Cliente 20 -> Almacén 8
+Productos transportados: [22.]
+Capacidad del almacén: [999999.]
 
