@@ -2,15 +2,18 @@ import io
 import math
 import folium
 from pyomo.environ import value as pyomo_value
+import csv
 
 class Visualizador:
     def __init__(self, p, M):
         self.p = p
         self.M = M
-        self.path_archivo_resultados = "resultados.txt"
+        self.path_archivo_resultados_txt = "resultados.txt"
+        self.path_archivo_resultados_csv = "resultados.csv"
         self.path_archivo_solucion = "solucion.txt"
         self.visualizar()
-        self.guardar_resultados()
+        self.guardar_resultados_txt()
+        self.guardar_resultados_csv()
         self.guardar_solucion()
 
     def hacer_linea(self, mapa, coordenadas_i, coordenadas_j, i, j, color_linea='blue'):
@@ -127,8 +130,8 @@ class Visualizador:
         print(f"Se han agregado {numeroLineas} líneas al mapa")
         mapa.save('solucion.html')
 
-    def guardar_resultados(self):
-        with open(self.path_archivo_resultados, "w", encoding="utf-8") as archivo:
+    def guardar_resultados_txt(self):
+        with open(self.path_archivo_resultados_txt, "w", encoding="utf-8") as archivo:
             # Desglose de costos
             archivo.write("DESGLOSE DE COSTOS\n")
             archivo.write(f"Costo total: {pyomo_value(self.M.FO())} COP\n")
@@ -183,6 +186,53 @@ class Visualizador:
                             archivo.write(f"Estación {e} -> Almacén {a}\n")
                 archivo.write("\n")
 
+
+
+    def guardar_resultados_csv(self):
+        with open(self.path_archivo_resultados_csv, "w", newline="", encoding="utf-8") as archivo:
+            escritor = csv.writer(archivo)
+
+            # Escribir encabezado
+            escritor.writerow(["idVehiculo", "tipoInicio", "numeroInicio", "tipoFin", "numeroFin"])
+
+            for v in self.M.V:  # Iterar sobre los vehículos
+                # Salida del almacén (X_aiv y H_aev)
+                for a in self.M.A:
+                    for i in self.M.C:
+                        if self.M.X[a, i, v]() == 1:
+                            escritor.writerow([v, "Almacén", a, "Cliente", i])
+                    for e in self.M.E:
+                        if self.M.H[a, e, v]() == 1:
+                            escritor.writerow([v, "Almacén", a, "Estación", e])
+
+                # Recorrido entre clientes (Z_ijv)
+                for i in self.M.C:
+                    for j in self.M.C:
+                        if i != j and self.M.Z[i, j, v]() == 1:
+                            escritor.writerow([v, "Cliente", i, "Cliente", j])
+
+                # Recorrido entre clientes y estaciones (W_iev y U_eiv)
+                for i in self.M.C:
+                    for e in self.M.E:
+                        if self.M.W[i, e, v]() == 1:
+                            escritor.writerow([v, "Cliente", i, "Estación", e])
+                        if self.M.U[e, i, v]() == 1:
+                            escritor.writerow([v, "Estación", e, "Cliente", i])
+
+                # Recorrido entre estaciones (M_efv)
+                for e in self.M.E:
+                    for f in self.M.E:
+                        if e != f and self.M.M[e, f, v]() == 1:
+                            escritor.writerow([v, "Estación", e, "Estación", f])
+
+                # Entrada al almacén (Y_iav y L_eav)
+                for a in self.M.A:
+                    for i in self.M.C:
+                        if self.M.Y[i, a, v]() == 1:
+                            escritor.writerow([v, "Cliente", i, "Almacén", a])
+                    for e in self.M.E:
+                        if self.M.L[e, a, v]() == 1:
+                            escritor.writerow([v, "Estación", e, "Almacén", a])
 
     def guardar_solucion(self):
         buffer = io.StringIO()
