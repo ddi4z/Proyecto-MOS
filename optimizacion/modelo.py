@@ -176,15 +176,12 @@ for i in M.C:
     # Abastecimiento único al cliente (salida)
     M.abastecimientoSalida.add(sum(sum(M.Y[i,a,v] for a in M.A) for v in M.V) + sum(sum(M.Z[i,j,v] for j in M.C) for v in M.V) + sum(sum(M.W[i,e,v] for e in M.E) for v in M.V) == 1)
 
-    
-
 # Capacidad de los almacenes
 M.capacidadAlmacen = ConstraintList()
 for a in M.A:
     M.capacidadAlmacen.add(sum(sum(p.DEMANDAS[i - 1] * M.X[a,i,v] for i in M.C) for v in M.V) <= p.CAPACIDADES_PRODUCTOS_ALMACENES[a - 1])
 
-
-def d_distancia_diaria_v():
+def d_distancia_diaria_v(v):
     xy = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * (M.X[a,i,v] * p.D_ai[t - 1,a - 1,i - 1] + M.Y[i,a,v] * p.D_ia[t - 1,i - 1,a - 1]) for t in M.T) for i in M.C) for a in M.A)
     zz = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * M.Z[i,j,v] * p.D_ij[t - 1,i - 1,j - 1] for t in M.T) for j in M.C) for i in M.C)
     wu = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * (M.W[i,e,v] * p.D_ie[t - 1,i - 1,e - 1] + M.U[e,i,v] * p.D_ei[t - 1,e - 1,i - 1]) for t in M.T) for e in M.E) for i in M.C)
@@ -203,10 +200,10 @@ for v in M.V:
     
     # Una restricción incluye a la otra
     # Rango del vehículo sin tener en cuenta las recargas intermedias
-    M.rangoVehiculo.add(d_distancia_diaria_v() <= p.RANGOS[v - 1])
+    M.rangoVehiculo.add(d_distancia_diaria_v(v) <= p.RANGOS[v - 1])
 
     # Rango del vehículo con recargas intermedias
-    # M.rangoVehiculoRecargas.add(d_distancia_diaria_v() <= p.RANGOS[v - 1] * C_veces_recarga(v))
+    # M.rangoVehiculoRecargas.add(d_distancia_diaria_v(v) <= p.RANGOS[v - 1] * C_veces_recarga(v))
 
 # 2.7.2 Restricciones del grafo 
 
@@ -244,8 +241,7 @@ for v in M.V:
     # Salida y vuelta a un almacén de un vehículo
     M.salidaYVuelta.add(sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(M.H[a,e,v] for e in M.E) for a in M.A) - 
                         sum(sum(M.Y[i,a,v] for i in M.C) for a in M.A) - sum(sum(M.L[e,a,v] for e in M.E) for a in M.A) == 0)
-
-
+        
 # 2.7.5. Restricciones de los vehículos y las estaciones de carga
 
 M.entradaUnicaEstacion = ConstraintList()
