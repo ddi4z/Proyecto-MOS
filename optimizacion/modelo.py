@@ -153,7 +153,7 @@ def c_mantenimiento_diario():
     return sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * p.COSTOS_MANTENIMIENTO_DIARIO[t - 1] for t in M.T) for v in M.V)
 
 def costo_total(model):
-    return c_mantenimiento_diario() + c_tiempo_diario()
+    return c_carga_diario() + c_distancia_diario() + c_tiempo_diario() + c_recarga_diario_t() + c_mantenimiento_diario() 
 
 M.FO = Objective(rule=costo_total, sense=minimize)
 M.COSTO_CARGA_DIARIO = c_carga_diario
