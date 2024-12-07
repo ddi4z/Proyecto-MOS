@@ -8,9 +8,10 @@ class Visualizador:
     def __init__(self, p, M):
         self.p = p
         self.M = M
-        self.path_archivo_resultados_txt = "resultados.txt"
-        self.path_archivo_resultados_csv = "resultados.csv"
-        self.path_archivo_solucion = "solucion.txt"
+        self.path_archivo_resultados_txt = self.p.rutaCarpeta + "resultados.txt"
+        self.path_archivo_resultados_csv = self.p.rutaCarpeta + "resultados.csv"
+        self.path_archivo_resultados_html = self.p.rutaCarpeta + "solucion.html"
+        self.path_archivo_solucion = self.p.rutaCarpeta + "solucion.txt"
         self.visualizar()
         self.guardar_resultados_txt()
         self.guardar_resultados_csv()
@@ -127,8 +128,8 @@ class Visualizador:
                         numeroLineas += 1
                         self.hacer_linea(mapa, coordenadas_almacenes, coordenadas_estaciones, a, e, self.escoger_color(v))
         
-        print(f"Se han agregado {numeroLineas} líneas al mapa")
-        mapa.save('solucion.html')
+        # print(f"Se han agregado {numeroLineas} líneas al mapa")
+        mapa.save(self.path_archivo_resultados_html)
 
     def guardar_resultados_txt(self):
         with open(self.path_archivo_resultados_txt, "w", encoding="utf-8") as archivo:
