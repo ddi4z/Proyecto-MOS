@@ -145,7 +145,8 @@ class CargadorDeParametros:
         print("1. Caso base")
         print("2. Caso 5 clientes por vehiculo")
         print("3. Caso grandes distancias poca demanda")
-        print("4. almacenes con capacidad")
+        print("4. Caso multiproducto NO DISPONIBLE")
+        print("5. Caso estaciones de recarga")
         caso = int(input("Digite el número del caso de prueba: "))
 
         rutaPorDefecto = "optimizacion/Proyecto Seneca Libre/"
@@ -153,7 +154,7 @@ class CargadorDeParametros:
             "case_1_base/",
             "case_2_cost/",
             "case_3_supply_limits/",
-            "case_4_multi_product/"
+            "case_4_multi_product/",
             "case_5_recharge_nodes/",
         ]
         return self.cargarCaso(rutaPorDefecto + rutas[caso - 1])

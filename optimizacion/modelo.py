@@ -269,6 +269,17 @@ for e in M.E:
         # Entrada y salida de la estación de recarga
         M.entradaYSalidaEstacion.add(sum(M.H[a,e,v] for a in M.A) + sum(M.W[i,e,v] for i in M.C) + sum(M.M[f,e,v] for f in M.E) -
                                      sum(M.L[e,a,v] for a in M.A) - sum(M.U[e,i,v] for i in M.C) - sum(M.M[e,f,v] for f in M.E) == 0)
+        
+M.visitaEstacionesIntermediasSalida = ConstraintList()
+M.visitaEstacionesIntermediasEntrada = ConstraintList()
+for v in M.V:
+    for ee in M.E:
+        for ff in M.E:
+            if ee != ff:
+                M.visitaEstacionesIntermediasSalida.add(M.M[ee,ff,v] <= 
+                                                      sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(M.H[a,e,v] for e in M.E) for a in M.A))
+                M.visitaEstacionesIntermediasEntrada.add(M.M[ee,ff,v] <= 
+                                                      sum(sum(M.Y[i,a,v] for i in M.C) for a in M.A) + sum(sum(M.L[e,a,v] for e in M.E) for a in M.A))
 
 # Solución del modelo con SCIP
 
