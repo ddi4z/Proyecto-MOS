@@ -65,8 +65,6 @@ M.M = Var(M.E, M.E, M.V, within=Binary)
 M.L = Var(M.E, M.A, M.V, within=Binary)
 M.H = Var(M.A, M.E, M.V, within=Binary)
 
-for e in M.E:
-    print(f"")
 # Subtoures
 M.S = Var(M.V, M.N, within=NonNegativeIntegers)
 
@@ -149,22 +147,22 @@ def c_tiempo_energia_diario():
     return x + u + m + lh
 
 def c_recarga_diario_t():
-    return c_distancia_diario() + c_energia_diario() + c_tiempo_energia_diario()
+    return c_energia_diario() + c_tiempo_energia_diario()
  
 def c_mantenimiento_diario():
     return sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * p.COSTOS_MANTENIMIENTO_DIARIO[t - 1] for t in M.T) for v in M.V)
 
-def costo_total(M):
-    return c_recarga_diario_t() + c_mantenimiento_diario()
+def costo_total(model):
+    return c_mantenimiento_diario() + c_tiempo_diario()
 
 M.FO = Objective(rule=costo_total, sense=minimize)
-M.COSTO_CARGA_DIARIO = c_carga_diario()
-M.COSTO_DISTANCIA_DIARIO = c_distancia_diario()
-M.COSTO_TIEMPO_DIARIO = c_tiempo_diario()
-M.COSTO_RECARGA_DIARIO = c_recarga_diario_t()
-M.COSTO_ENERGIA_DIARIO = c_energia_diario()
-M.COSTO_TIEMPO_ENERGIA_DIARIO = c_tiempo_energia_diario()
-M.COSTO_MANTENIMIENTO_DIARIO = c_mantenimiento_diario()
+M.COSTO_CARGA_DIARIO = c_carga_diario
+M.COSTO_DISTANCIA_DIARIO = c_distancia_diario
+M.COSTO_TIEMPO_DIARIO = c_tiempo_diario
+M.COSTO_RECARGA_DIARIO = c_recarga_diario_t
+M.COSTO_ENERGIA_DIARIO = c_energia_diario
+M.COSTO_TIEMPO_ENERGIA_DIARIO = c_tiempo_energia_diario
+M.COSTO_MANTENIMIENTO_DIARIO = c_mantenimiento_diario
 
 # Restricciones
 
@@ -208,7 +206,7 @@ for v in M.V:
     M.rangoVehiculo.add(d_distancia_diaria_v() <= p.RANGOS[v - 1])
 
     # Rango del vehículo con recargas intermedias
-    M.rangoVehiculoRecargas.add(d_distancia_diaria_v() <= p.RANGOS[v - 1] * C_veces_recarga(v))
+    # M.rangoVehiculoRecargas.add(d_distancia_diaria_v() <= p.RANGOS[v - 1] * C_veces_recarga(v))
 
 # 2.7.2 Restricciones del grafo 
 
@@ -248,9 +246,6 @@ for v in M.V:
                         sum(sum(M.Y[i,a,v] for i in M.C) for a in M.A) - sum(sum(M.L[e,a,v] for e in M.E) for a in M.A) == 0)
 
 
-
-
-
 # 2.7.5. Restricciones de los vehículos y las estaciones de carga
 
 M.entradaUnicaEstacion = ConstraintList()
@@ -270,7 +265,11 @@ for e in M.E:
 
 solver_name = "scip"
 solver = SolverFactory(solver_name)
-
+solver.options['constraints/feastol'] = 1e-9  # Tolerancia estricta para factibilidad
+solver.options['numerics/feastol'] = 1e-9     # Asegura que las restricciones numéricas sean estrictamente respetadas
+solver.options['tol'] = 1e-6  # Configurar tolerancia
+solver.options['limits/time'] = 570
+solver.options['limits/absgap'] = 10 
 result = solver.solve(M, tee=True)
 
 # Visualización de la solución

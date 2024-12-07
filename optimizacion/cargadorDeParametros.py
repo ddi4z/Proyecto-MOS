@@ -51,7 +51,7 @@ class CargadorDeParametros:
         # Parámetros de los vehículos
         self.TIPOS_VEHICULO = self.obtenerMatrizTipoVehiculo()
         self.CAPACIDADES_PRODUCTOS_VEHICULO = self.vehiculos["Capacity"].to_numpy()
-        self.RANGOS = self.vehiculos["Range"].to_numpy() * 10000000
+        self.RANGOS = self.vehiculos["Range"].to_numpy()
         self.TIEMPOS_RECARGA_COMPLETA = [1, 20, 0]
         self.VELOCIDADES_PROMEDIO = [None, 40, None]
         self.EFICIENCIAS_ENERGETICAS = [10, 1/0.15, 1/0.15]
@@ -59,6 +59,16 @@ class CargadorDeParametros:
 
         # Carga de distancias y tiempos 
         self.obtenerMatricesDeTiempoYDistancia()
+
+        for i in range(self.num_clientes):
+            for j in range(3):
+                self.D_ij[j][i][i] = 99999
+                self.T_ij[j][i][i] = 99999
+
+        for i in range(self.num_estaciones):
+            for j in range(3):
+                self.D_ef[j][i][i] = 99999
+                self.T_ef[j][i][i] = 99999
         
         # Parámetros de los costos vehiculares
         self.TARIFAS_FLETE = [5000, 500, 4000]
