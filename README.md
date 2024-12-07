@@ -77,7 +77,6 @@ Esta carpeta incluye toda la documentación relacionada con el modelo matemátic
 - **Python 3.x**  
 - Bibliotecas necesarias:
   - `Pyomo`
-  - `Matplotlib`
   - `Pandas`
   - `Folium` 
 
