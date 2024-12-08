@@ -36,6 +36,7 @@ M.V = RangeSet(1, p.num_vehiculos)
 # Tipos de vehículos
 M.T = RangeSet(1, 3)
 
+# Tipos de productos
 M.TP = RangeSet(1, p.num_productos)
 
 # Conversiones de índices de los nodos
@@ -44,8 +45,6 @@ def indiceEstacion(e):
 
 def indiceAlmacen(a):
     return a + p.num_clientes
-
-
 
 # Variables de decisión
 
@@ -79,6 +78,43 @@ def N():
 # Cantidad de veces que se recarga un vehículo
 def C_veces_recarga(v):
     return sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(M.U[e,i,v] for i in M.C) for e in M.E) + sum(sum(M.M[e,f,v] for f in M.E) for e in M.E) + sum(sum(M.L[e,a,v] + M.H[a,e,v] for e in M.E) for a in M.A) 
+
+# Capacidad de carga de un vehículo que salió de un almacén para un tipo de producto específico
+def calcularCargaVehiculo(tp, a, v):
+    return (
+        sum(M.X[a, i, v] * p.DEMANDAS[tp - 1][i - 1] for i in M.C) +
+        sum(M.Z[i, j, v] * p.DEMANDAS[tp - 1][j - 1] for i in M.C for j in M.C) +
+        sum(M.U[e, i, v] * p.DEMANDAS[tp - 1][i - 1] for e in M.E for i in M.C)
+    )
+
+# Distancia diaria recorrida por un vehículo
+def d_distancia_diaria_v(v):
+    xy = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * (M.X[a,i,v] * p.D_ai[t - 1,a - 1,i - 1] + M.Y[i,a,v] * p.D_ia[t - 1,i - 1,a - 1]) for t in M.T) for i in M.C) for a in M.A)
+    zz = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * M.Z[i,j,v] * p.D_ij[t - 1,i - 1,j - 1] for t in M.T) for j in M.C) for i in M.C)
+    wu = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * (M.W[i,e,v] * p.D_ie[t - 1,i - 1,e - 1] + M.U[e,i,v] * p.D_ei[t - 1,e - 1,i - 1]) for t in M.T) for e in M.E) for i in M.C)
+    mm = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * M.M[e,f,v] * p.D_ef[t - 1,e - 1,f - 1] for t in M.T) for f in M.E) for e in M.E)
+    lh = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * (M.L[e,a,v] * p.D_ea[t - 1,e - 1,a - 1] + M.H[a,e,v] * p.D_ae[t - 1,a - 1,e - 1]) for t in M.T) for e in M.E) for a in M.A)
+    return xy + zz + wu + mm + lh
+
+# Borrar un componente
+def borrar_componente(M, nombre_comp):
+    lista_borrar = [vr for vr in vars(M)
+                if nombre_comp == vr
+                or vr.startswith(nombre_comp + '_index')
+                or vr.startswith(nombre_comp + '_domain')]
+
+    for cc in lista_borrar:
+        M.del_component(cc)
+
+# Obtener los costos desglosados
+def obtener_costos(M):
+    M.COSTO_CARGA_DIARIO = c_carga_diario
+    M.COSTO_DISTANCIA_DIARIO = c_distancia_diario
+    M.COSTO_TIEMPO_DIARIO = c_tiempo_diario
+    M.COSTO_RECARGA_DIARIO = c_recarga_diario_t
+    M.COSTO_ENERGIA_DIARIO = c_energia_diario
+    M.COSTO_TIEMPO_ENERGIA_DIARIO = c_tiempo_energia_diario
+    M.COSTO_MANTENIMIENTO_DIARIO = c_mantenimiento_diario
 
 # Variables dependientes
 
@@ -157,14 +193,8 @@ def c_mantenimiento_diario():
 def costo_total(model):
     return c_carga_diario() + c_distancia_diario() + c_tiempo_diario() + c_recarga_diario_t() + c_mantenimiento_diario() 
 
-M.FO = Objective(rule=costo_total, sense=minimize)
-M.COSTO_CARGA_DIARIO = c_carga_diario
-M.COSTO_DISTANCIA_DIARIO = c_distancia_diario
-M.COSTO_TIEMPO_DIARIO = c_tiempo_diario
-M.COSTO_RECARGA_DIARIO = c_recarga_diario_t
-M.COSTO_ENERGIA_DIARIO = c_energia_diario
-M.COSTO_TIEMPO_ENERGIA_DIARIO = c_tiempo_energia_diario
-M.COSTO_MANTENIMIENTO_DIARIO = c_mantenimiento_diario
+def costo_nulo(model):
+    return 0
 
 # Restricciones
 
@@ -178,18 +208,8 @@ for i in M.C:
     # Abastecimiento único al cliente (salida)
     M.abastecimientoSalida.add(sum(sum(M.Y[i,a,v] for a in M.A) for v in M.V) + sum(sum(M.Z[i,j,v] for j in M.C) for v in M.V) + sum(sum(M.W[i,e,v] for e in M.E) for v in M.V) == 1)
 
-
-
 # Capacidad de los almacenes
 M.capacidadAlmacen = ConstraintList()
-def calcularCargaVehiculo(tp, a, v):
-    return (
-        sum(M.X[a, i, v] * p.DEMANDAS[tp - 1][i - 1] for i in M.C) +
-        sum(M.Z[i, j, v] * p.DEMANDAS[tp - 1][j - 1] for i in M.C for j in M.C) +
-        sum(M.U[e, i, v] * p.DEMANDAS[tp - 1][i - 1] for e in M.E for i in M.C)
-    )
-
-# Añadir la restricción
 for a in M.A:
     for tp in M.TP:
         M.capacidadAlmacen.add(
@@ -200,21 +220,14 @@ for a in M.A:
             ) <= p.CAPACIDADES_PRODUCTOS_ALMACENES[tp - 1][a - 1]
         )
 
-def d_distancia_diaria_v(v):
-    xy = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * (M.X[a,i,v] * p.D_ai[t - 1,a - 1,i - 1] + M.Y[i,a,v] * p.D_ia[t - 1,i - 1,a - 1]) for t in M.T) for i in M.C) for a in M.A)
-    zz = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * M.Z[i,j,v] * p.D_ij[t - 1,i - 1,j - 1] for t in M.T) for j in M.C) for i in M.C)
-    wu = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * (M.W[i,e,v] * p.D_ie[t - 1,i - 1,e - 1] + M.U[e,i,v] * p.D_ei[t - 1,e - 1,i - 1]) for t in M.T) for e in M.E) for i in M.C)
-    mm = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * M.M[e,f,v] * p.D_ef[t - 1,e - 1,f - 1] for t in M.T) for f in M.E) for e in M.E)
-    lh = sum(sum(sum(p.TIPOS_VEHICULO[v-1, t-1] * (M.L[e,a,v] * p.D_ea[t - 1,e - 1,a - 1] + M.H[a,e,v] * p.D_ae[t - 1,a - 1,e - 1]) for t in M.T) for e in M.E) for a in M.A)
-    return xy + zz + wu + mm + lh
-
 M.capacidadVehiculo = ConstraintList()
 # Una restricción incluye a la otra
 M.rangoVehiculo = ConstraintList()
 M.rangoVehiculoRecargas = ConstraintList()
 for v in M.V:
     # Capacidad de los vehículos
-    M.capacidadVehiculo.add(sum(sum(sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * M.Z[i,j,v] for i in M.C) for j in M.C) + sum(sum(sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * M.U[e,i,v] for i in M.C) for e in M.E)  <= sum(p.TIPOS_VEHICULO[v - 1, t - 1] * p.CAPACIDADES_PRODUCTOS_VEHICULO[v - 1] for t in M.T))
+    M.capacidadVehiculo.add(sum(sum(sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * M.Z[i,j,v] for i in M.C) for j in M.C) + sum(sum(sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * M.U[e,i,v] for i in M.C) for e in M.E)  
+                            <= sum(p.TIPOS_VEHICULO[v - 1, t - 1] * p.CAPACIDADES_PRODUCTOS_VEHICULO[v - 1] for t in M.T))
     
     # Una restricción incluye a la otra
     # Rango del vehículo sin tener en cuenta las recargas intermedias
@@ -226,24 +239,24 @@ for v in M.V:
 # 2.7.2 Restricciones del grafo 
 
 # Prohibición de subtoures
-""" M.subtoures = ConstraintList()
-for v in M.V:
-    # Z_ijv
-    for i in M.C:
-        for j in M.C:
-            if i != j:
-                M.subtoures.add(M.S[v,i] - M.S[v,j] + M.Z[i,j,v] * N() <= N() - 1)
+M.subtoures = ConstraintList()
+# for v in M.V:
+#     # Z_ijv
+#     for i in M.C:
+#         for j in M.C:
+#             if i != j:
+#                 M.subtoures.add(M.S[v,i] - M.S[v,j] + M.Z[i,j,v] * N() <= N() - 1)
                 
-    for e in M.E:
-        # W_iev y U_eiv
-        for i in M.C:
-            M.subtoures.add(M.S[v,i] - M.S[v,indiceEstacion(e)] + M.W[i,e,v] * N() <= N() - 1)
-            M.subtoures.add(M.S[v,indiceEstacion(e)] - M.S[v,i] + M.U[e,i,v] * N() <= N() - 1)
+#     for e in M.E:
+#         # W_iev y U_eiv
+#         for i in M.C:
+#             M.subtoures.add(M.S[v,i] - M.S[v,indiceEstacion(e)] + M.W[i,e,v] * N() <= N() - 1)
+#             M.subtoures.add(M.S[v,indiceEstacion(e)] - M.S[v,i] + M.U[e,i,v] * N() <= N() - 1)
 
-        # M_efv
-        for f in M.E:
-            if e != f:
-                M.subtoures.add(M.S[v,indiceEstacion(e)] - M.S[v,indiceEstacion(f)] + M.M[e,f,v] * N() <= N() - 1) """
+#         # M_efv
+#         for f in M.E:
+#             if e != f:
+#                 M.subtoures.add(M.S[v,indiceEstacion(e)] - M.S[v,indiceEstacion(f)] + M.M[e,f,v] * N() <= N() - 1)
                 
                 
 # 2.7.3 Restricciones de los vehículos y los almacenes
@@ -268,8 +281,10 @@ for v in M.V:
     for ii in M.C:
         for jj in M.C:
             if ii != jj:
+                # Visita de clientes intermedios (salida del almacén)
                 M.visitaClientesIntermediosSalida.add(M.Z[ii,jj,v] <= 
                                                       sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(M.H[a,e,v] for e in M.E) for a in M.A))
+                # Visita de clientes intermedios (entrada al almacén)
                 M.visitaClientesIntermediosEntrada.add(M.Z[ii,jj,v] <= 
                                                       sum(sum(M.Y[i,a,v] for i in M.C) for a in M.A) + sum(sum(M.L[e,a,v] for e in M.E) for a in M.A))
 
@@ -294,23 +309,35 @@ for v in M.V:
     for ee in M.E:
         for ff in M.E:
             if ee != ff:
+                # Visita de estaciones intermedias (salida del almacén)
                 M.visitaEstacionesIntermediasSalida.add(M.M[ee,ff,v] <= 
                                                       sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(M.H[a,e,v] for e in M.E) for a in M.A))
+                # Visita de estaciones intermedias (entrada al almacén)
                 M.visitaEstacionesIntermediasEntrada.add(M.M[ee,ff,v] <= 
                                                       sum(sum(M.Y[i,a,v] for i in M.C) for a in M.A) + sum(sum(M.L[e,a,v] for e in M.E) for a in M.A))
 
 # Solución del modelo con SCIP
-
 solver_name = "scip"
+
+# Solución del modelo factible
+solver_factible = SolverFactory(solver_name)
+solver_factible.options['numerics/feastol'] = 1e-9     # Asegura que las restricciones numéricas sean estrictamente respetadas
+solver_factible.options['limits/time'] = 570
+solver_factible.options['limits/absgap'] = 10
+
+M.FO_factible = Objective(rule=costo_nulo, sense=minimize)
+resultado_factible = solver_factible.solve(M, tee=True)
+borrar_componente(M, "FO_factible")
+
+# Solución del modelo
 solver = SolverFactory(solver_name)
-solver.options['constraints/feastol'] = 1e-9  # Tolerancia estricta para factibilidad
 solver.options['numerics/feastol'] = 1e-9     # Asegura que las restricciones numéricas sean estrictamente respetadas
-solver.options['tol'] = 1e-6  # Configurar tolerancia
 solver.options['limits/time'] = 570
-solver.options['limits/absgap'] = 10 
-result = solver.solve(M, tee=True)
+solver.options['limits/absgap'] = 10
+
+M.FO = Objective(rule=costo_total, sense=minimize)
+resultado = solver.solve(M, tee=True)
 
 # Visualización de la solución
-
-M.display()
+obtener_costos(M)
 v = Visualizador(p, M)

@@ -45,6 +45,7 @@ class CargadorDeParametros:
         else:
             self.DEMANDAS = np.zeros((1, self.num_clientes))
             self.DEMANDAS[0] = self.clientes["Product"].to_numpy()
+        
         self.LONGITUDES_CLIENTES = self.clientes["Longitude"].to_numpy()
         self.LATITUDES_CLIENTES = self.clientes["Latitude"].to_numpy()
 
@@ -57,6 +58,7 @@ class CargadorDeParametros:
         else:
             self.CAPACIDADES_PRODUCTOS_ALMACENES = np.zeros((1, self.num_almacenes))
             self.CAPACIDADES_PRODUCTOS_ALMACENES[0] = self.capacidades_almacenes["Product"].to_numpy()
+        
         self.LONGITUDES_ALMACENES = self.almacenes["Longitude"].to_numpy()
         self.LATITUDES_ALMACENES =  self.almacenes["Latitude"].to_numpy()
 
