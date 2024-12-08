@@ -1,0 +1,13 @@
+idVehiculo,tipoInicio,numeroInicio,tipoFin,numeroFin
+1,almacen,1,cliente,1
+1,cliente,1,cliente,4
+1,cliente,4,cliente,7
+1,cliente,7,cliente,2
+1,cliente,2,cliente,3
+1,cliente,3,cliente,6
+1,cliente,6,cliente,5
+1,cliente,5,cliente,8
+1,cliente,8,cliente,11
+1,cliente,11,cliente,9
+1,cliente,9,cliente,10
+1,cliente,10,almacen,1
