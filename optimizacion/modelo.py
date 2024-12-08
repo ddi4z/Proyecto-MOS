@@ -120,7 +120,7 @@ def obtener_costos(M):
 
 def t_kg_v_diario():
     x = sum(sum(sum(M.X[a,i,v] * sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * p.TIEMPO_CARGA_MINUTO for i in M.C) for a in M.A) for v in M.V)
-    z = sum(sum(sum(M.Z[i,j,v] * sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * p.TIEMPO_CARGA_MINUTO for i in M.C) for j in M.C) for v in M.V)
+    z = sum(sum(sum(M.Z[i,j,v] * sum(p.DEMANDAS[tp - 1,j - 1] for tp in M.TP) * p.TIEMPO_CARGA_MINUTO for i in M.C) for j in M.C) for v in M.V)
     u = sum(sum(sum(M.U[e,i,v] * sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * p.TIEMPO_CARGA_MINUTO for i in M.C) for e in M.E) for v in M.V)
     return x + z + u
 
@@ -150,7 +150,7 @@ def t_recarga_diario_t():
 
 def c_carga_diario():
     x = sum(sum(sum(M.X[a,i,v] * sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * p.TIEMPO_CARGA_MINUTO * p.COSTO_CARGA_MINUTO for i in M.C) for a in M.A) for v in M.V)
-    z = sum(sum(sum(M.Z[i,j,v] * sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * p.TIEMPO_CARGA_MINUTO * p.COSTO_CARGA_MINUTO for j in M.C) for i in M.C) for v in M.V)
+    z = sum(sum(sum(M.Z[i,j,v] * sum(p.DEMANDAS[tp - 1,j - 1] for tp in M.TP) * p.TIEMPO_CARGA_MINUTO * p.COSTO_CARGA_MINUTO for j in M.C) for i in M.C) for v in M.V)
     u = sum(sum(sum(M.U[e,i,v] * sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * p.TIEMPO_CARGA_MINUTO * p.COSTO_CARGA_MINUTO for i in M.C) for e in M.E) for v in M.V)
     return x + z + u
 
@@ -210,15 +210,15 @@ for i in M.C:
 
 # Capacidad de los almacenes
 M.capacidadAlmacen = ConstraintList()
-for a in M.A:
-    for tp in M.TP:
-        M.capacidadAlmacen.add(
-            sum(
-                (sum(M.X[a, i, v] for i in M.C) + sum(M.H[a, e, v] for e in M.E)) *
-                calcularCargaVehiculo(tp, a, v)
-                for v in M.V
-            ) <= p.CAPACIDADES_PRODUCTOS_ALMACENES[tp - 1][a - 1]
-        )
+# for a in M.A:
+#     for tp in M.TP:
+#         M.capacidadAlmacen.add(
+#             sum(
+#                 (sum(M.X[a, i, v] for i in M.C) + sum(M.H[a, e, v] for e in M.E)) *
+#                 calcularCargaVehiculo(tp, a, v)
+#                 for v in M.V
+#             ) <= p.CAPACIDADES_PRODUCTOS_ALMACENES[tp - 1][a - 1]
+#         )
 
 M.capacidadVehiculo = ConstraintList()
 # Una restricción incluye a la otra
@@ -226,7 +226,7 @@ M.rangoVehiculo = ConstraintList()
 M.rangoVehiculoRecargas = ConstraintList()
 for v in M.V:
     # Capacidad de los vehículos
-    M.capacidadVehiculo.add(sum(sum(sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * M.Z[i,j,v] for i in M.C) for j in M.C) + sum(sum(sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * M.U[e,i,v] for i in M.C) for e in M.E)  
+    M.capacidadVehiculo.add(sum(sum(sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(sum(p.DEMANDAS[tp - 1,j - 1] for tp in M.TP) * M.Z[i,j,v] for i in M.C) for j in M.C) + sum(sum(sum(p.DEMANDAS[tp - 1,i - 1] for tp in M.TP) * M.U[e,i,v] for i in M.C) for e in M.E)  
                             <= sum(p.TIPOS_VEHICULO[v - 1, t - 1] * p.CAPACIDADES_PRODUCTOS_VEHICULO[v - 1] for t in M.T))
     
     # Una restricción incluye a la otra
@@ -320,18 +320,17 @@ for v in M.V:
 solver_name = "scip"
 
 # Solución del modelo factible
-solver_factible = SolverFactory(solver_name)
-solver_factible.options['numerics/feastol'] = 1e-9     # Asegura que las restricciones numéricas sean estrictamente respetadas
-solver_factible.options['limits/time'] = 570
-solver_factible.options['limits/absgap'] = 10
+# solver_factible = SolverFactory(solver_name)
+# solver_factible.options['numerics/feastol'] = 1e-9
+# solver_factible.options['limits/time'] = 570
+# solver_factible.options['limits/absgap'] = 10
 
-M.FO_factible = Objective(rule=costo_nulo, sense=minimize)
-resultado_factible = solver_factible.solve(M, tee=True)
-borrar_componente(M, "FO_factible")
+# M.FO = Objective(rule=costo_nulo, sense=minimize)
+# resultado_factible = solver_factible.solve(M, tee=True)
 
 # Solución del modelo
 solver = SolverFactory(solver_name)
-solver.options['numerics/feastol'] = 1e-9     # Asegura que las restricciones numéricas sean estrictamente respetadas
+solver.options['numerics/feastol'] = 1e-9
 solver.options['limits/time'] = 570
 solver.options['limits/absgap'] = 10
 
