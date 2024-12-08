@@ -7,11 +7,11 @@ Model unknown
            (1, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (1, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
            (1, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
-           (1, 1, 5) :     0 :   0.0 :     1 : False : False : Binary
-           (1, 1, 6) :     0 :   0.0 :     1 : False : False : Binary
-           (1, 1, 7) :     0 :   0.0 :     1 : False : False : Binary
-           (1, 1, 8) :     0 :   0.0 :     1 : False : False : Binary
-           (1, 1, 9) :     0 :   0.0 :     1 : False : False : Binary
+           (1, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+           (1, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+           (1, 1, 7) :     0 :  -0.0 :     1 : False : False : Binary
+           (1, 1, 8) :     0 :  -0.0 :     1 : False : False : Binary
+           (1, 1, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (1, 1, 10) :     0 :  -0.0 :     1 : False : False : Binary
           (1, 1, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (1, 1, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -146,7 +146,7 @@ Model unknown
           (1, 12, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (1, 12, 10) :     0 :   0.0 :     1 : False : False : Binary
          (1, 12, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (1, 12, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 12, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (1, 13, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (1, 13, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (1, 13, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -309,9 +309,9 @@ Model unknown
            (2, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 2, 5) :     0 :   0.0 :     1 : False : False : Binary
            (2, 2, 6) :     0 :   0.0 :     1 : False : False : Binary
-           (2, 2, 7) :     0 :   0.0 :     1 : False : False : Binary
+           (2, 2, 7) :     0 :   1.0 :     1 : False : False : Binary
            (2, 2, 8) :     0 :   0.0 :     1 : False : False : Binary
-           (2, 2, 9) :     0 :   1.0 :     1 : False : False : Binary
+           (2, 2, 9) :     0 :   0.0 :     1 : False : False : Binary
           (2, 2, 10) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 2, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 2, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -608,9 +608,9 @@ Model unknown
            (3, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
            (3, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
            (3, 3, 5) :     0 :   0.0 :     1 : False : False : Binary
-           (3, 3, 6) :     0 :   0.0 :     1 : False : False : Binary
+           (3, 3, 6) :     0 :   1.0 :     1 : False : False : Binary
            (3, 3, 7) :     0 :   0.0 :     1 : False : False : Binary
-           (3, 3, 8) :     0 :   1.0 :     1 : False : False : Binary
+           (3, 3, 8) :     0 :   0.0 :     1 : False : False : Binary
            (3, 3, 9) :     0 :   0.0 :     1 : False : False : Binary
           (3, 3, 10) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 3, 11) :     0 :  -0.0 :     1 : False : False : Binary
@@ -829,8 +829,8 @@ Model unknown
           (3, 21, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 21, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (3, 21, 10) :     0 :   0.0 :     1 : False : False : Binary
-         (3, 21, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (3, 21, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 21, 11) :     0 :   1.0 :     1 : False : False : Binary
+         (3, 21, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 22, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 22, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 22, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -889,8 +889,8 @@ Model unknown
            (4, 2, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (4, 2, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (4, 2, 10) :     0 :   0.0 :     1 : False : False : Binary
-          (4, 2, 11) :     0 :   0.0 :     1 : False : False : Binary
-          (4, 2, 12) :     0 :   0.0 :     1 : False : False : Binary
+          (4, 2, 11) :     0 :  -0.0 :     1 : False : False : Binary
+          (4, 2, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (4, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (4, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (4, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -907,11 +907,11 @@ Model unknown
            (4, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (4, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
            (4, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
-           (4, 4, 5) :     0 :   0.0 :     1 : False : False : Binary
-           (4, 4, 6) :     0 :   0.0 :     1 : False : False : Binary
-           (4, 4, 7) :     0 :   0.0 :     1 : False : False : Binary
-           (4, 4, 8) :     0 :   0.0 :     1 : False : False : Binary
-           (4, 4, 9) :     0 :   0.0 :     1 : False : False : Binary
+           (4, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+           (4, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+           (4, 4, 7) :     0 :  -0.0 :     1 : False : False : Binary
+           (4, 4, 8) :     0 :  -0.0 :     1 : False : False : Binary
+           (4, 4, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (4, 4, 10) :     0 :  -0.0 :     1 : False : False : Binary
           (4, 4, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (4, 4, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -949,7 +949,7 @@ Model unknown
            (4, 7, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (4, 7, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (4, 7, 10) :     0 :   0.0 :     1 : False : False : Binary
-          (4, 7, 11) :     0 :   0.0 :     1 : False : False : Binary
+          (4, 7, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (4, 7, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (4, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (4, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -1261,7 +1261,7 @@ Model unknown
            (5, 9, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (5, 9, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (5, 9, 10) :     0 :   0.0 :     1 : False : False : Binary
-          (5, 9, 11) :     0 :   0.0 :     1 : False : False : Binary
+          (5, 9, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (5, 9, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (5, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (5, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -1285,7 +1285,7 @@ Model unknown
           (5, 11, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (5, 11, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (5, 11, 10) :     0 :   0.0 :     1 : False : False : Binary
-         (5, 11, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (5, 11, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (5, 11, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (5, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (5, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -1358,7 +1358,7 @@ Model unknown
           (5, 17, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (5, 17, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (5, 17, 11) :     0 :  -0.0 :     1 : False : False : Binary
-         (5, 17, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (5, 17, 12) :     0 :   1.0 :     1 : False : False : Binary
           (5, 18, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (5, 18, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (5, 18, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -1500,18 +1500,18 @@ Model unknown
            (6, 5, 7) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 5, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 5, 9) :     0 :  -0.0 :     1 : False : False : Binary
-          (6, 5, 10) :     0 :  -0.0 :     1 : False : False : Binary
+          (6, 5, 10) :     0 :   0.0 :     1 : False : False : Binary
           (6, 5, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 5, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
-           (6, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
-           (6, 6, 6) :     0 :   0.0 :     1 : False : False : Binary
-           (6, 6, 7) :     0 :   0.0 :     1 : False : False : Binary
-           (6, 6, 8) :     0 :   0.0 :     1 : False : False : Binary
-           (6, 6, 9) :     0 :   0.0 :     1 : False : False : Binary
+           (6, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+           (6, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+           (6, 6, 7) :     0 :  -0.0 :     1 : False : False : Binary
+           (6, 6, 8) :     0 :  -0.0 :     1 : False : False : Binary
+           (6, 6, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 6, 10) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 6, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 6, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -1536,7 +1536,7 @@ Model unknown
            (6, 8, 7) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 8, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 8, 9) :     0 :  -0.0 :     1 : False : False : Binary
-          (6, 8, 10) :     0 :  -0.0 :     1 : False : False : Binary
+          (6, 8, 10) :     0 :   0.0 :     1 : False : False : Binary
           (6, 8, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 8, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 9, 1) :     0 :  -0.0 :     1 : False : False : Binary
@@ -1741,8 +1741,8 @@ Model unknown
            (7, 1, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 1, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 1, 10) :     0 :   0.0 :     1 : False : False : Binary
-          (7, 1, 11) :     0 :   0.0 :     1 : False : False : Binary
-          (7, 1, 12) :     0 :   0.0 :     1 : False : False : Binary
+          (7, 1, 11) :     0 :  -0.0 :     1 : False : False : Binary
+          (7, 1, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -1777,7 +1777,7 @@ Model unknown
            (7, 4, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 4, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 4, 10) :     0 :   0.0 :     1 : False : False : Binary
-          (7, 4, 11) :     0 :   0.0 :     1 : False : False : Binary
+          (7, 4, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 4, 12) :     0 :   0.0 :     1 : False : False : Binary
            (7, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -1808,10 +1808,10 @@ Model unknown
            (7, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 7, 5) :     0 :   0.0 :     1 : False : False : Binary
-           (7, 7, 6) :     0 :   1.0 :     1 : False : False : Binary
+           (7, 7, 6) :     0 :   0.0 :     1 : False : False : Binary
            (7, 7, 7) :     0 :   0.0 :     1 : False : False : Binary
            (7, 7, 8) :     0 :   0.0 :     1 : False : False : Binary
-           (7, 7, 9) :     0 :   0.0 :     1 : False : False : Binary
+           (7, 7, 9) :     0 :   1.0 :     1 : False : False : Binary
           (7, 7, 10) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 7, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 7, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -1909,7 +1909,7 @@ Model unknown
           (7, 15, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 15, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (7, 15, 10) :     0 :   0.0 :     1 : False : False : Binary
-         (7, 15, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 15, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (7, 15, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 16, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 16, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -1992,8 +1992,8 @@ Model unknown
           (7, 22, 7) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 22, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 22, 9) :     0 :  -0.0 :     1 : False : False : Binary
-         (7, 22, 10) :     0 :   1.0 :     1 : False : False : Binary
-         (7, 22, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 22, 10) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 22, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (7, 22, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 23, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 23, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -2342,7 +2342,7 @@ Model unknown
            (9, 3, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 3, 10) :     0 :   0.0 :     1 : False : False : Binary
           (9, 3, 11) :     0 :   0.0 :     1 : False : False : Binary
-          (9, 3, 12) :     0 :   0.0 :     1 : False : False : Binary
+          (9, 3, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (9, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (9, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (9, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -2409,8 +2409,8 @@ Model unknown
            (9, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
            (9, 9, 5) :     0 :   0.0 :     1 : False : False : Binary
            (9, 9, 6) :     0 :   0.0 :     1 : False : False : Binary
-           (9, 9, 7) :     0 :   1.0 :     1 : False : False : Binary
-           (9, 9, 8) :     0 :   0.0 :     1 : False : False : Binary
+           (9, 9, 7) :     0 :   0.0 :     1 : False : False : Binary
+           (9, 9, 8) :     0 :   1.0 :     1 : False : False : Binary
            (9, 9, 9) :     0 :   0.0 :     1 : False : False : Binary
           (9, 9, 10) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 9, 11) :     0 :  -0.0 :     1 : False : False : Binary
@@ -2472,9 +2472,9 @@ Model unknown
           (9, 14, 7) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 14, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 14, 9) :     0 :  -0.0 :     1 : False : False : Binary
-         (9, 14, 10) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 14, 10) :     0 :   0.0 :     1 : False : False : Binary
          (9, 14, 11) :     0 :  -0.0 :     1 : False : False : Binary
-         (9, 14, 12) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 14, 12) :     0 :   0.0 :     1 : False : False : Binary
           (9, 15, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 15, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 15, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -2544,7 +2544,7 @@ Model unknown
           (9, 20, 7) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 20, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 20, 9) :     0 :  -0.0 :     1 : False : False : Binary
-         (9, 20, 10) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 20, 10) :     0 :   0.0 :     1 : False : False : Binary
          (9, 20, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (9, 20, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 21, 1) :     0 :  -0.0 :     1 : False : False : Binary
@@ -2580,9 +2580,9 @@ Model unknown
           (9, 23, 7) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 23, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 23, 9) :     0 :  -0.0 :     1 : False : False : Binary
-         (9, 23, 10) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 23, 10) :     0 :   0.0 :     1 : False : False : Binary
          (9, 23, 11) :     0 :  -0.0 :     1 : False : False : Binary
-         (9, 23, 12) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 23, 12) :     0 :   0.0 :     1 : False : False : Binary
           (9, 24, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 24, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 24, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -2713,7 +2713,7 @@ Model unknown
          (10, 10, 8) :     0 :   0.0 :     1 : False : False : Binary
          (10, 10, 9) :     0 :   0.0 :     1 : False : False : Binary
         (10, 10, 10) :     0 :   0.0 :     1 : False : False : Binary
-        (10, 10, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (10, 10, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (10, 10, 12) :     0 :   0.0 :     1 : False : False : Binary
          (10, 11, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -2953,7 +2953,7 @@ Model unknown
           (11, 6, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (11, 6, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 6, 10) :     0 :   0.0 :     1 : False : False : Binary
-         (11, 6, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (11, 6, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 6, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (11, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (11, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -3037,7 +3037,7 @@ Model unknown
          (11, 13, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 13, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (11, 13, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (11, 13, 11) :     0 :   1.0 :     1 : False : False : Binary
+        (11, 13, 11) :     0 :   0.0 :     1 : False : False : Binary
         (11, 13, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 14, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 14, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -3456,9 +3456,9 @@ Model unknown
          (12, 24, 7) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 24, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 24, 9) :     0 :  -0.0 :     1 : False : False : Binary
-        (12, 24, 10) :     0 :   0.0 :     1 : False : False : Binary
+        (12, 24, 10) :     0 :   1.0 :     1 : False : False : Binary
         (12, 24, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (12, 24, 12) :     0 :   1.0 :     1 : False : False : Binary
+        (12, 24, 12) :     0 :   0.0 :     1 : False : False : Binary
     Y : Size=3456, Index=C*A*V
         Key          : Lower : Value : Upper : Fixed : Stale : Domain
            (1, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
@@ -3650,9 +3650,9 @@ Model unknown
            (2, 4, 7) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 4, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 4, 9) :     0 :  -0.0 :     1 : False : False : Binary
-          (2, 4, 10) :     0 :   0.0 :     1 : False : False : Binary
-          (2, 4, 11) :     0 :   0.0 :     1 : False : False : Binary
-          (2, 4, 12) :     0 :   0.0 :     1 : False : False : Binary
+          (2, 4, 10) :     0 :  -0.0 :     1 : False : False : Binary
+          (2, 4, 11) :     0 :  -0.0 :     1 : False : False : Binary
+          (2, 4, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -3854,9 +3854,9 @@ Model unknown
            (3, 9, 7) :     0 :  -0.0 :     1 : False : False : Binary
            (3, 9, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (3, 9, 9) :     0 :  -0.0 :     1 : False : False : Binary
-          (3, 9, 10) :     0 :   0.0 :     1 : False : False : Binary
+          (3, 9, 10) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 9, 11) :     0 :   0.0 :     1 : False : False : Binary
-          (3, 9, 12) :     0 :   0.0 :     1 : False : False : Binary
+          (3, 9, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 10, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -4245,11 +4245,11 @@ Model unknown
            (6, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
-           (6, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
-           (6, 6, 6) :     0 :   0.0 :     1 : False : False : Binary
-           (6, 6, 7) :     0 :   0.0 :     1 : False : False : Binary
-           (6, 6, 8) :     0 :   0.0 :     1 : False : False : Binary
-           (6, 6, 9) :     0 :   0.0 :     1 : False : False : Binary
+           (6, 6, 5) :     0 :  -0.0 :     1 : False : False : Binary
+           (6, 6, 6) :     0 :  -0.0 :     1 : False : False : Binary
+           (6, 6, 7) :     0 :  -0.0 :     1 : False : False : Binary
+           (6, 6, 8) :     0 :  -0.0 :     1 : False : False : Binary
+           (6, 6, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 6, 10) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 6, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 6, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -4310,9 +4310,9 @@ Model unknown
           (6, 11, 7) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 11, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 11, 9) :     0 :  -0.0 :     1 : False : False : Binary
-         (6, 11, 10) :     0 :   0.0 :     1 : False : False : Binary
-         (6, 11, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (6, 11, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 11, 10) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 11, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 11, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 12, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -4370,9 +4370,9 @@ Model unknown
            (7, 4, 7) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 4, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 4, 9) :     0 :  -0.0 :     1 : False : False : Binary
-          (7, 4, 10) :     0 :   0.0 :     1 : False : False : Binary
-          (7, 4, 11) :     0 :   0.0 :     1 : False : False : Binary
-          (7, 4, 12) :     0 :   0.0 :     1 : False : False : Binary
+          (7, 4, 10) :     0 :  -0.0 :     1 : False : False : Binary
+          (7, 4, 11) :     0 :  -0.0 :     1 : False : False : Binary
+          (7, 4, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -4401,11 +4401,11 @@ Model unknown
            (7, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
-           (7, 7, 5) :     0 :   1.0 :     1 : False : False : Binary
+           (7, 7, 5) :     0 :   0.0 :     1 : False : False : Binary
            (7, 7, 6) :     0 :   0.0 :     1 : False : False : Binary
            (7, 7, 7) :     0 :   0.0 :     1 : False : False : Binary
            (7, 7, 8) :     0 :   0.0 :     1 : False : False : Binary
-           (7, 7, 9) :     0 :   0.0 :     1 : False : False : Binary
+           (7, 7, 9) :     0 :   1.0 :     1 : False : False : Binary
           (7, 7, 10) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 7, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 7, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -4671,8 +4671,8 @@ Model unknown
            (9, 5, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (9, 5, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 5, 10) :     0 :   0.0 :     1 : False : False : Binary
-          (9, 5, 11) :     0 :   0.0 :     1 : False : False : Binary
-          (9, 5, 12) :     0 :   0.0 :     1 : False : False : Binary
+          (9, 5, 11) :     0 :  -0.0 :     1 : False : False : Binary
+          (9, 5, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (9, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (9, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (9, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -4716,8 +4716,8 @@ Model unknown
            (9, 9, 5) :     0 :   0.0 :     1 : False : False : Binary
            (9, 9, 6) :     0 :   0.0 :     1 : False : False : Binary
            (9, 9, 7) :     0 :   0.0 :     1 : False : False : Binary
-           (9, 9, 8) :     0 :   0.0 :     1 : False : False : Binary
-           (9, 9, 9) :     0 :   1.0 :     1 : False : False : Binary
+           (9, 9, 8) :     0 :   1.0 :     1 : False : False : Binary
+           (9, 9, 9) :     0 :   0.0 :     1 : False : False : Binary
           (9, 9, 10) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 9, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 9, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -4958,9 +4958,9 @@ Model unknown
           (11, 5, 7) :     0 :  -0.0 :     1 : False : False : Binary
           (11, 5, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (11, 5, 9) :     0 :  -0.0 :     1 : False : False : Binary
-         (11, 5, 10) :     0 :   0.0 :     1 : False : False : Binary
-         (11, 5, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (11, 5, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (11, 5, 10) :     0 :  -0.0 :     1 : False : False : Binary
+         (11, 5, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (11, 5, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (11, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (11, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (11, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -5025,10 +5025,10 @@ Model unknown
          (11, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 11, 3) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 11, 4) :     0 :  -0.0 :     1 : False : False : Binary
-         (11, 11, 5) :     0 :   0.0 :     1 : False : False : Binary
+         (11, 11, 5) :     0 :   1.0 :     1 : False : False : Binary
          (11, 11, 6) :     0 :   0.0 :     1 : False : False : Binary
          (11, 11, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (11, 11, 8) :     0 :   1.0 :     1 : False : False : Binary
+         (11, 11, 8) :     0 :   0.0 :     1 : False : False : Binary
          (11, 11, 9) :     0 :   0.0 :     1 : False : False : Binary
         (11, 11, 10) :     0 :  -0.0 :     1 : False : False : Binary
         (11, 11, 11) :     0 :  -0.0 :     1 : False : False : Binary
@@ -5054,9 +5054,9 @@ Model unknown
           (12, 1, 7) :     0 :  -0.0 :     1 : False : False : Binary
           (12, 1, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (12, 1, 9) :     0 :  -0.0 :     1 : False : False : Binary
-         (12, 1, 10) :     0 :   0.0 :     1 : False : False : Binary
-         (12, 1, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (12, 1, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (12, 1, 10) :     0 :  -0.0 :     1 : False : False : Binary
+         (12, 1, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (12, 1, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (12, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (12, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (12, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -5181,11 +5181,11 @@ Model unknown
          (12, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 12, 3) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 12, 4) :     0 :  -0.0 :     1 : False : False : Binary
-         (12, 12, 5) :     0 :   0.0 :     1 : False : False : Binary
-         (12, 12, 6) :     0 :   0.0 :     1 : False : False : Binary
-         (12, 12, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (12, 12, 8) :     0 :   0.0 :     1 : False : False : Binary
-         (12, 12, 9) :     0 :   0.0 :     1 : False : False : Binary
+         (12, 12, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (12, 12, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (12, 12, 7) :     0 :  -0.0 :     1 : False : False : Binary
+         (12, 12, 8) :     0 :  -0.0 :     1 : False : False : Binary
+         (12, 12, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (12, 12, 10) :     0 :  -0.0 :     1 : False : False : Binary
         (12, 12, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (12, 12, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -5318,9 +5318,9 @@ Model unknown
          (13, 11, 7) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 11, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 11, 9) :     0 :  -0.0 :     1 : False : False : Binary
-        (13, 11, 10) :     0 :   0.0 :     1 : False : False : Binary
-        (13, 11, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (13, 11, 12) :     0 :   1.0 :     1 : False : False : Binary
+        (13, 11, 10) :     0 :  -0.0 :     1 : False : False : Binary
+        (13, 11, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (13, 11, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 12, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -5822,9 +5822,9 @@ Model unknown
           (17, 5, 7) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 5, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 5, 9) :     0 :  -0.0 :     1 : False : False : Binary
-         (17, 5, 10) :     0 :   0.0 :     1 : False : False : Binary
-         (17, 5, 11) :     0 :   1.0 :     1 : False : False : Binary
-         (17, 5, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (17, 5, 10) :     0 :  -0.0 :     1 : False : False : Binary
+         (17, 5, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (17, 5, 12) :     0 :   1.0 :     1 : False : False : Binary
           (17, 6, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -5978,9 +5978,9 @@ Model unknown
           (18, 6, 7) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 6, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 6, 9) :     0 :  -0.0 :     1 : False : False : Binary
-         (18, 6, 10) :     0 :   0.0 :     1 : False : False : Binary
-         (18, 6, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (18, 6, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (18, 6, 10) :     0 :  -0.0 :     1 : False : False : Binary
+         (18, 6, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (18, 6, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -6099,8 +6099,8 @@ Model unknown
           (19, 4, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 4, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (19, 4, 10) :     0 :   0.0 :     1 : False : False : Binary
-         (19, 4, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (19, 4, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (19, 4, 11) :     0 :   1.0 :     1 : False : False : Binary
+         (19, 4, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -6302,9 +6302,9 @@ Model unknown
           (20, 9, 7) :     0 :  -0.0 :     1 : False : False : Binary
           (20, 9, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (20, 9, 9) :     0 :  -0.0 :     1 : False : False : Binary
-         (20, 9, 10) :     0 :   0.0 :     1 : False : False : Binary
-         (20, 9, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (20, 9, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (20, 9, 10) :     0 :  -0.0 :     1 : False : False : Binary
+         (20, 9, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (20, 9, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (20, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (20, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (20, 10, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -6374,9 +6374,9 @@ Model unknown
           (21, 3, 7) :     0 :  -0.0 :     1 : False : False : Binary
           (21, 3, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (21, 3, 9) :     0 :  -0.0 :     1 : False : False : Binary
-         (21, 3, 10) :     0 :   0.0 :     1 : False : False : Binary
+         (21, 3, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (21, 3, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (21, 3, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (21, 3, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (21, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (21, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (21, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -6566,9 +6566,9 @@ Model unknown
           (22, 7, 7) :     0 :  -0.0 :     1 : False : False : Binary
           (22, 7, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (22, 7, 9) :     0 :  -0.0 :     1 : False : False : Binary
-         (22, 7, 10) :     0 :   0.0 :     1 : False : False : Binary
-         (22, 7, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (22, 7, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (22, 7, 10) :     0 :  -0.0 :     1 : False : False : Binary
+         (22, 7, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (22, 7, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (22, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (22, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (22, 8, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -6734,9 +6734,9 @@ Model unknown
           (23, 9, 7) :     0 :  -0.0 :     1 : False : False : Binary
           (23, 9, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (23, 9, 9) :     0 :  -0.0 :     1 : False : False : Binary
-         (23, 9, 10) :     0 :   0.0 :     1 : False : False : Binary
-         (23, 9, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (23, 9, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (23, 9, 10) :     0 :  -0.0 :     1 : False : False : Binary
+         (23, 9, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (23, 9, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (23, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (23, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (23, 10, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7094,8 +7094,8 @@ Model unknown
           (1, 15, 5) :     0 :   0.0 :     1 : False : False : Binary
           (1, 15, 6) :     0 :   0.0 :     1 : False : False : Binary
           (1, 15, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (1, 15, 8) :     0 :   1.0 :     1 : False : False : Binary
-          (1, 15, 9) :     0 :   0.0 :     1 : False : False : Binary
+          (1, 15, 8) :     0 :   0.0 :     1 : False : False : Binary
+          (1, 15, 9) :     0 :   1.0 :     1 : False : False : Binary
          (1, 15, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (1, 15, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (1, 15, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7118,7 +7118,7 @@ Model unknown
           (1, 17, 5) :     0 :   0.0 :     1 : False : False : Binary
           (1, 17, 6) :     0 :   0.0 :     1 : False : False : Binary
           (1, 17, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (1, 17, 8) :     0 :   0.0 :     1 : False : False : Binary
+          (1, 17, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (1, 17, 9) :     0 :   0.0 :     1 : False : False : Binary
          (1, 17, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (1, 17, 11) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7241,8 +7241,8 @@ Model unknown
            (2, 3, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 3, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 3, 10) :     0 :  -0.0 :     1 : False : False : Binary
-          (2, 3, 11) :     0 :   0.0 :     1 : False : False : Binary
-          (2, 3, 12) :     0 :   0.0 :     1 : False : False : Binary
+          (2, 3, 11) :     0 :  -0.0 :     1 : False : False : Binary
+          (2, 3, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7277,7 +7277,7 @@ Model unknown
            (2, 6, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 6, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 6, 10) :     0 :  -0.0 :     1 : False : False : Binary
-          (2, 6, 11) :     0 :   0.0 :     1 : False : False : Binary
+          (2, 6, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 6, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7289,7 +7289,7 @@ Model unknown
            (2, 7, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 7, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 7, 10) :     0 :  -0.0 :     1 : False : False : Binary
-          (2, 7, 11) :     0 :   0.0 :     1 : False : False : Binary
+          (2, 7, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 7, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (2, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7349,19 +7349,19 @@ Model unknown
           (2, 12, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 12, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (2, 12, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (2, 12, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (2, 12, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (2, 12, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 12, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 13, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 13, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 13, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 13, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (2, 13, 5) :     0 :   0.0 :     1 : False : False : Binary
-          (2, 13, 6) :     0 :   0.0 :     1 : False : False : Binary
-          (2, 13, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (2, 13, 8) :     0 :   0.0 :     1 : False : False : Binary
-          (2, 13, 9) :     0 :   0.0 :     1 : False : False : Binary
+          (2, 13, 5) :     0 :  -0.0 :     1 : False : False : Binary
+          (2, 13, 6) :     0 :  -0.0 :     1 : False : False : Binary
+          (2, 13, 7) :     0 :  -0.0 :     1 : False : False : Binary
+          (2, 13, 8) :     0 :  -0.0 :     1 : False : False : Binary
+          (2, 13, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (2, 13, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (2, 13, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (2, 13, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (2, 13, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 14, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 14, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7421,8 +7421,8 @@ Model unknown
           (2, 18, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 18, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (2, 18, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (2, 18, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (2, 18, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (2, 18, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 18, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 19, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 19, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 19, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7433,8 +7433,8 @@ Model unknown
           (2, 19, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 19, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (2, 19, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (2, 19, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (2, 19, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (2, 19, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 19, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 20, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 20, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 20, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7457,8 +7457,8 @@ Model unknown
           (2, 21, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 21, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (2, 21, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (2, 21, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (2, 21, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (2, 21, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (2, 21, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 22, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 22, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 22, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7469,7 +7469,7 @@ Model unknown
           (2, 22, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 22, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (2, 22, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (2, 22, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (2, 22, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (2, 22, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 23, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (2, 23, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7511,14 +7511,14 @@ Model unknown
            (3, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (3, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
            (3, 2, 4) :     0 :  -0.0 :     1 : False : False : Binary
-           (3, 2, 5) :     0 :   0.0 :     1 : False : False : Binary
-           (3, 2, 6) :     0 :   0.0 :     1 : False : False : Binary
-           (3, 2, 7) :     0 :   0.0 :     1 : False : False : Binary
-           (3, 2, 8) :     0 :   0.0 :     1 : False : False : Binary
-           (3, 2, 9) :     0 :   0.0 :     1 : False : False : Binary
+           (3, 2, 5) :     0 :  -0.0 :     1 : False : False : Binary
+           (3, 2, 6) :     0 :  -0.0 :     1 : False : False : Binary
+           (3, 2, 7) :     0 :  -0.0 :     1 : False : False : Binary
+           (3, 2, 8) :     0 :  -0.0 :     1 : False : False : Binary
+           (3, 2, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 2, 10) :     0 :  -0.0 :     1 : False : False : Binary
-          (3, 2, 11) :     0 :   0.0 :     1 : False : False : Binary
-          (3, 2, 12) :     0 :   0.0 :     1 : False : False : Binary
+          (3, 2, 11) :     0 :  -0.0 :     1 : False : False : Binary
+          (3, 2, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (3, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (3, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (3, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7565,7 +7565,7 @@ Model unknown
            (3, 6, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (3, 6, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 6, 10) :     0 :  -0.0 :     1 : False : False : Binary
-          (3, 6, 11) :     0 :   0.0 :     1 : False : False : Binary
+          (3, 6, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 6, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (3, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (3, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7637,8 +7637,8 @@ Model unknown
           (3, 12, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 12, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (3, 12, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (3, 12, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (3, 12, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 12, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 12, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 13, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 13, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 13, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7649,17 +7649,17 @@ Model unknown
           (3, 13, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 13, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (3, 13, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (3, 13, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 13, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (3, 13, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 14, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 14, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 14, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 14, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (3, 14, 5) :     0 :   0.0 :     1 : False : False : Binary
-          (3, 14, 6) :     0 :   0.0 :     1 : False : False : Binary
-          (3, 14, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (3, 14, 8) :     0 :   0.0 :     1 : False : False : Binary
-          (3, 14, 9) :     0 :   0.0 :     1 : False : False : Binary
+          (3, 14, 5) :     0 :  -0.0 :     1 : False : False : Binary
+          (3, 14, 6) :     0 :  -0.0 :     1 : False : False : Binary
+          (3, 14, 7) :     0 :  -0.0 :     1 : False : False : Binary
+          (3, 14, 8) :     0 :  -0.0 :     1 : False : False : Binary
+          (3, 14, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (3, 14, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (3, 14, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (3, 14, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7709,8 +7709,8 @@ Model unknown
           (3, 18, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 18, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (3, 18, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (3, 18, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (3, 18, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 18, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 18, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 19, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 19, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 19, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7721,8 +7721,8 @@ Model unknown
           (3, 19, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 19, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (3, 19, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (3, 19, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (3, 19, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 19, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 19, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 20, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 20, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 20, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7745,8 +7745,8 @@ Model unknown
           (3, 21, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 21, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (3, 21, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (3, 21, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (3, 21, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 21, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (3, 21, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 22, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 22, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (3, 22, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7789,9 +7789,9 @@ Model unknown
            (4, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
            (4, 1, 5) :     0 :   0.0 :     1 : False : False : Binary
            (4, 1, 6) :     0 :   0.0 :     1 : False : False : Binary
-           (4, 1, 7) :     0 :   1.0 :     1 : False : False : Binary
+           (4, 1, 7) :     0 :   0.0 :     1 : False : False : Binary
            (4, 1, 8) :     0 :   0.0 :     1 : False : False : Binary
-           (4, 1, 9) :     0 :   0.0 :     1 : False : False : Binary
+           (4, 1, 9) :     0 :   1.0 :     1 : False : False : Binary
           (4, 1, 10) :     0 :  -0.0 :     1 : False : False : Binary
           (4, 1, 11) :     0 :  -0.0 :     1 : False : False : Binary
           (4, 1, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -7982,8 +7982,8 @@ Model unknown
           (4, 17, 5) :     0 :   0.0 :     1 : False : False : Binary
           (4, 17, 6) :     0 :   0.0 :     1 : False : False : Binary
           (4, 17, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (4, 17, 8) :     0 :   0.0 :     1 : False : False : Binary
-          (4, 17, 9) :     0 :   0.0 :     1 : False : False : Binary
+          (4, 17, 8) :     0 :  -0.0 :     1 : False : False : Binary
+          (4, 17, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (4, 17, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (4, 17, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (4, 17, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -8393,8 +8393,8 @@ Model unknown
            (6, 3, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 3, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 3, 10) :     0 :  -0.0 :     1 : False : False : Binary
-          (6, 3, 11) :     0 :   0.0 :     1 : False : False : Binary
-          (6, 3, 12) :     0 :   0.0 :     1 : False : False : Binary
+          (6, 3, 11) :     0 :  -0.0 :     1 : False : False : Binary
+          (6, 3, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (6, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -8513,7 +8513,7 @@ Model unknown
           (6, 13, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 13, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (6, 13, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (6, 13, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 13, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (6, 13, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 14, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 14, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -8567,14 +8567,14 @@ Model unknown
           (6, 18, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 18, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 18, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (6, 18, 5) :     0 :   0.0 :     1 : False : False : Binary
+          (6, 18, 5) :     0 :   1.0 :     1 : False : False : Binary
           (6, 18, 6) :     0 :   0.0 :     1 : False : False : Binary
           (6, 18, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (6, 18, 8) :     0 :   1.0 :     1 : False : False : Binary
+          (6, 18, 8) :     0 :   0.0 :     1 : False : False : Binary
           (6, 18, 9) :     0 :   0.0 :     1 : False : False : Binary
          (6, 18, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (6, 18, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (6, 18, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (6, 18, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (6, 18, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 19, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 19, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (6, 19, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -8669,8 +8669,8 @@ Model unknown
            (7, 2, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 2, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 2, 10) :     0 :  -0.0 :     1 : False : False : Binary
-          (7, 2, 11) :     0 :   0.0 :     1 : False : False : Binary
-          (7, 2, 12) :     0 :   0.0 :     1 : False : False : Binary
+          (7, 2, 11) :     0 :  -0.0 :     1 : False : False : Binary
+          (7, 2, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -8681,8 +8681,8 @@ Model unknown
            (7, 3, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 3, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 3, 10) :     0 :  -0.0 :     1 : False : False : Binary
-          (7, 3, 11) :     0 :   0.0 :     1 : False : False : Binary
-          (7, 3, 12) :     0 :   0.0 :     1 : False : False : Binary
+          (7, 3, 11) :     0 :  -0.0 :     1 : False : False : Binary
+          (7, 3, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (7, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -8801,7 +8801,7 @@ Model unknown
           (7, 13, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 13, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (7, 13, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (7, 13, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 13, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (7, 13, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 14, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 14, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -8873,8 +8873,8 @@ Model unknown
           (7, 19, 8) :     0 :   0.0 :     1 : False : False : Binary
           (7, 19, 9) :     0 :   0.0 :     1 : False : False : Binary
          (7, 19, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (7, 19, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (7, 19, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 19, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 19, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 20, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 20, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 20, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -8897,8 +8897,8 @@ Model unknown
           (7, 21, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 21, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (7, 21, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (7, 21, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (7, 21, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (7, 21, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (7, 21, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 22, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 22, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (7, 22, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -8988,8 +8988,8 @@ Model unknown
            (8, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
            (8, 5, 4) :     0 :  -0.0 :     1 : False : False : Binary
            (8, 5, 5) :     0 :   0.0 :     1 : False : False : Binary
-           (8, 5, 6) :     0 :   0.0 :     1 : False : False : Binary
-           (8, 5, 7) :     0 :   1.0 :     1 : False : False : Binary
+           (8, 5, 6) :     0 :   1.0 :     1 : False : False : Binary
+           (8, 5, 7) :     0 :   0.0 :     1 : False : False : Binary
            (8, 5, 8) :     0 :   0.0 :     1 : False : False : Binary
            (8, 5, 9) :     0 :   0.0 :     1 : False : False : Binary
           (8, 5, 10) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9233,8 +9233,8 @@ Model unknown
            (9, 1, 8) :     0 :  -0.0 :     1 : False : False : Binary
            (9, 1, 9) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 1, 10) :     0 :  -0.0 :     1 : False : False : Binary
-          (9, 1, 11) :     0 :   0.0 :     1 : False : False : Binary
-          (9, 1, 12) :     0 :   0.0 :     1 : False : False : Binary
+          (9, 1, 11) :     0 :  -0.0 :     1 : False : False : Binary
+          (9, 1, 12) :     0 :  -0.0 :     1 : False : False : Binary
            (9, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
            (9, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
            (9, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9341,8 +9341,8 @@ Model unknown
           (9, 10, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 10, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (9, 10, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (9, 10, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (9, 10, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (9, 10, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 10, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 11, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 11, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9353,7 +9353,7 @@ Model unknown
           (9, 11, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 11, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (9, 11, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (9, 11, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (9, 11, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (9, 11, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9377,7 +9377,7 @@ Model unknown
           (9, 13, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 13, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (9, 13, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (9, 13, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (9, 13, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (9, 13, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 14, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 14, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9413,17 +9413,17 @@ Model unknown
           (9, 16, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 16, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (9, 16, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (9, 16, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (9, 16, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (9, 16, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 16, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 17, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 17, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 17, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 17, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (9, 17, 5) :     0 :   0.0 :     1 : False : False : Binary
-          (9, 17, 6) :     0 :   0.0 :     1 : False : False : Binary
-          (9, 17, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (9, 17, 8) :     0 :   0.0 :     1 : False : False : Binary
-          (9, 17, 9) :     0 :   0.0 :     1 : False : False : Binary
+          (9, 17, 5) :     0 :  -0.0 :     1 : False : False : Binary
+          (9, 17, 6) :     0 :  -0.0 :     1 : False : False : Binary
+          (9, 17, 7) :     0 :  -0.0 :     1 : False : False : Binary
+          (9, 17, 8) :     0 :  -0.0 :     1 : False : False : Binary
+          (9, 17, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (9, 17, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (9, 17, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (9, 17, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9437,8 +9437,8 @@ Model unknown
           (9, 18, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 18, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (9, 18, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (9, 18, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (9, 18, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (9, 18, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 18, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 19, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 19, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 19, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9485,7 +9485,7 @@ Model unknown
           (9, 22, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 22, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (9, 22, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (9, 22, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (9, 22, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (9, 22, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 23, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 23, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9509,8 +9509,8 @@ Model unknown
           (9, 24, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (9, 24, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (9, 24, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (9, 24, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (9, 24, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (9, 24, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (9, 24, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (10, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (10, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (10, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9521,8 +9521,8 @@ Model unknown
           (10, 1, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (10, 1, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 1, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (10, 1, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (10, 1, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (10, 1, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (10, 1, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (10, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (10, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (10, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9557,8 +9557,8 @@ Model unknown
           (10, 4, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (10, 4, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 4, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (10, 4, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (10, 4, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (10, 4, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (10, 4, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (10, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (10, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (10, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9665,7 +9665,7 @@ Model unknown
          (10, 13, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 13, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (10, 13, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (10, 13, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (10, 13, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (10, 13, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 14, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 14, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9689,19 +9689,19 @@ Model unknown
          (10, 15, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 15, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (10, 15, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (10, 15, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (10, 15, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (10, 15, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 16, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 16, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 16, 3) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 16, 4) :     0 :  -0.0 :     1 : False : False : Binary
-         (10, 16, 5) :     0 :   1.0 :     1 : False : False : Binary
+         (10, 16, 5) :     0 :   0.0 :     1 : False : False : Binary
          (10, 16, 6) :     0 :   0.0 :     1 : False : False : Binary
-         (10, 16, 7) :     0 :   0.0 :     1 : False : False : Binary
+         (10, 16, 7) :     0 :   1.0 :     1 : False : False : Binary
          (10, 16, 8) :     0 :   0.0 :     1 : False : False : Binary
          (10, 16, 9) :     0 :   0.0 :     1 : False : False : Binary
         (10, 16, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (10, 16, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (10, 16, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (10, 16, 12) :     0 :   0.0 :     1 : False : False : Binary
          (10, 17, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 17, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9773,7 +9773,7 @@ Model unknown
          (10, 22, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 22, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (10, 22, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (10, 22, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (10, 22, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (10, 22, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 23, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 23, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9797,8 +9797,8 @@ Model unknown
          (10, 24, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (10, 24, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (10, 24, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (10, 24, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (10, 24, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (10, 24, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (10, 24, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (11, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (11, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (11, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9905,7 +9905,7 @@ Model unknown
           (11, 9, 8) :     0 :   0.0 :     1 : False : False : Binary
           (11, 9, 9) :     0 :   0.0 :     1 : False : False : Binary
          (11, 9, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (11, 9, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (11, 9, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 9, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -9989,17 +9989,17 @@ Model unknown
          (11, 16, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 16, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (11, 16, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (11, 16, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (11, 16, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (11, 16, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 16, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 17, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 17, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 17, 3) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 17, 4) :     0 :  -0.0 :     1 : False : False : Binary
-         (11, 17, 5) :     0 :   0.0 :     1 : False : False : Binary
-         (11, 17, 6) :     0 :   0.0 :     1 : False : False : Binary
-         (11, 17, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (11, 17, 8) :     0 :   0.0 :     1 : False : False : Binary
-         (11, 17, 9) :     0 :   0.0 :     1 : False : False : Binary
+         (11, 17, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (11, 17, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (11, 17, 7) :     0 :  -0.0 :     1 : False : False : Binary
+         (11, 17, 8) :     0 :  -0.0 :     1 : False : False : Binary
+         (11, 17, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (11, 17, 10) :     0 :  -0.0 :     1 : False : False : Binary
         (11, 17, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (11, 17, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10085,8 +10085,8 @@ Model unknown
          (11, 24, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (11, 24, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (11, 24, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (11, 24, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (11, 24, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (11, 24, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (11, 24, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (12, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (12, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (12, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10110,7 +10110,7 @@ Model unknown
           (12, 2, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 2, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 2, 11) :     0 :  -0.0 :     1 : False : False : Binary
-         (12, 2, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (12, 2, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (12, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (12, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (12, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10121,7 +10121,7 @@ Model unknown
           (12, 3, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (12, 3, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 3, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (12, 3, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (12, 3, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 3, 12) :     0 :   0.0 :     1 : False : False : Binary
           (12, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (12, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10313,20 +10313,20 @@ Model unknown
          (12, 19, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 19, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (12, 19, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (12, 19, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (12, 19, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (12, 19, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 20, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 20, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 20, 3) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 20, 4) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 20, 5) :     0 :   0.0 :     1 : False : False : Binary
-         (12, 20, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (12, 20, 6) :     0 :   1.0 :     1 : False : False : Binary
          (12, 20, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (12, 20, 8) :     0 :   1.0 :     1 : False : False : Binary
+         (12, 20, 8) :     0 :   0.0 :     1 : False : False : Binary
          (12, 20, 9) :     0 :   0.0 :     1 : False : False : Binary
         (12, 20, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (12, 20, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (12, 20, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (12, 20, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 20, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 21, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 21, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 21, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10337,8 +10337,8 @@ Model unknown
          (12, 21, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 21, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (12, 21, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (12, 21, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (12, 21, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (12, 21, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (12, 21, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 22, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 22, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (12, 22, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10385,8 +10385,8 @@ Model unknown
           (13, 1, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 1, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 1, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (13, 1, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (13, 1, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (13, 1, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (13, 1, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10397,8 +10397,8 @@ Model unknown
           (13, 2, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 2, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 2, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (13, 2, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (13, 2, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (13, 2, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (13, 2, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10409,8 +10409,8 @@ Model unknown
           (13, 3, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 3, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 3, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (13, 3, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (13, 3, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (13, 3, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (13, 3, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10421,8 +10421,8 @@ Model unknown
           (13, 4, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 4, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 4, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (13, 4, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (13, 4, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (13, 4, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (13, 4, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10445,7 +10445,7 @@ Model unknown
           (13, 6, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 6, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 6, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (13, 6, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (13, 6, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 6, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10457,7 +10457,7 @@ Model unknown
           (13, 7, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 7, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 7, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (13, 7, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (13, 7, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 7, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (13, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10493,7 +10493,7 @@ Model unknown
          (13, 10, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 10, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (13, 10, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (13, 10, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (13, 10, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (13, 10, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 11, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10553,7 +10553,7 @@ Model unknown
          (13, 15, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 15, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (13, 15, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (13, 15, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (13, 15, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (13, 15, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 16, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 16, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10565,7 +10565,7 @@ Model unknown
          (13, 16, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 16, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (13, 16, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (13, 16, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (13, 16, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (13, 16, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 17, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 17, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10589,8 +10589,8 @@ Model unknown
          (13, 18, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 18, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (13, 18, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (13, 18, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (13, 18, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (13, 18, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (13, 18, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 19, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 19, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 19, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10601,8 +10601,8 @@ Model unknown
          (13, 19, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 19, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (13, 19, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (13, 19, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (13, 19, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (13, 19, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (13, 19, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 20, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 20, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 20, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10634,10 +10634,10 @@ Model unknown
          (13, 22, 5) :     0 :   0.0 :     1 : False : False : Binary
          (13, 22, 6) :     0 :   0.0 :     1 : False : False : Binary
          (13, 22, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (13, 22, 8) :     0 :   0.0 :     1 : False : False : Binary
+         (13, 22, 8) :     0 :   1.0 :     1 : False : False : Binary
          (13, 22, 9) :     0 :   0.0 :     1 : False : False : Binary
         (13, 22, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (13, 22, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (13, 22, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (13, 22, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 23, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 23, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10661,8 +10661,8 @@ Model unknown
          (13, 24, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (13, 24, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (13, 24, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (13, 24, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (13, 24, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (13, 24, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (13, 24, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (14, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (14, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (14, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10691,14 +10691,14 @@ Model unknown
           (14, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (14, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (14, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (14, 3, 5) :     0 :   0.0 :     1 : False : False : Binary
-          (14, 3, 6) :     0 :   0.0 :     1 : False : False : Binary
-          (14, 3, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (14, 3, 8) :     0 :   0.0 :     1 : False : False : Binary
-          (14, 3, 9) :     0 :   0.0 :     1 : False : False : Binary
+          (14, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+          (14, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+          (14, 3, 7) :     0 :  -0.0 :     1 : False : False : Binary
+          (14, 3, 8) :     0 :  -0.0 :     1 : False : False : Binary
+          (14, 3, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (14, 3, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (14, 3, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (14, 3, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (14, 3, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (14, 3, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (14, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (14, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (14, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10895,11 +10895,11 @@ Model unknown
          (14, 20, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (14, 20, 3) :     0 :  -0.0 :     1 : False : False : Binary
          (14, 20, 4) :     0 :  -0.0 :     1 : False : False : Binary
-         (14, 20, 5) :     0 :   0.0 :     1 : False : False : Binary
-         (14, 20, 6) :     0 :   0.0 :     1 : False : False : Binary
-         (14, 20, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (14, 20, 8) :     0 :   0.0 :     1 : False : False : Binary
-         (14, 20, 9) :     0 :   0.0 :     1 : False : False : Binary
+         (14, 20, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (14, 20, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (14, 20, 7) :     0 :  -0.0 :     1 : False : False : Binary
+         (14, 20, 8) :     0 :  -0.0 :     1 : False : False : Binary
+         (14, 20, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (14, 20, 10) :     0 :  -0.0 :     1 : False : False : Binary
         (14, 20, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (14, 20, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10933,9 +10933,9 @@ Model unknown
          (14, 23, 4) :     0 :  -0.0 :     1 : False : False : Binary
          (14, 23, 5) :     0 :   0.0 :     1 : False : False : Binary
          (14, 23, 6) :     0 :   0.0 :     1 : False : False : Binary
-         (14, 23, 7) :     0 :   0.0 :     1 : False : False : Binary
+         (14, 23, 7) :     0 :   1.0 :     1 : False : False : Binary
          (14, 23, 8) :     0 :   0.0 :     1 : False : False : Binary
-         (14, 23, 9) :     0 :   1.0 :     1 : False : False : Binary
+         (14, 23, 9) :     0 :   0.0 :     1 : False : False : Binary
         (14, 23, 10) :     0 :  -0.0 :     1 : False : False : Binary
         (14, 23, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (14, 23, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -10991,11 +10991,11 @@ Model unknown
           (15, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (15, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (15, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (15, 4, 5) :     0 :   1.0 :     1 : False : False : Binary
+          (15, 4, 5) :     0 :   0.0 :     1 : False : False : Binary
           (15, 4, 6) :     0 :   0.0 :     1 : False : False : Binary
           (15, 4, 7) :     0 :   0.0 :     1 : False : False : Binary
           (15, 4, 8) :     0 :   0.0 :     1 : False : False : Binary
-          (15, 4, 9) :     0 :   0.0 :     1 : False : False : Binary
+          (15, 4, 9) :     0 :   1.0 :     1 : False : False : Binary
          (15, 4, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (15, 4, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (15, 4, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11148,9 +11148,9 @@ Model unknown
          (15, 17, 3) :     0 :  -0.0 :     1 : False : False : Binary
          (15, 17, 4) :     0 :  -0.0 :     1 : False : False : Binary
          (15, 17, 5) :     0 :   0.0 :     1 : False : False : Binary
-         (15, 17, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (15, 17, 6) :     0 :  -0.0 :     1 : False : False : Binary
          (15, 17, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (15, 17, 8) :     0 :   0.0 :     1 : False : False : Binary
+         (15, 17, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (15, 17, 9) :     0 :   0.0 :     1 : False : False : Binary
         (15, 17, 10) :     0 :  -0.0 :     1 : False : False : Binary
         (15, 17, 11) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11249,8 +11249,8 @@ Model unknown
           (16, 1, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (16, 1, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (16, 1, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (16, 1, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (16, 1, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (16, 1, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (16, 1, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (16, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (16, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (16, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11286,7 +11286,7 @@ Model unknown
           (16, 4, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (16, 4, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (16, 4, 11) :     0 :  -0.0 :     1 : False : False : Binary
-         (16, 4, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (16, 4, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (16, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (16, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (16, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11369,7 +11369,7 @@ Model unknown
          (16, 11, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (16, 11, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (16, 11, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (16, 11, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (16, 11, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (16, 11, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (16, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (16, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11393,7 +11393,7 @@ Model unknown
          (16, 13, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (16, 13, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (16, 13, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (16, 13, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (16, 13, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (16, 13, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (16, 14, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (16, 14, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11519,11 +11519,11 @@ Model unknown
          (16, 24, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (16, 24, 3) :     0 :  -0.0 :     1 : False : False : Binary
          (16, 24, 4) :     0 :  -0.0 :     1 : False : False : Binary
-         (16, 24, 5) :     0 :   0.0 :     1 : False : False : Binary
-         (16, 24, 6) :     0 :   0.0 :     1 : False : False : Binary
-         (16, 24, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (16, 24, 8) :     0 :   0.0 :     1 : False : False : Binary
-         (16, 24, 9) :     0 :   0.0 :     1 : False : False : Binary
+         (16, 24, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (16, 24, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (16, 24, 7) :     0 :  -0.0 :     1 : False : False : Binary
+         (16, 24, 8) :     0 :  -0.0 :     1 : False : False : Binary
+         (16, 24, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (16, 24, 10) :     0 :  -0.0 :     1 : False : False : Binary
         (16, 24, 11) :     0 :   0.0 :     1 : False : False : Binary
         (16, 24, 12) :     0 :   0.0 :     1 : False : False : Binary
@@ -11537,8 +11537,8 @@ Model unknown
           (17, 1, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 1, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 1, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (17, 1, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (17, 1, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (17, 1, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (17, 1, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11549,7 +11549,7 @@ Model unknown
           (17, 2, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 2, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 2, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (17, 2, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (17, 2, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 2, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11561,20 +11561,20 @@ Model unknown
           (17, 3, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 3, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 3, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (17, 3, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (17, 3, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 3, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (17, 4, 5) :     0 :   0.0 :     1 : False : False : Binary
-          (17, 4, 6) :     0 :   0.0 :     1 : False : False : Binary
-          (17, 4, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (17, 4, 8) :     0 :   0.0 :     1 : False : False : Binary
-          (17, 4, 9) :     0 :   0.0 :     1 : False : False : Binary
+          (17, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+          (17, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+          (17, 4, 7) :     0 :  -0.0 :     1 : False : False : Binary
+          (17, 4, 8) :     0 :  -0.0 :     1 : False : False : Binary
+          (17, 4, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 4, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (17, 4, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (17, 4, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (17, 4, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (17, 4, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11597,7 +11597,7 @@ Model unknown
           (17, 6, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 6, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 6, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (17, 6, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (17, 6, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 6, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11627,13 +11627,13 @@ Model unknown
           (17, 9, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 9, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 9, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (17, 9, 5) :     0 :  -0.0 :     1 : False : False : Binary
+          (17, 9, 5) :     0 :   0.0 :     1 : False : False : Binary
           (17, 9, 6) :     0 :  -0.0 :     1 : False : False : Binary
-          (17, 9, 7) :     0 :  -0.0 :     1 : False : False : Binary
+          (17, 9, 7) :     0 :   0.0 :     1 : False : False : Binary
           (17, 9, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (17, 9, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 9, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (17, 9, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (17, 9, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 9, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11645,8 +11645,8 @@ Model unknown
          (17, 10, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 10, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (17, 10, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (17, 10, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (17, 10, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (17, 10, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (17, 10, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 11, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 11, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11657,7 +11657,7 @@ Model unknown
          (17, 11, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 11, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (17, 11, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (17, 11, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (17, 11, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (17, 11, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11678,10 +11678,10 @@ Model unknown
          (17, 13, 5) :     0 :   0.0 :     1 : False : False : Binary
          (17, 13, 6) :     0 :   0.0 :     1 : False : False : Binary
          (17, 13, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (17, 13, 8) :     0 :   0.0 :     1 : False : False : Binary
+         (17, 13, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 13, 9) :     0 :   0.0 :     1 : False : False : Binary
         (17, 13, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (17, 13, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (17, 13, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (17, 13, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 14, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 14, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11699,13 +11699,13 @@ Model unknown
          (17, 15, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 15, 3) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 15, 4) :     0 :  -0.0 :     1 : False : False : Binary
-         (17, 15, 5) :     0 :   0.0 :     1 : False : False : Binary
-         (17, 15, 6) :     0 :   0.0 :     1 : False : False : Binary
-         (17, 15, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (17, 15, 8) :     0 :   0.0 :     1 : False : False : Binary
-         (17, 15, 9) :     0 :   0.0 :     1 : False : False : Binary
+         (17, 15, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (17, 15, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (17, 15, 7) :     0 :  -0.0 :     1 : False : False : Binary
+         (17, 15, 8) :     0 :  -0.0 :     1 : False : False : Binary
+         (17, 15, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (17, 15, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (17, 15, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (17, 15, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (17, 15, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 16, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 16, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11717,8 +11717,8 @@ Model unknown
          (17, 16, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 16, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (17, 16, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (17, 16, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (17, 16, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (17, 16, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (17, 16, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 17, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 17, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 17, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11741,8 +11741,8 @@ Model unknown
          (17, 18, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 18, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (17, 18, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (17, 18, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (17, 18, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (17, 18, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (17, 18, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 19, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 19, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 19, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11789,7 +11789,7 @@ Model unknown
          (17, 22, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 22, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (17, 22, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (17, 22, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (17, 22, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (17, 22, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 23, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (17, 23, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11813,8 +11813,8 @@ Model unknown
          (17, 24, 8) :     0 :   0.0 :     1 : False : False : Binary
          (17, 24, 9) :     0 :   0.0 :     1 : False : False : Binary
         (17, 24, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (17, 24, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (17, 24, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (17, 24, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (17, 24, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11826,7 +11826,7 @@ Model unknown
           (18, 1, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (18, 1, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (18, 1, 11) :     0 :  -0.0 :     1 : False : False : Binary
-         (18, 1, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (18, 1, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11837,8 +11837,8 @@ Model unknown
           (18, 2, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 2, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (18, 2, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (18, 2, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (18, 2, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (18, 2, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (18, 2, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11849,8 +11849,8 @@ Model unknown
           (18, 3, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 3, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (18, 3, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (18, 3, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (18, 3, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (18, 3, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (18, 3, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11879,13 +11879,13 @@ Model unknown
           (18, 6, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 6, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 6, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (18, 6, 5) :     0 :   0.0 :     1 : False : False : Binary
-          (18, 6, 6) :     0 :   1.0 :     1 : False : False : Binary
+          (18, 6, 5) :     0 :   1.0 :     1 : False : False : Binary
+          (18, 6, 6) :     0 :   0.0 :     1 : False : False : Binary
           (18, 6, 7) :     0 :   0.0 :     1 : False : False : Binary
           (18, 6, 8) :     0 :   0.0 :     1 : False : False : Binary
           (18, 6, 9) :     0 :   0.0 :     1 : False : False : Binary
          (18, 6, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (18, 6, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (18, 6, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (18, 6, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 7, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (18, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -11969,7 +11969,7 @@ Model unknown
          (18, 13, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (18, 13, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (18, 13, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (18, 13, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (18, 13, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (18, 13, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (18, 14, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (18, 14, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12011,11 +12011,11 @@ Model unknown
          (18, 17, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (18, 17, 3) :     0 :  -0.0 :     1 : False : False : Binary
          (18, 17, 4) :     0 :  -0.0 :     1 : False : False : Binary
-         (18, 17, 5) :     0 :   0.0 :     1 : False : False : Binary
-         (18, 17, 6) :     0 :   0.0 :     1 : False : False : Binary
-         (18, 17, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (18, 17, 8) :     0 :   0.0 :     1 : False : False : Binary
-         (18, 17, 9) :     0 :   0.0 :     1 : False : False : Binary
+         (18, 17, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (18, 17, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (18, 17, 7) :     0 :  -0.0 :     1 : False : False : Binary
+         (18, 17, 8) :     0 :  -0.0 :     1 : False : False : Binary
+         (18, 17, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (18, 17, 10) :     0 :  -0.0 :     1 : False : False : Binary
         (18, 17, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (18, 17, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12077,7 +12077,7 @@ Model unknown
          (18, 22, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (18, 22, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (18, 22, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (18, 22, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (18, 22, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (18, 22, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (18, 23, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (18, 23, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12101,7 +12101,7 @@ Model unknown
          (18, 24, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (18, 24, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (18, 24, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (18, 24, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (18, 24, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (18, 24, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 1, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12125,8 +12125,8 @@ Model unknown
           (19, 2, 8) :     0 :   0.0 :     1 : False : False : Binary
           (19, 2, 9) :     0 :   0.0 :     1 : False : False : Binary
          (19, 2, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (19, 2, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (19, 2, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (19, 2, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (19, 2, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12137,8 +12137,8 @@ Model unknown
           (19, 3, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 3, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (19, 3, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (19, 3, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (19, 3, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (19, 3, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (19, 3, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12179,13 +12179,13 @@ Model unknown
           (19, 7, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 7, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 7, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (19, 7, 5) :     0 :   0.0 :     1 : False : False : Binary
-          (19, 7, 6) :     0 :   0.0 :     1 : False : False : Binary
-          (19, 7, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (19, 7, 8) :     0 :   0.0 :     1 : False : False : Binary
-          (19, 7, 9) :     0 :   0.0 :     1 : False : False : Binary
+          (19, 7, 5) :     0 :  -0.0 :     1 : False : False : Binary
+          (19, 7, 6) :     0 :  -0.0 :     1 : False : False : Binary
+          (19, 7, 7) :     0 :  -0.0 :     1 : False : False : Binary
+          (19, 7, 8) :     0 :  -0.0 :     1 : False : False : Binary
+          (19, 7, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (19, 7, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (19, 7, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (19, 7, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (19, 7, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 8, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (19, 8, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12245,8 +12245,8 @@ Model unknown
          (19, 12, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (19, 12, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (19, 12, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (19, 12, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (19, 12, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (19, 12, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (19, 12, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (19, 13, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (19, 13, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (19, 13, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12257,7 +12257,7 @@ Model unknown
          (19, 13, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (19, 13, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (19, 13, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (19, 13, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (19, 13, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (19, 13, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (19, 14, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (19, 14, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12354,7 +12354,7 @@ Model unknown
          (19, 21, 9) :     0 :   0.0 :     1 : False : False : Binary
         (19, 21, 10) :     0 :  -0.0 :     1 : False : False : Binary
         (19, 21, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (19, 21, 12) :     0 :   1.0 :     1 : False : False : Binary
+        (19, 21, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (19, 22, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (19, 22, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (19, 22, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12425,8 +12425,8 @@ Model unknown
           (20, 3, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (20, 3, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (20, 3, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (20, 3, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (20, 3, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (20, 3, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (20, 3, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (20, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (20, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (20, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12528,13 +12528,13 @@ Model unknown
          (20, 12, 3) :     0 :  -0.0 :     1 : False : False : Binary
          (20, 12, 4) :     0 :  -0.0 :     1 : False : False : Binary
          (20, 12, 5) :     0 :   0.0 :     1 : False : False : Binary
-         (20, 12, 6) :     0 :   0.0 :     1 : False : False : Binary
+         (20, 12, 6) :     0 :   1.0 :     1 : False : False : Binary
          (20, 12, 7) :     0 :   0.0 :     1 : False : False : Binary
          (20, 12, 8) :     0 :   0.0 :     1 : False : False : Binary
-         (20, 12, 9) :     0 :   1.0 :     1 : False : False : Binary
+         (20, 12, 9) :     0 :   0.0 :     1 : False : False : Binary
         (20, 12, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (20, 12, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (20, 12, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (20, 12, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (20, 12, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (20, 13, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (20, 13, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (20, 13, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12702,7 +12702,7 @@ Model unknown
           (21, 2, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (21, 2, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (21, 2, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (21, 2, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (21, 2, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (21, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (21, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (21, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12713,8 +12713,8 @@ Model unknown
           (21, 3, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (21, 3, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (21, 3, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (21, 3, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (21, 3, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (21, 3, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (21, 3, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (21, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (21, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (21, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12821,8 +12821,8 @@ Model unknown
          (21, 12, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (21, 12, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (21, 12, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (21, 12, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (21, 12, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (21, 12, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (21, 12, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (21, 13, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (21, 13, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (21, 13, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12899,9 +12899,9 @@ Model unknown
          (21, 19, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (21, 19, 3) :     0 :  -0.0 :     1 : False : False : Binary
          (21, 19, 4) :     0 :  -0.0 :     1 : False : False : Binary
-         (21, 19, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (21, 19, 5) :     0 :   0.0 :     1 : False : False : Binary
          (21, 19, 6) :     0 :  -0.0 :     1 : False : False : Binary
-         (21, 19, 7) :     0 :  -0.0 :     1 : False : False : Binary
+         (21, 19, 7) :     0 :   0.0 :     1 : False : False : Binary
          (21, 19, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (21, 19, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (21, 19, 10) :     0 :  -0.0 :     1 : False : False : Binary
@@ -12971,14 +12971,14 @@ Model unknown
           (22, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (22, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (22, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (22, 1, 5) :     0 :   0.0 :     1 : False : False : Binary
-          (22, 1, 6) :     0 :   0.0 :     1 : False : False : Binary
-          (22, 1, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (22, 1, 8) :     0 :   0.0 :     1 : False : False : Binary
-          (22, 1, 9) :     0 :   0.0 :     1 : False : False : Binary
+          (22, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+          (22, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+          (22, 1, 7) :     0 :  -0.0 :     1 : False : False : Binary
+          (22, 1, 8) :     0 :  -0.0 :     1 : False : False : Binary
+          (22, 1, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (22, 1, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (22, 1, 11) :     0 :  -0.0 :     1 : False : False : Binary
-         (22, 1, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (22, 1, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (22, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (22, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (22, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -13007,11 +13007,11 @@ Model unknown
           (22, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (22, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (22, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (22, 4, 5) :     0 :   0.0 :     1 : False : False : Binary
-          (22, 4, 6) :     0 :   0.0 :     1 : False : False : Binary
-          (22, 4, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (22, 4, 8) :     0 :   0.0 :     1 : False : False : Binary
-          (22, 4, 9) :     0 :   0.0 :     1 : False : False : Binary
+          (22, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+          (22, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+          (22, 4, 7) :     0 :  -0.0 :     1 : False : False : Binary
+          (22, 4, 8) :     0 :  -0.0 :     1 : False : False : Binary
+          (22, 4, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (22, 4, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (22, 4, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (22, 4, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -13118,10 +13118,10 @@ Model unknown
          (22, 13, 5) :     0 :   0.0 :     1 : False : False : Binary
          (22, 13, 6) :     0 :   0.0 :     1 : False : False : Binary
          (22, 13, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (22, 13, 8) :     0 :   0.0 :     1 : False : False : Binary
+         (22, 13, 8) :     0 :   1.0 :     1 : False : False : Binary
          (22, 13, 9) :     0 :   0.0 :     1 : False : False : Binary
         (22, 13, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (22, 13, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (22, 13, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (22, 13, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (22, 14, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (22, 14, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -13139,11 +13139,11 @@ Model unknown
          (22, 15, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (22, 15, 3) :     0 :  -0.0 :     1 : False : False : Binary
          (22, 15, 4) :     0 :  -0.0 :     1 : False : False : Binary
-         (22, 15, 5) :     0 :   0.0 :     1 : False : False : Binary
-         (22, 15, 6) :     0 :   0.0 :     1 : False : False : Binary
-         (22, 15, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (22, 15, 8) :     0 :   0.0 :     1 : False : False : Binary
-         (22, 15, 9) :     0 :   0.0 :     1 : False : False : Binary
+         (22, 15, 5) :     0 :  -0.0 :     1 : False : False : Binary
+         (22, 15, 6) :     0 :  -0.0 :     1 : False : False : Binary
+         (22, 15, 7) :     0 :  -0.0 :     1 : False : False : Binary
+         (22, 15, 8) :     0 :  -0.0 :     1 : False : False : Binary
+         (22, 15, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (22, 15, 10) :     0 :  -0.0 :     1 : False : False : Binary
         (22, 15, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (22, 15, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -13166,8 +13166,8 @@ Model unknown
          (22, 17, 5) :     0 :   0.0 :     1 : False : False : Binary
          (22, 17, 6) :     0 :   0.0 :     1 : False : False : Binary
          (22, 17, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (22, 17, 8) :     0 :   0.0 :     1 : False : False : Binary
-         (22, 17, 9) :     0 :   1.0 :     1 : False : False : Binary
+         (22, 17, 8) :     0 :  -0.0 :     1 : False : False : Binary
+         (22, 17, 9) :     0 :   0.0 :     1 : False : False : Binary
         (22, 17, 10) :     0 :  -0.0 :     1 : False : False : Binary
         (22, 17, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (22, 17, 12) :     0 :  -0.0 :     1 : False : False : Binary
@@ -13278,19 +13278,19 @@ Model unknown
           (23, 2, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (23, 2, 10) :     0 :  -0.0 :     1 : False : False : Binary
          (23, 2, 11) :     0 :  -0.0 :     1 : False : False : Binary
-         (23, 2, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (23, 2, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (23, 3, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (23, 3, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (23, 3, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (23, 3, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (23, 3, 5) :     0 :   0.0 :     1 : False : False : Binary
-          (23, 3, 6) :     0 :   0.0 :     1 : False : False : Binary
-          (23, 3, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (23, 3, 8) :     0 :   0.0 :     1 : False : False : Binary
-          (23, 3, 9) :     0 :   0.0 :     1 : False : False : Binary
+          (23, 3, 5) :     0 :  -0.0 :     1 : False : False : Binary
+          (23, 3, 6) :     0 :  -0.0 :     1 : False : False : Binary
+          (23, 3, 7) :     0 :  -0.0 :     1 : False : False : Binary
+          (23, 3, 8) :     0 :  -0.0 :     1 : False : False : Binary
+          (23, 3, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (23, 3, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (23, 3, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (23, 3, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (23, 3, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (23, 3, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (23, 4, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (23, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (23, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -13397,8 +13397,8 @@ Model unknown
          (23, 12, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (23, 12, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (23, 12, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (23, 12, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (23, 12, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (23, 12, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (23, 12, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (23, 13, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (23, 13, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (23, 13, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -13547,14 +13547,14 @@ Model unknown
           (24, 1, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (24, 1, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (24, 1, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (24, 1, 5) :     0 :   0.0 :     1 : False : False : Binary
-          (24, 1, 6) :     0 :   0.0 :     1 : False : False : Binary
-          (24, 1, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (24, 1, 8) :     0 :   0.0 :     1 : False : False : Binary
-          (24, 1, 9) :     0 :   0.0 :     1 : False : False : Binary
+          (24, 1, 5) :     0 :  -0.0 :     1 : False : False : Binary
+          (24, 1, 6) :     0 :  -0.0 :     1 : False : False : Binary
+          (24, 1, 7) :     0 :  -0.0 :     1 : False : False : Binary
+          (24, 1, 8) :     0 :  -0.0 :     1 : False : False : Binary
+          (24, 1, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 1, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (24, 1, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (24, 1, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (24, 1, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (24, 1, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (24, 2, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (24, 2, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (24, 2, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -13583,14 +13583,14 @@ Model unknown
           (24, 4, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (24, 4, 3) :     0 :  -0.0 :     1 : False : False : Binary
           (24, 4, 4) :     0 :  -0.0 :     1 : False : False : Binary
-          (24, 4, 5) :     0 :   0.0 :     1 : False : False : Binary
-          (24, 4, 6) :     0 :   0.0 :     1 : False : False : Binary
-          (24, 4, 7) :     0 :   0.0 :     1 : False : False : Binary
-          (24, 4, 8) :     0 :   0.0 :     1 : False : False : Binary
-          (24, 4, 9) :     0 :   0.0 :     1 : False : False : Binary
+          (24, 4, 5) :     0 :  -0.0 :     1 : False : False : Binary
+          (24, 4, 6) :     0 :  -0.0 :     1 : False : False : Binary
+          (24, 4, 7) :     0 :  -0.0 :     1 : False : False : Binary
+          (24, 4, 8) :     0 :  -0.0 :     1 : False : False : Binary
+          (24, 4, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 4, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (24, 4, 11) :     0 :   0.0 :     1 : False : False : Binary
-         (24, 4, 12) :     0 :   0.0 :     1 : False : False : Binary
+         (24, 4, 11) :     0 :  -0.0 :     1 : False : False : Binary
+         (24, 4, 12) :     0 :  -0.0 :     1 : False : False : Binary
           (24, 5, 1) :     0 :  -0.0 :     1 : False : False : Binary
           (24, 5, 2) :     0 :  -0.0 :     1 : False : False : Binary
           (24, 5, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -13649,7 +13649,7 @@ Model unknown
           (24, 9, 8) :     0 :  -0.0 :     1 : False : False : Binary
           (24, 9, 9) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 9, 10) :     0 :  -0.0 :     1 : False : False : Binary
-         (24, 9, 11) :     0 :   0.0 :     1 : False : False : Binary
+         (24, 9, 11) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 9, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 10, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 10, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -13661,8 +13661,8 @@ Model unknown
          (24, 10, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 10, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (24, 10, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (24, 10, 11) :     0 :   0.0 :     1 : False : False : Binary
-        (24, 10, 12) :     0 :   0.0 :     1 : False : False : Binary
+        (24, 10, 11) :     0 :  -0.0 :     1 : False : False : Binary
+        (24, 10, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 11, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 11, 2) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 11, 3) :     0 :  -0.0 :     1 : False : False : Binary
@@ -13673,7 +13673,7 @@ Model unknown
          (24, 11, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 11, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (24, 11, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (24, 11, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (24, 11, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (24, 11, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 12, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 12, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -13697,7 +13697,7 @@ Model unknown
          (24, 13, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 13, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (24, 13, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (24, 13, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (24, 13, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (24, 13, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 14, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 14, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -13721,7 +13721,7 @@ Model unknown
          (24, 15, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 15, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (24, 15, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (24, 15, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (24, 15, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (24, 15, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 16, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 16, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -13730,7 +13730,7 @@ Model unknown
          (24, 16, 5) :     0 :   0.0 :     1 : False : False : Binary
          (24, 16, 6) :     0 :   0.0 :     1 : False : False : Binary
          (24, 16, 7) :     0 :   0.0 :     1 : False : False : Binary
-         (24, 16, 8) :     0 :   0.0 :     1 : False : False : Binary
+         (24, 16, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 16, 9) :     0 :   0.0 :     1 : False : False : Binary
         (24, 16, 10) :     0 :  -0.0 :     1 : False : False : Binary
         (24, 16, 11) :     0 :   0.0 :     1 : False : False : Binary
@@ -13805,7 +13805,7 @@ Model unknown
          (24, 22, 8) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 22, 9) :     0 :  -0.0 :     1 : False : False : Binary
         (24, 22, 10) :     0 :  -0.0 :     1 : False : False : Binary
-        (24, 22, 11) :     0 :   0.0 :     1 : False : False : Binary
+        (24, 22, 11) :     0 :  -0.0 :     1 : False : False : Binary
         (24, 22, 12) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 23, 1) :     0 :  -0.0 :     1 : False : False : Binary
          (24, 23, 2) :     0 :  -0.0 :     1 : False : False : Binary
@@ -14279,7 +14279,7 @@ Model unknown
   Objectives:
     FO : Size=1, Index=None, Active=True
         Key  : Active : Value
-        None :   True : 472064.1162490833
+        None :   True : 492042.97614429204
 
   Constraints:
     abastecimientoEntrada : Size=24
@@ -14342,13 +14342,13 @@ Model unknown
           2 :  None :  0.0 : 135.54452491441663
           3 :  None :  0.0 : 114.38031900663994
           4 :  None :  0.0 :  157.9011075721774
-          5 :  None : 42.0 :  86.98609179004892
-          6 :  None : 54.0 :  87.10238029800072
-          7 :  None : 83.0 : 100.64567561406786
-          8 :  None : 56.0 :  62.88157761574977
-          9 :  None : 67.0 :  76.55364248957906
-         10 :  None : 18.0 : 20.459879622393945
-         11 :  None : 32.0 :  32.32824384460777
+          5 :  None : 46.0 :  86.98609179004892
+          6 :  None : 79.0 :  87.10238029800072
+          7 :  None : 70.0 : 100.64567561406786
+          8 :  None : 59.0 :  62.88157761574977
+          9 :  None : 62.0 :  76.55364248957906
+         10 :  None : 11.0 : 20.459879622393945
+         11 :  None : 25.0 :  32.32824384460777
          12 :  None : 25.0 :  25.33764102343962
     rangoVehiculo : Size=12
         Key : Lower : Body               : Upper
@@ -14356,14 +14356,14 @@ Model unknown
           2 :  None :                0.0 :  195.6908956922408
           3 :  None :                0.0 :  142.9758912915246
           4 :  None :                0.0 : 173.02304187458725
-          5 :  None :             4.7853 : 1108.5120087171929
-          6 :  None :             5.1863 :  906.8540492859486
-          7 :  None :             8.1148 :  617.3439510684404
-          8 :  None :             6.7029 :  887.5424941518055
-          9 :  None :            10.4519 : 1062.8494665190549
-         10 :  None : 1.3567275795795548 : 10.763088895994128
-         11 :  None :  9.555454005543366 : 14.322671098540392
-         12 :  None :  8.101493278980895 :  10.72575544135963
+          5 :  None :             5.8502 : 1108.5120087171929
+          6 :  None :             9.7646 :  906.8540492859486
+          7 :  None :            10.8803 :  617.3439510684404
+          8 :  None : 10.630600000000001 :  887.5424941518055
+          9 :  None : 3.0172999999999996 : 1062.8494665190549
+         10 :  None : 0.6156193875932149 : 10.763088895994128
+         11 :  None : 13.246509218626095 : 14.322671098540392
+         12 :  None : 3.5235408407181574 :  10.72575544135963
     rangoVehiculoRecargas : Size=0
         Key : Lower : Body : Upper
     subtoures : Size=0
@@ -14410,6 +14410,876 @@ Model unknown
          10 :   0.0 :  0.0 :   0.0
          11 :   0.0 :  0.0 :   0.0
          12 :   0.0 :  0.0 :   0.0
+    entradaUnicaCliente : Size=288
+        Key : Lower : Body : Upper
+          1 :  None :  0.0 :   1.0
+          2 :  None :  0.0 :   1.0
+          3 :  None :  0.0 :   1.0
+          4 :  None :  0.0 :   1.0
+          5 :  None :  0.0 :   1.0
+          6 :  None :  0.0 :   1.0
+          7 :  None :  0.0 :   1.0
+          8 :  None :  0.0 :   1.0
+          9 :  None :  1.0 :   1.0
+         10 :  None :  0.0 :   1.0
+         11 :  None :  0.0 :   1.0
+         12 :  None :  0.0 :   1.0
+         13 :  None :  0.0 :   1.0
+         14 :  None :  0.0 :   1.0
+         15 :  None :  0.0 :   1.0
+         16 :  None :  0.0 :   1.0
+         17 :  None :  0.0 :   1.0
+         18 :  None :  0.0 :   1.0
+         19 :  None :  1.0 :   1.0
+         20 :  None :  0.0 :   1.0
+         21 :  None :  0.0 :   1.0
+         22 :  None :  0.0 :   1.0
+         23 :  None :  0.0 :   1.0
+         24 :  None :  0.0 :   1.0
+         25 :  None :  0.0 :   1.0
+         26 :  None :  0.0 :   1.0
+         27 :  None :  0.0 :   1.0
+         28 :  None :  0.0 :   1.0
+         29 :  None :  0.0 :   1.0
+         30 :  None :  1.0 :   1.0
+         31 :  None :  0.0 :   1.0
+         32 :  None :  0.0 :   1.0
+         33 :  None :  0.0 :   1.0
+         34 :  None :  0.0 :   1.0
+         35 :  None :  0.0 :   1.0
+         36 :  None :  0.0 :   1.0
+         37 :  None :  0.0 :   1.0
+         38 :  None :  0.0 :   1.0
+         39 :  None :  0.0 :   1.0
+         40 :  None :  0.0 :   1.0
+         41 :  None :  0.0 :   1.0
+         42 :  None :  0.0 :   1.0
+         43 :  None :  0.0 :   1.0
+         44 :  None :  0.0 :   1.0
+         45 :  None :  1.0 :   1.0
+         46 :  None :  0.0 :   1.0
+         47 :  None :  0.0 :   1.0
+         48 :  None :  0.0 :   1.0
+         49 :  None :  0.0 :   1.0
+         50 :  None :  0.0 :   1.0
+         51 :  None :  0.0 :   1.0
+         52 :  None :  0.0 :   1.0
+         53 :  None :  0.0 :   1.0
+         54 :  None :  1.0 :   1.0
+         55 :  None :  0.0 :   1.0
+         56 :  None :  0.0 :   1.0
+         57 :  None :  0.0 :   1.0
+         58 :  None :  0.0 :   1.0
+         59 :  None :  0.0 :   1.0
+         60 :  None :  0.0 :   1.0
+         61 :  None :  0.0 :   1.0
+         62 :  None :  0.0 :   1.0
+         63 :  None :  0.0 :   1.0
+         64 :  None :  0.0 :   1.0
+         65 :  None :  1.0 :   1.0
+         66 :  None :  0.0 :   1.0
+         67 :  None :  0.0 :   1.0
+         68 :  None :  0.0 :   1.0
+         69 :  None :  0.0 :   1.0
+         70 :  None :  0.0 :   1.0
+         71 :  None :  0.0 :   1.0
+         72 :  None :  0.0 :   1.0
+         73 :  None :  0.0 :   1.0
+         74 :  None :  0.0 :   1.0
+         75 :  None :  0.0 :   1.0
+         76 :  None :  0.0 :   1.0
+         77 :  None :  0.0 :   1.0
+         78 :  None :  0.0 :   1.0
+         79 :  None :  0.0 :   1.0
+         80 :  None :  0.0 :   1.0
+         81 :  None :  1.0 :   1.0
+         82 :  None :  0.0 :   1.0
+         83 :  None :  0.0 :   1.0
+         84 :  None :  0.0 :   1.0
+         85 :  None :  0.0 :   1.0
+         86 :  None :  0.0 :   1.0
+         87 :  None :  0.0 :   1.0
+         88 :  None :  0.0 :   1.0
+         89 :  None :  0.0 :   1.0
+         90 :  None :  1.0 :   1.0
+         91 :  None :  0.0 :   1.0
+         92 :  None :  0.0 :   1.0
+         93 :  None :  0.0 :   1.0
+         94 :  None :  0.0 :   1.0
+         95 :  None :  0.0 :   1.0
+         96 :  None :  0.0 :   1.0
+         97 :  None :  0.0 :   1.0
+         98 :  None :  0.0 :   1.0
+         99 :  None :  0.0 :   1.0
+        100 :  None :  0.0 :   1.0
+        101 :  None :  0.0 :   1.0
+        102 :  None :  0.0 :   1.0
+        103 :  None :  0.0 :   1.0
+        104 :  None :  1.0 :   1.0
+        105 :  None :  0.0 :   1.0
+        106 :  None :  0.0 :   1.0
+        107 :  None :  0.0 :   1.0
+        108 :  None :  0.0 :   1.0
+        109 :  None :  0.0 :   1.0
+        110 :  None :  0.0 :   1.0
+        111 :  None :  0.0 :   1.0
+        112 :  None :  0.0 :   1.0
+        113 :  None :  0.0 :   1.0
+        114 :  None :  0.0 :   1.0
+        115 :  None :  1.0 :   1.0
+        116 :  None :  0.0 :   1.0
+        117 :  None :  0.0 :   1.0
+        118 :  None :  0.0 :   1.0
+        119 :  None :  0.0 :   1.0
+        120 :  None :  0.0 :   1.0
+        121 :  None :  0.0 :   1.0
+        122 :  None :  0.0 :   1.0
+        123 :  None :  0.0 :   1.0
+        124 :  None :  0.0 :   1.0
+        125 :  None :  1.0 :   1.0
+        126 :  None :  0.0 :   1.0
+        127 :  None :  0.0 :   1.0
+        128 :  None :  0.0 :   1.0
+        129 :  None :  0.0 :   1.0
+        130 :  None :  0.0 :   1.0
+        131 :  None :  0.0 :   1.0
+        132 :  None :  0.0 :   1.0
+        133 :  None :  0.0 :   1.0
+        134 :  None :  0.0 :   1.0
+        135 :  None :  0.0 :   1.0
+        136 :  None :  0.0 :   1.0
+        137 :  None :  0.0 :   1.0
+        138 :  None :  1.0 :   1.0
+        139 :  None :  0.0 :   1.0
+        140 :  None :  0.0 :   1.0
+        141 :  None :  0.0 :   1.0
+        142 :  None :  0.0 :   1.0
+        143 :  None :  0.0 :   1.0
+        144 :  None :  0.0 :   1.0
+        145 :  None :  0.0 :   1.0
+        146 :  None :  0.0 :   1.0
+        147 :  None :  0.0 :   1.0
+        148 :  None :  0.0 :   1.0
+        149 :  None :  0.0 :   1.0
+        150 :  None :  0.0 :   1.0
+        151 :  None :  0.0 :   1.0
+        152 :  None :  1.0 :   1.0
+        153 :  None :  0.0 :   1.0
+        154 :  None :  0.0 :   1.0
+        155 :  None :  0.0 :   1.0
+        156 :  None :  0.0 :   1.0
+        157 :  None :  0.0 :   1.0
+        158 :  None :  0.0 :   1.0
+        159 :  None :  0.0 :   1.0
+        160 :  None :  0.0 :   1.0
+        161 :  None :  0.0 :   1.0
+        162 :  None :  0.0 :   1.0
+        163 :  None :  1.0 :   1.0
+        164 :  None :  0.0 :   1.0
+        165 :  None :  0.0 :   1.0
+        166 :  None :  0.0 :   1.0
+        167 :  None :  0.0 :   1.0
+        168 :  None :  0.0 :   1.0
+        169 :  None :  0.0 :   1.0
+        170 :  None :  0.0 :   1.0
+        171 :  None :  0.0 :   1.0
+        172 :  None :  0.0 :   1.0
+        173 :  None :  0.0 :   1.0
+        174 :  None :  0.0 :   1.0
+        175 :  None :  0.0 :   1.0
+        176 :  None :  0.0 :   1.0
+        177 :  None :  1.0 :   1.0
+        178 :  None :  0.0 :   1.0
+        179 :  None :  0.0 :   1.0
+        180 :  None :  0.0 :   1.0
+        181 :  None :  0.0 :   1.0
+        182 :  None :  0.0 :   1.0
+        183 :  None :  0.0 :   1.0
+        184 :  None :  0.0 :   1.0
+        185 :  None :  0.0 :   1.0
+        186 :  None :  0.0 :   1.0
+        187 :  None :  1.0 :   1.0
+        188 :  None :  0.0 :   1.0
+        189 :  None :  0.0 :   1.0
+        190 :  None :  0.0 :   1.0
+        191 :  None :  0.0 :   1.0
+        192 :  None :  0.0 :   1.0
+        193 :  None :  0.0 :   1.0
+        194 :  None :  0.0 :   1.0
+        195 :  None :  0.0 :   1.0
+        196 :  None :  0.0 :   1.0
+        197 :  None :  0.0 :   1.0
+        198 :  None :  0.0 :   1.0
+        199 :  None :  0.0 :   1.0
+        200 :  None :  0.0 :   1.0
+        201 :  None :  0.0 :   1.0
+        202 :  None :  0.0 :   1.0
+        203 :  None :  0.0 :   1.0
+        204 :  None :  1.0 :   1.0
+        205 :  None :  0.0 :   1.0
+        206 :  None :  0.0 :   1.0
+        207 :  None :  0.0 :   1.0
+        208 :  None :  0.0 :   1.0
+        209 :  None :  1.0 :   1.0
+        210 :  None :  0.0 :   1.0
+        211 :  None :  0.0 :   1.0
+        212 :  None :  0.0 :   1.0
+        213 :  None :  0.0 :   1.0
+        214 :  None :  0.0 :   1.0
+        215 :  None :  0.0 :   1.0
+        216 :  None :  0.0 :   1.0
+        217 :  None :  0.0 :   1.0
+        218 :  None :  0.0 :   1.0
+        219 :  None :  0.0 :   1.0
+        220 :  None :  0.0 :   1.0
+        221 :  None :  0.0 :   1.0
+        222 :  None :  0.0 :   1.0
+        223 :  None :  0.0 :   1.0
+        224 :  None :  0.0 :   1.0
+        225 :  None :  0.0 :   1.0
+        226 :  None :  0.0 :   1.0
+        227 :  None :  1.0 :   1.0
+        228 :  None :  0.0 :   1.0
+        229 :  None :  0.0 :   1.0
+        230 :  None :  0.0 :   1.0
+        231 :  None :  0.0 :   1.0
+        232 :  None :  0.0 :   1.0
+        233 :  None :  0.0 :   1.0
+        234 :  None :  1.0 :   1.0
+        235 :  None :  0.0 :   1.0
+        236 :  None :  0.0 :   1.0
+        237 :  None :  0.0 :   1.0
+        238 :  None :  0.0 :   1.0
+        239 :  None :  0.0 :   1.0
+        240 :  None :  0.0 :   1.0
+        241 :  None :  0.0 :   1.0
+        242 :  None :  0.0 :   1.0
+        243 :  None :  0.0 :   1.0
+        244 :  None :  0.0 :   1.0
+        245 :  None :  0.0 :   1.0
+        246 :  None :  0.0 :   1.0
+        247 :  None :  0.0 :   1.0
+        248 :  None :  0.0 :   1.0
+        249 :  None :  0.0 :   1.0
+        250 :  None :  0.0 :   1.0
+        251 :  None :  1.0 :   1.0
+        252 :  None :  0.0 :   1.0
+        253 :  None :  0.0 :   1.0
+        254 :  None :  0.0 :   1.0
+        255 :  None :  0.0 :   1.0
+        256 :  None :  0.0 :   1.0
+        257 :  None :  0.0 :   1.0
+        258 :  None :  0.0 :   1.0
+        259 :  None :  0.0 :   1.0
+        260 :  None :  1.0 :   1.0
+        261 :  None :  0.0 :   1.0
+        262 :  None :  0.0 :   1.0
+        263 :  None :  0.0 :   1.0
+        264 :  None :  0.0 :   1.0
+        265 :  None :  0.0 :   1.0
+        266 :  None :  0.0 :   1.0
+        267 :  None :  0.0 :   1.0
+        268 :  None :  0.0 :   1.0
+        269 :  None :  0.0 :   1.0
+        270 :  None :  0.0 :   1.0
+        271 :  None :  1.0 :   1.0
+        272 :  None :  0.0 :   1.0
+        273 :  None :  0.0 :   1.0
+        274 :  None :  0.0 :   1.0
+        275 :  None :  0.0 :   1.0
+        276 :  None :  0.0 :   1.0
+        277 :  None :  0.0 :   1.0
+        278 :  None :  0.0 :   1.0
+        279 :  None :  0.0 :   1.0
+        280 :  None :  0.0 :   1.0
+        281 :  None :  0.0 :   1.0
+        282 :  None :  0.0 :   1.0
+        283 :  None :  0.0 :   1.0
+        284 :  None :  0.0 :   1.0
+        285 :  None :  0.0 :   1.0
+        286 :  None :  1.0 :   1.0
+        287 :  None :  0.0 :   1.0
+        288 :  None :  0.0 :   1.0
+    salidaUnicaCliente : Size=288
+        Key : Lower : Body : Upper
+          1 :  None :  0.0 :   1.0
+          2 :  None :  0.0 :   1.0
+          3 :  None :  0.0 :   1.0
+          4 :  None :  0.0 :   1.0
+          5 :  None :  0.0 :   1.0
+          6 :  None :  0.0 :   1.0
+          7 :  None :  0.0 :   1.0
+          8 :  None :  0.0 :   1.0
+          9 :  None :  1.0 :   1.0
+         10 :  None :  0.0 :   1.0
+         11 :  None :  0.0 :   1.0
+         12 :  None :  0.0 :   1.0
+         13 :  None :  0.0 :   1.0
+         14 :  None :  0.0 :   1.0
+         15 :  None :  0.0 :   1.0
+         16 :  None :  0.0 :   1.0
+         17 :  None :  0.0 :   1.0
+         18 :  None :  0.0 :   1.0
+         19 :  None :  1.0 :   1.0
+         20 :  None :  0.0 :   1.0
+         21 :  None :  0.0 :   1.0
+         22 :  None :  0.0 :   1.0
+         23 :  None :  0.0 :   1.0
+         24 :  None :  0.0 :   1.0
+         25 :  None :  0.0 :   1.0
+         26 :  None :  0.0 :   1.0
+         27 :  None :  0.0 :   1.0
+         28 :  None :  0.0 :   1.0
+         29 :  None :  0.0 :   1.0
+         30 :  None :  1.0 :   1.0
+         31 :  None :  0.0 :   1.0
+         32 :  None :  0.0 :   1.0
+         33 :  None :  0.0 :   1.0
+         34 :  None :  0.0 :   1.0
+         35 :  None :  0.0 :   1.0
+         36 :  None :  0.0 :   1.0
+         37 :  None :  0.0 :   1.0
+         38 :  None :  0.0 :   1.0
+         39 :  None :  0.0 :   1.0
+         40 :  None :  0.0 :   1.0
+         41 :  None :  0.0 :   1.0
+         42 :  None :  0.0 :   1.0
+         43 :  None :  0.0 :   1.0
+         44 :  None :  0.0 :   1.0
+         45 :  None :  1.0 :   1.0
+         46 :  None :  0.0 :   1.0
+         47 :  None :  0.0 :   1.0
+         48 :  None :  0.0 :   1.0
+         49 :  None :  0.0 :   1.0
+         50 :  None :  0.0 :   1.0
+         51 :  None :  0.0 :   1.0
+         52 :  None :  0.0 :   1.0
+         53 :  None :  0.0 :   1.0
+         54 :  None :  1.0 :   1.0
+         55 :  None :  0.0 :   1.0
+         56 :  None :  0.0 :   1.0
+         57 :  None :  0.0 :   1.0
+         58 :  None :  0.0 :   1.0
+         59 :  None :  0.0 :   1.0
+         60 :  None :  0.0 :   1.0
+         61 :  None :  0.0 :   1.0
+         62 :  None :  0.0 :   1.0
+         63 :  None :  0.0 :   1.0
+         64 :  None :  0.0 :   1.0
+         65 :  None :  1.0 :   1.0
+         66 :  None :  0.0 :   1.0
+         67 :  None :  0.0 :   1.0
+         68 :  None :  0.0 :   1.0
+         69 :  None :  0.0 :   1.0
+         70 :  None :  0.0 :   1.0
+         71 :  None :  0.0 :   1.0
+         72 :  None :  0.0 :   1.0
+         73 :  None :  0.0 :   1.0
+         74 :  None :  0.0 :   1.0
+         75 :  None :  0.0 :   1.0
+         76 :  None :  0.0 :   1.0
+         77 :  None :  0.0 :   1.0
+         78 :  None :  0.0 :   1.0
+         79 :  None :  0.0 :   1.0
+         80 :  None :  0.0 :   1.0
+         81 :  None :  1.0 :   1.0
+         82 :  None :  0.0 :   1.0
+         83 :  None :  0.0 :   1.0
+         84 :  None :  0.0 :   1.0
+         85 :  None :  0.0 :   1.0
+         86 :  None :  0.0 :   1.0
+         87 :  None :  0.0 :   1.0
+         88 :  None :  0.0 :   1.0
+         89 :  None :  0.0 :   1.0
+         90 :  None :  1.0 :   1.0
+         91 :  None :  0.0 :   1.0
+         92 :  None :  0.0 :   1.0
+         93 :  None :  0.0 :   1.0
+         94 :  None :  0.0 :   1.0
+         95 :  None :  0.0 :   1.0
+         96 :  None :  0.0 :   1.0
+         97 :  None :  0.0 :   1.0
+         98 :  None :  0.0 :   1.0
+         99 :  None :  0.0 :   1.0
+        100 :  None :  0.0 :   1.0
+        101 :  None :  0.0 :   1.0
+        102 :  None :  0.0 :   1.0
+        103 :  None :  0.0 :   1.0
+        104 :  None :  1.0 :   1.0
+        105 :  None :  0.0 :   1.0
+        106 :  None :  0.0 :   1.0
+        107 :  None :  0.0 :   1.0
+        108 :  None :  0.0 :   1.0
+        109 :  None :  0.0 :   1.0
+        110 :  None :  0.0 :   1.0
+        111 :  None :  0.0 :   1.0
+        112 :  None :  0.0 :   1.0
+        113 :  None :  0.0 :   1.0
+        114 :  None :  0.0 :   1.0
+        115 :  None :  1.0 :   1.0
+        116 :  None :  0.0 :   1.0
+        117 :  None :  0.0 :   1.0
+        118 :  None :  0.0 :   1.0
+        119 :  None :  0.0 :   1.0
+        120 :  None :  0.0 :   1.0
+        121 :  None :  0.0 :   1.0
+        122 :  None :  0.0 :   1.0
+        123 :  None :  0.0 :   1.0
+        124 :  None :  0.0 :   1.0
+        125 :  None :  1.0 :   1.0
+        126 :  None :  0.0 :   1.0
+        127 :  None :  0.0 :   1.0
+        128 :  None :  0.0 :   1.0
+        129 :  None :  0.0 :   1.0
+        130 :  None :  0.0 :   1.0
+        131 :  None :  0.0 :   1.0
+        132 :  None :  0.0 :   1.0
+        133 :  None :  0.0 :   1.0
+        134 :  None :  0.0 :   1.0
+        135 :  None :  0.0 :   1.0
+        136 :  None :  0.0 :   1.0
+        137 :  None :  0.0 :   1.0
+        138 :  None :  1.0 :   1.0
+        139 :  None :  0.0 :   1.0
+        140 :  None :  0.0 :   1.0
+        141 :  None :  0.0 :   1.0
+        142 :  None :  0.0 :   1.0
+        143 :  None :  0.0 :   1.0
+        144 :  None :  0.0 :   1.0
+        145 :  None :  0.0 :   1.0
+        146 :  None :  0.0 :   1.0
+        147 :  None :  0.0 :   1.0
+        148 :  None :  0.0 :   1.0
+        149 :  None :  0.0 :   1.0
+        150 :  None :  0.0 :   1.0
+        151 :  None :  0.0 :   1.0
+        152 :  None :  1.0 :   1.0
+        153 :  None :  0.0 :   1.0
+        154 :  None :  0.0 :   1.0
+        155 :  None :  0.0 :   1.0
+        156 :  None :  0.0 :   1.0
+        157 :  None :  0.0 :   1.0
+        158 :  None :  0.0 :   1.0
+        159 :  None :  0.0 :   1.0
+        160 :  None :  0.0 :   1.0
+        161 :  None :  0.0 :   1.0
+        162 :  None :  0.0 :   1.0
+        163 :  None :  1.0 :   1.0
+        164 :  None :  0.0 :   1.0
+        165 :  None :  0.0 :   1.0
+        166 :  None :  0.0 :   1.0
+        167 :  None :  0.0 :   1.0
+        168 :  None :  0.0 :   1.0
+        169 :  None :  0.0 :   1.0
+        170 :  None :  0.0 :   1.0
+        171 :  None :  0.0 :   1.0
+        172 :  None :  0.0 :   1.0
+        173 :  None :  0.0 :   1.0
+        174 :  None :  0.0 :   1.0
+        175 :  None :  0.0 :   1.0
+        176 :  None :  0.0 :   1.0
+        177 :  None :  1.0 :   1.0
+        178 :  None :  0.0 :   1.0
+        179 :  None :  0.0 :   1.0
+        180 :  None :  0.0 :   1.0
+        181 :  None :  0.0 :   1.0
+        182 :  None :  0.0 :   1.0
+        183 :  None :  0.0 :   1.0
+        184 :  None :  0.0 :   1.0
+        185 :  None :  0.0 :   1.0
+        186 :  None :  0.0 :   1.0
+        187 :  None :  1.0 :   1.0
+        188 :  None :  0.0 :   1.0
+        189 :  None :  0.0 :   1.0
+        190 :  None :  0.0 :   1.0
+        191 :  None :  0.0 :   1.0
+        192 :  None :  0.0 :   1.0
+        193 :  None :  0.0 :   1.0
+        194 :  None :  0.0 :   1.0
+        195 :  None :  0.0 :   1.0
+        196 :  None :  0.0 :   1.0
+        197 :  None :  0.0 :   1.0
+        198 :  None :  0.0 :   1.0
+        199 :  None :  0.0 :   1.0
+        200 :  None :  0.0 :   1.0
+        201 :  None :  0.0 :   1.0
+        202 :  None :  0.0 :   1.0
+        203 :  None :  0.0 :   1.0
+        204 :  None :  1.0 :   1.0
+        205 :  None :  0.0 :   1.0
+        206 :  None :  0.0 :   1.0
+        207 :  None :  0.0 :   1.0
+        208 :  None :  0.0 :   1.0
+        209 :  None :  1.0 :   1.0
+        210 :  None :  0.0 :   1.0
+        211 :  None :  0.0 :   1.0
+        212 :  None :  0.0 :   1.0
+        213 :  None :  0.0 :   1.0
+        214 :  None :  0.0 :   1.0
+        215 :  None :  0.0 :   1.0
+        216 :  None :  0.0 :   1.0
+        217 :  None :  0.0 :   1.0
+        218 :  None :  0.0 :   1.0
+        219 :  None :  0.0 :   1.0
+        220 :  None :  0.0 :   1.0
+        221 :  None :  0.0 :   1.0
+        222 :  None :  0.0 :   1.0
+        223 :  None :  0.0 :   1.0
+        224 :  None :  0.0 :   1.0
+        225 :  None :  0.0 :   1.0
+        226 :  None :  0.0 :   1.0
+        227 :  None :  1.0 :   1.0
+        228 :  None :  0.0 :   1.0
+        229 :  None :  0.0 :   1.0
+        230 :  None :  0.0 :   1.0
+        231 :  None :  0.0 :   1.0
+        232 :  None :  0.0 :   1.0
+        233 :  None :  0.0 :   1.0
+        234 :  None :  1.0 :   1.0
+        235 :  None :  0.0 :   1.0
+        236 :  None :  0.0 :   1.0
+        237 :  None :  0.0 :   1.0
+        238 :  None :  0.0 :   1.0
+        239 :  None :  0.0 :   1.0
+        240 :  None :  0.0 :   1.0
+        241 :  None :  0.0 :   1.0
+        242 :  None :  0.0 :   1.0
+        243 :  None :  0.0 :   1.0
+        244 :  None :  0.0 :   1.0
+        245 :  None :  0.0 :   1.0
+        246 :  None :  0.0 :   1.0
+        247 :  None :  0.0 :   1.0
+        248 :  None :  0.0 :   1.0
+        249 :  None :  0.0 :   1.0
+        250 :  None :  0.0 :   1.0
+        251 :  None :  1.0 :   1.0
+        252 :  None :  0.0 :   1.0
+        253 :  None :  0.0 :   1.0
+        254 :  None :  0.0 :   1.0
+        255 :  None :  0.0 :   1.0
+        256 :  None :  0.0 :   1.0
+        257 :  None :  0.0 :   1.0
+        258 :  None :  0.0 :   1.0
+        259 :  None :  0.0 :   1.0
+        260 :  None :  1.0 :   1.0
+        261 :  None :  0.0 :   1.0
+        262 :  None :  0.0 :   1.0
+        263 :  None :  0.0 :   1.0
+        264 :  None :  0.0 :   1.0
+        265 :  None :  0.0 :   1.0
+        266 :  None :  0.0 :   1.0
+        267 :  None :  0.0 :   1.0
+        268 :  None :  0.0 :   1.0
+        269 :  None :  0.0 :   1.0
+        270 :  None :  0.0 :   1.0
+        271 :  None :  1.0 :   1.0
+        272 :  None :  0.0 :   1.0
+        273 :  None :  0.0 :   1.0
+        274 :  None :  0.0 :   1.0
+        275 :  None :  0.0 :   1.0
+        276 :  None :  0.0 :   1.0
+        277 :  None :  0.0 :   1.0
+        278 :  None :  0.0 :   1.0
+        279 :  None :  0.0 :   1.0
+        280 :  None :  0.0 :   1.0
+        281 :  None :  0.0 :   1.0
+        282 :  None :  0.0 :   1.0
+        283 :  None :  0.0 :   1.0
+        284 :  None :  0.0 :   1.0
+        285 :  None :  0.0 :   1.0
+        286 :  None :  1.0 :   1.0
+        287 :  None :  0.0 :   1.0
+        288 :  None :  0.0 :   1.0
+    entradaYSalidaCliente : Size=288
+        Key : Lower : Body : Upper
+          1 :   0.0 :  0.0 :   0.0
+          2 :   0.0 :  0.0 :   0.0
+          3 :   0.0 :  0.0 :   0.0
+          4 :   0.0 :  0.0 :   0.0
+          5 :   0.0 :  0.0 :   0.0
+          6 :   0.0 :  0.0 :   0.0
+          7 :   0.0 :  0.0 :   0.0
+          8 :   0.0 :  0.0 :   0.0
+          9 :   0.0 :  0.0 :   0.0
+         10 :   0.0 :  0.0 :   0.0
+         11 :   0.0 :  0.0 :   0.0
+         12 :   0.0 :  0.0 :   0.0
+         13 :   0.0 :  0.0 :   0.0
+         14 :   0.0 :  0.0 :   0.0
+         15 :   0.0 :  0.0 :   0.0
+         16 :   0.0 :  0.0 :   0.0
+         17 :   0.0 :  0.0 :   0.0
+         18 :   0.0 :  0.0 :   0.0
+         19 :   0.0 :  0.0 :   0.0
+         20 :   0.0 :  0.0 :   0.0
+         21 :   0.0 :  0.0 :   0.0
+         22 :   0.0 :  0.0 :   0.0
+         23 :   0.0 :  0.0 :   0.0
+         24 :   0.0 :  0.0 :   0.0
+         25 :   0.0 :  0.0 :   0.0
+         26 :   0.0 :  0.0 :   0.0
+         27 :   0.0 :  0.0 :   0.0
+         28 :   0.0 :  0.0 :   0.0
+         29 :   0.0 :  0.0 :   0.0
+         30 :   0.0 :  0.0 :   0.0
+         31 :   0.0 :  0.0 :   0.0
+         32 :   0.0 :  0.0 :   0.0
+         33 :   0.0 :  0.0 :   0.0
+         34 :   0.0 :  0.0 :   0.0
+         35 :   0.0 :  0.0 :   0.0
+         36 :   0.0 :  0.0 :   0.0
+         37 :   0.0 :  0.0 :   0.0
+         38 :   0.0 :  0.0 :   0.0
+         39 :   0.0 :  0.0 :   0.0
+         40 :   0.0 :  0.0 :   0.0
+         41 :   0.0 :  0.0 :   0.0
+         42 :   0.0 :  0.0 :   0.0
+         43 :   0.0 :  0.0 :   0.0
+         44 :   0.0 :  0.0 :   0.0
+         45 :   0.0 :  0.0 :   0.0
+         46 :   0.0 :  0.0 :   0.0
+         47 :   0.0 :  0.0 :   0.0
+         48 :   0.0 :  0.0 :   0.0
+         49 :   0.0 :  0.0 :   0.0
+         50 :   0.0 :  0.0 :   0.0
+         51 :   0.0 :  0.0 :   0.0
+         52 :   0.0 :  0.0 :   0.0
+         53 :   0.0 :  0.0 :   0.0
+         54 :   0.0 :  0.0 :   0.0
+         55 :   0.0 :  0.0 :   0.0
+         56 :   0.0 :  0.0 :   0.0
+         57 :   0.0 :  0.0 :   0.0
+         58 :   0.0 :  0.0 :   0.0
+         59 :   0.0 :  0.0 :   0.0
+         60 :   0.0 :  0.0 :   0.0
+         61 :   0.0 :  0.0 :   0.0
+         62 :   0.0 :  0.0 :   0.0
+         63 :   0.0 :  0.0 :   0.0
+         64 :   0.0 :  0.0 :   0.0
+         65 :   0.0 :  0.0 :   0.0
+         66 :   0.0 :  0.0 :   0.0
+         67 :   0.0 :  0.0 :   0.0
+         68 :   0.0 :  0.0 :   0.0
+         69 :   0.0 :  0.0 :   0.0
+         70 :   0.0 :  0.0 :   0.0
+         71 :   0.0 :  0.0 :   0.0
+         72 :   0.0 :  0.0 :   0.0
+         73 :   0.0 :  0.0 :   0.0
+         74 :   0.0 :  0.0 :   0.0
+         75 :   0.0 :  0.0 :   0.0
+         76 :   0.0 :  0.0 :   0.0
+         77 :   0.0 :  0.0 :   0.0
+         78 :   0.0 :  0.0 :   0.0
+         79 :   0.0 :  0.0 :   0.0
+         80 :   0.0 :  0.0 :   0.0
+         81 :   0.0 :  0.0 :   0.0
+         82 :   0.0 :  0.0 :   0.0
+         83 :   0.0 :  0.0 :   0.0
+         84 :   0.0 :  0.0 :   0.0
+         85 :   0.0 :  0.0 :   0.0
+         86 :   0.0 :  0.0 :   0.0
+         87 :   0.0 :  0.0 :   0.0
+         88 :   0.0 :  0.0 :   0.0
+         89 :   0.0 :  0.0 :   0.0
+         90 :   0.0 :  0.0 :   0.0
+         91 :   0.0 :  0.0 :   0.0
+         92 :   0.0 :  0.0 :   0.0
+         93 :   0.0 :  0.0 :   0.0
+         94 :   0.0 :  0.0 :   0.0
+         95 :   0.0 :  0.0 :   0.0
+         96 :   0.0 :  0.0 :   0.0
+         97 :   0.0 :  0.0 :   0.0
+         98 :   0.0 :  0.0 :   0.0
+         99 :   0.0 :  0.0 :   0.0
+        100 :   0.0 :  0.0 :   0.0
+        101 :   0.0 :  0.0 :   0.0
+        102 :   0.0 :  0.0 :   0.0
+        103 :   0.0 :  0.0 :   0.0
+        104 :   0.0 :  0.0 :   0.0
+        105 :   0.0 :  0.0 :   0.0
+        106 :   0.0 :  0.0 :   0.0
+        107 :   0.0 :  0.0 :   0.0
+        108 :   0.0 :  0.0 :   0.0
+        109 :   0.0 :  0.0 :   0.0
+        110 :   0.0 :  0.0 :   0.0
+        111 :   0.0 :  0.0 :   0.0
+        112 :   0.0 :  0.0 :   0.0
+        113 :   0.0 :  0.0 :   0.0
+        114 :   0.0 :  0.0 :   0.0
+        115 :   0.0 :  0.0 :   0.0
+        116 :   0.0 :  0.0 :   0.0
+        117 :   0.0 :  0.0 :   0.0
+        118 :   0.0 :  0.0 :   0.0
+        119 :   0.0 :  0.0 :   0.0
+        120 :   0.0 :  0.0 :   0.0
+        121 :   0.0 :  0.0 :   0.0
+        122 :   0.0 :  0.0 :   0.0
+        123 :   0.0 :  0.0 :   0.0
+        124 :   0.0 :  0.0 :   0.0
+        125 :   0.0 :  0.0 :   0.0
+        126 :   0.0 :  0.0 :   0.0
+        127 :   0.0 :  0.0 :   0.0
+        128 :   0.0 :  0.0 :   0.0
+        129 :   0.0 :  0.0 :   0.0
+        130 :   0.0 :  0.0 :   0.0
+        131 :   0.0 :  0.0 :   0.0
+        132 :   0.0 :  0.0 :   0.0
+        133 :   0.0 :  0.0 :   0.0
+        134 :   0.0 :  0.0 :   0.0
+        135 :   0.0 :  0.0 :   0.0
+        136 :   0.0 :  0.0 :   0.0
+        137 :   0.0 :  0.0 :   0.0
+        138 :   0.0 :  0.0 :   0.0
+        139 :   0.0 :  0.0 :   0.0
+        140 :   0.0 :  0.0 :   0.0
+        141 :   0.0 :  0.0 :   0.0
+        142 :   0.0 :  0.0 :   0.0
+        143 :   0.0 :  0.0 :   0.0
+        144 :   0.0 :  0.0 :   0.0
+        145 :   0.0 :  0.0 :   0.0
+        146 :   0.0 :  0.0 :   0.0
+        147 :   0.0 :  0.0 :   0.0
+        148 :   0.0 :  0.0 :   0.0
+        149 :   0.0 :  0.0 :   0.0
+        150 :   0.0 :  0.0 :   0.0
+        151 :   0.0 :  0.0 :   0.0
+        152 :   0.0 :  0.0 :   0.0
+        153 :   0.0 :  0.0 :   0.0
+        154 :   0.0 :  0.0 :   0.0
+        155 :   0.0 :  0.0 :   0.0
+        156 :   0.0 :  0.0 :   0.0
+        157 :   0.0 :  0.0 :   0.0
+        158 :   0.0 :  0.0 :   0.0
+        159 :   0.0 :  0.0 :   0.0
+        160 :   0.0 :  0.0 :   0.0
+        161 :   0.0 :  0.0 :   0.0
+        162 :   0.0 :  0.0 :   0.0
+        163 :   0.0 :  0.0 :   0.0
+        164 :   0.0 :  0.0 :   0.0
+        165 :   0.0 :  0.0 :   0.0
+        166 :   0.0 :  0.0 :   0.0
+        167 :   0.0 :  0.0 :   0.0
+        168 :   0.0 :  0.0 :   0.0
+        169 :   0.0 :  0.0 :   0.0
+        170 :   0.0 :  0.0 :   0.0
+        171 :   0.0 :  0.0 :   0.0
+        172 :   0.0 :  0.0 :   0.0
+        173 :   0.0 :  0.0 :   0.0
+        174 :   0.0 :  0.0 :   0.0
+        175 :   0.0 :  0.0 :   0.0
+        176 :   0.0 :  0.0 :   0.0
+        177 :   0.0 :  0.0 :   0.0
+        178 :   0.0 :  0.0 :   0.0
+        179 :   0.0 :  0.0 :   0.0
+        180 :   0.0 :  0.0 :   0.0
+        181 :   0.0 :  0.0 :   0.0
+        182 :   0.0 :  0.0 :   0.0
+        183 :   0.0 :  0.0 :   0.0
+        184 :   0.0 :  0.0 :   0.0
+        185 :   0.0 :  0.0 :   0.0
+        186 :   0.0 :  0.0 :   0.0
+        187 :   0.0 :  0.0 :   0.0
+        188 :   0.0 :  0.0 :   0.0
+        189 :   0.0 :  0.0 :   0.0
+        190 :   0.0 :  0.0 :   0.0
+        191 :   0.0 :  0.0 :   0.0
+        192 :   0.0 :  0.0 :   0.0
+        193 :   0.0 :  0.0 :   0.0
+        194 :   0.0 :  0.0 :   0.0
+        195 :   0.0 :  0.0 :   0.0
+        196 :   0.0 :  0.0 :   0.0
+        197 :   0.0 :  0.0 :   0.0
+        198 :   0.0 :  0.0 :   0.0
+        199 :   0.0 :  0.0 :   0.0
+        200 :   0.0 :  0.0 :   0.0
+        201 :   0.0 :  0.0 :   0.0
+        202 :   0.0 :  0.0 :   0.0
+        203 :   0.0 :  0.0 :   0.0
+        204 :   0.0 :  0.0 :   0.0
+        205 :   0.0 :  0.0 :   0.0
+        206 :   0.0 :  0.0 :   0.0
+        207 :   0.0 :  0.0 :   0.0
+        208 :   0.0 :  0.0 :   0.0
+        209 :   0.0 :  0.0 :   0.0
+        210 :   0.0 :  0.0 :   0.0
+        211 :   0.0 :  0.0 :   0.0
+        212 :   0.0 :  0.0 :   0.0
+        213 :   0.0 :  0.0 :   0.0
+        214 :   0.0 :  0.0 :   0.0
+        215 :   0.0 :  0.0 :   0.0
+        216 :   0.0 :  0.0 :   0.0
+        217 :   0.0 :  0.0 :   0.0
+        218 :   0.0 :  0.0 :   0.0
+        219 :   0.0 :  0.0 :   0.0
+        220 :   0.0 :  0.0 :   0.0
+        221 :   0.0 :  0.0 :   0.0
+        222 :   0.0 :  0.0 :   0.0
+        223 :   0.0 :  0.0 :   0.0
+        224 :   0.0 :  0.0 :   0.0
+        225 :   0.0 :  0.0 :   0.0
+        226 :   0.0 :  0.0 :   0.0
+        227 :   0.0 :  0.0 :   0.0
+        228 :   0.0 :  0.0 :   0.0
+        229 :   0.0 :  0.0 :   0.0
+        230 :   0.0 :  0.0 :   0.0
+        231 :   0.0 :  0.0 :   0.0
+        232 :   0.0 :  0.0 :   0.0
+        233 :   0.0 :  0.0 :   0.0
+        234 :   0.0 :  0.0 :   0.0
+        235 :   0.0 :  0.0 :   0.0
+        236 :   0.0 :  0.0 :   0.0
+        237 :   0.0 :  0.0 :   0.0
+        238 :   0.0 :  0.0 :   0.0
+        239 :   0.0 :  0.0 :   0.0
+        240 :   0.0 :  0.0 :   0.0
+        241 :   0.0 :  0.0 :   0.0
+        242 :   0.0 :  0.0 :   0.0
+        243 :   0.0 :  0.0 :   0.0
+        244 :   0.0 :  0.0 :   0.0
+        245 :   0.0 :  0.0 :   0.0
+        246 :   0.0 :  0.0 :   0.0
+        247 :   0.0 :  0.0 :   0.0
+        248 :   0.0 :  0.0 :   0.0
+        249 :   0.0 :  0.0 :   0.0
+        250 :   0.0 :  0.0 :   0.0
+        251 :   0.0 :  0.0 :   0.0
+        252 :   0.0 :  0.0 :   0.0
+        253 :   0.0 :  0.0 :   0.0
+        254 :   0.0 :  0.0 :   0.0
+        255 :   0.0 :  0.0 :   0.0
+        256 :   0.0 :  0.0 :   0.0
+        257 :   0.0 :  0.0 :   0.0
+        258 :   0.0 :  0.0 :   0.0
+        259 :   0.0 :  0.0 :   0.0
+        260 :   0.0 :  0.0 :   0.0
+        261 :   0.0 :  0.0 :   0.0
+        262 :   0.0 :  0.0 :   0.0
+        263 :   0.0 :  0.0 :   0.0
+        264 :   0.0 :  0.0 :   0.0
+        265 :   0.0 :  0.0 :   0.0
+        266 :   0.0 :  0.0 :   0.0
+        267 :   0.0 :  0.0 :   0.0
+        268 :   0.0 :  0.0 :   0.0
+        269 :   0.0 :  0.0 :   0.0
+        270 :   0.0 :  0.0 :   0.0
+        271 :   0.0 :  0.0 :   0.0
+        272 :   0.0 :  0.0 :   0.0
+        273 :   0.0 :  0.0 :   0.0
+        274 :   0.0 :  0.0 :   0.0
+        275 :   0.0 :  0.0 :   0.0
+        276 :   0.0 :  0.0 :   0.0
+        277 :   0.0 :  0.0 :   0.0
+        278 :   0.0 :  0.0 :   0.0
+        279 :   0.0 :  0.0 :   0.0
+        280 :   0.0 :  0.0 :   0.0
+        281 :   0.0 :  0.0 :   0.0
+        282 :   0.0 :  0.0 :   0.0
+        283 :   0.0 :  0.0 :   0.0
+        284 :   0.0 :  0.0 :   0.0
+        285 :   0.0 :  0.0 :   0.0
+        286 :   0.0 :  0.0 :   0.0
+        287 :   0.0 :  0.0 :   0.0
+        288 :   0.0 :  0.0 :   0.0
     visitaClientesIntermediosSalida : Size=6624
         Key  : Lower : Body : Upper
            1 :  None :  0.0 :   0.0
@@ -16751,7 +17621,7 @@ Model unknown
         2337 :  None : -1.0 :   0.0
         2338 :  None : -1.0 :   0.0
         2339 :  None : -1.0 :   0.0
-        2340 :  None : -1.0 :   0.0
+        2340 :  None :  0.0 :   0.0
         2341 :  None : -1.0 :   0.0
         2342 :  None : -1.0 :   0.0
         2343 :  None : -1.0 :   0.0
@@ -16841,7 +17711,7 @@ Model unknown
         2427 :  None : -1.0 :   0.0
         2428 :  None : -1.0 :   0.0
         2429 :  None : -1.0 :   0.0
-        2430 :  None :  0.0 :   0.0
+        2430 :  None : -1.0 :   0.0
         2431 :  None : -1.0 :   0.0
         2432 :  None : -1.0 :   0.0
         2433 :  None : -1.0 :   0.0
@@ -16945,7 +17815,7 @@ Model unknown
         2531 :  None : -1.0 :   0.0
         2532 :  None : -1.0 :   0.0
         2533 :  None : -1.0 :   0.0
-        2534 :  None :  0.0 :   0.0
+        2534 :  None : -1.0 :   0.0
         2535 :  None : -1.0 :   0.0
         2536 :  None : -1.0 :   0.0
         2537 :  None : -1.0 :   0.0
@@ -17016,7 +17886,7 @@ Model unknown
         2602 :  None : -1.0 :   0.0
         2603 :  None : -1.0 :   0.0
         2604 :  None : -1.0 :   0.0
-        2605 :  None : -1.0 :   0.0
+        2605 :  None :  0.0 :   0.0
         2606 :  None : -1.0 :   0.0
         2607 :  None : -1.0 :   0.0
         2608 :  None : -1.0 :   0.0
@@ -17337,7 +18207,7 @@ Model unknown
         2923 :  None : -1.0 :   0.0
         2924 :  None : -1.0 :   0.0
         2925 :  None : -1.0 :   0.0
-        2926 :  None : -1.0 :   0.0
+        2926 :  None :  0.0 :   0.0
         2927 :  None : -1.0 :   0.0
         2928 :  None : -1.0 :   0.0
         2929 :  None : -1.0 :   0.0
@@ -17443,7 +18313,7 @@ Model unknown
         3029 :  None : -1.0 :   0.0
         3030 :  None : -1.0 :   0.0
         3031 :  None : -1.0 :   0.0
-        3032 :  None : -1.0 :   0.0
+        3032 :  None :  0.0 :   0.0
         3033 :  None : -1.0 :   0.0
         3034 :  None : -1.0 :   0.0
         3035 :  None : -1.0 :   0.0
@@ -17568,7 +18438,7 @@ Model unknown
         3154 :  None : -1.0 :   0.0
         3155 :  None : -1.0 :   0.0
         3156 :  None : -1.0 :   0.0
-        3157 :  None :  0.0 :   0.0
+        3157 :  None : -1.0 :   0.0
         3158 :  None : -1.0 :   0.0
         3159 :  None : -1.0 :   0.0
         3160 :  None : -1.0 :   0.0
@@ -17620,7 +18490,7 @@ Model unknown
         3206 :  None : -1.0 :   0.0
         3207 :  None : -1.0 :   0.0
         3208 :  None : -1.0 :   0.0
-        3209 :  None : -1.0 :   0.0
+        3209 :  None :  0.0 :   0.0
         3210 :  None : -1.0 :   0.0
         3211 :  None : -1.0 :   0.0
         3212 :  None : -1.0 :   0.0
@@ -17793,7 +18663,7 @@ Model unknown
         3379 :  None : -1.0 :   0.0
         3380 :  None : -1.0 :   0.0
         3381 :  None : -1.0 :   0.0
-        3382 :  None :  0.0 :   0.0
+        3382 :  None : -1.0 :   0.0
         3383 :  None : -1.0 :   0.0
         3384 :  None : -1.0 :   0.0
         3385 :  None : -1.0 :   0.0
@@ -17889,7 +18759,7 @@ Model unknown
         3475 :  None : -1.0 :   0.0
         3476 :  None : -1.0 :   0.0
         3477 :  None : -1.0 :   0.0
-        3478 :  None :  0.0 :   0.0
+        3478 :  None : -1.0 :   0.0
         3479 :  None : -1.0 :   0.0
         3480 :  None : -1.0 :   0.0
         3481 :  None : -1.0 :   0.0
@@ -17945,7 +18815,7 @@ Model unknown
         3531 :  None : -1.0 :   0.0
         3532 :  None : -1.0 :   0.0
         3533 :  None : -1.0 :   0.0
-        3534 :  None : -1.0 :   0.0
+        3534 :  None :  0.0 :   0.0
         3535 :  None : -1.0 :   0.0
         3536 :  None : -1.0 :   0.0
         3537 :  None : -1.0 :   0.0
@@ -18044,7 +18914,7 @@ Model unknown
         3630 :  None : -1.0 :   0.0
         3631 :  None : -1.0 :   0.0
         3632 :  None : -1.0 :   0.0
-        3633 :  None : -1.0 :   0.0
+        3633 :  None :  0.0 :   0.0
         3634 :  None : -1.0 :   0.0
         3635 :  None : -1.0 :   0.0
         3636 :  None : -1.0 :   0.0
@@ -18289,7 +19159,7 @@ Model unknown
         3875 :  None : -1.0 :   0.0
         3876 :  None : -1.0 :   0.0
         3877 :  None : -1.0 :   0.0
-        3878 :  None :  0.0 :   0.0
+        3878 :  None : -1.0 :   0.0
         3879 :  None : -1.0 :   0.0
         3880 :  None : -1.0 :   0.0
         3881 :  None : -1.0 :   0.0
@@ -18407,7 +19277,7 @@ Model unknown
         3993 :  None : -1.0 :   0.0
         3994 :  None : -1.0 :   0.0
         3995 :  None : -1.0 :   0.0
-        3996 :  None :  0.0 :   0.0
+        3996 :  None : -1.0 :   0.0
         3997 :  None : -1.0 :   0.0
         3998 :  None : -1.0 :   0.0
         3999 :  None : -1.0 :   0.0
@@ -18547,7 +19417,7 @@ Model unknown
         4133 :  None : -1.0 :   0.0
         4134 :  None : -1.0 :   0.0
         4135 :  None : -1.0 :   0.0
-        4136 :  None :  0.0 :   0.0
+        4136 :  None : -1.0 :   0.0
         4137 :  None : -1.0 :   0.0
         4138 :  None : -1.0 :   0.0
         4139 :  None : -1.0 :   0.0
@@ -18572,7 +19442,7 @@ Model unknown
         4158 :  None : -1.0 :   0.0
         4159 :  None : -1.0 :   0.0
         4160 :  None : -1.0 :   0.0
-        4161 :  None : -1.0 :   0.0
+        4161 :  None :  0.0 :   0.0
         4162 :  None : -1.0 :   0.0
         4163 :  None : -1.0 :   0.0
         4164 :  None : -1.0 :   0.0
@@ -18771,7 +19641,7 @@ Model unknown
         4357 :  None : -1.0 :   0.0
         4358 :  None : -1.0 :   0.0
         4359 :  None : -1.0 :   0.0
-        4360 :  None : -1.0 :   0.0
+        4360 :  None :  0.0 :   0.0
         4361 :  None : -1.0 :   0.0
         4362 :  None : -1.0 :   0.0
         4363 :  None : -1.0 :   0.0
@@ -18841,7 +19711,7 @@ Model unknown
         4427 :  None : -1.0 :   0.0
         4428 :  None : -1.0 :   0.0
         4429 :  None : -1.0 :   0.0
-        4430 :  None : -1.0 :   0.0
+        4430 :  None :  0.0 :   0.0
         4431 :  None : -1.0 :   0.0
         4432 :  None : -1.0 :   0.0
         4433 :  None : -1.0 :   0.0
@@ -18897,7 +19767,7 @@ Model unknown
         4483 :  None : -1.0 :   0.0
         4484 :  None : -1.0 :   0.0
         4485 :  None : -1.0 :   0.0
-        4486 :  None : -1.0 :   0.0
+        4486 :  None :  0.0 :   0.0
         4487 :  None : -1.0 :   0.0
         4488 :  None : -1.0 :   0.0
         4489 :  None : -1.0 :   0.0
@@ -19148,12 +20018,12 @@ Model unknown
         4734 :  None : -1.0 :   0.0
         4735 :  None : -1.0 :   0.0
         4736 :  None : -1.0 :   0.0
-        4737 :  None :  0.0 :   0.0
+        4737 :  None : -1.0 :   0.0
         4738 :  None : -1.0 :   0.0
         4739 :  None : -1.0 :   0.0
         4740 :  None : -1.0 :   0.0
         4741 :  None : -1.0 :   0.0
-        4742 :  None : -1.0 :   0.0
+        4742 :  None :  0.0 :   0.0
         4743 :  None : -1.0 :   0.0
         4744 :  None : -1.0 :   0.0
         4745 :  None : -1.0 :   0.0
@@ -19276,7 +20146,7 @@ Model unknown
         4862 :  None : -1.0 :   0.0
         4863 :  None : -1.0 :   0.0
         4864 :  None : -1.0 :   0.0
-        4865 :  None :  0.0 :   0.0
+        4865 :  None : -1.0 :   0.0
         4866 :  None : -1.0 :   0.0
         4867 :  None : -1.0 :   0.0
         4868 :  None : -1.0 :   0.0
@@ -19327,7 +20197,7 @@ Model unknown
         4913 :  None : -1.0 :   0.0
         4914 :  None : -1.0 :   0.0
         4915 :  None : -1.0 :   0.0
-        4916 :  None :  0.0 :   0.0
+        4916 :  None : -1.0 :   0.0
         4917 :  None : -1.0 :   0.0
         4918 :  None : -1.0 :   0.0
         4919 :  None : -1.0 :   0.0
@@ -20917,7 +21787,7 @@ Model unknown
         6503 :  None : -1.0 :   0.0
         6504 :  None : -1.0 :   0.0
         6505 :  None : -1.0 :   0.0
-        6506 :  None :  0.0 :   0.0
+        6506 :  None : -1.0 :   0.0
         6507 :  None : -1.0 :   0.0
         6508 :  None : -1.0 :   0.0
         6509 :  None : -1.0 :   0.0
@@ -23377,7 +24247,7 @@ Model unknown
         2337 :  None : -1.0 :   0.0
         2338 :  None : -1.0 :   0.0
         2339 :  None : -1.0 :   0.0
-        2340 :  None : -1.0 :   0.0
+        2340 :  None :  0.0 :   0.0
         2341 :  None : -1.0 :   0.0
         2342 :  None : -1.0 :   0.0
         2343 :  None : -1.0 :   0.0
@@ -23467,7 +24337,7 @@ Model unknown
         2427 :  None : -1.0 :   0.0
         2428 :  None : -1.0 :   0.0
         2429 :  None : -1.0 :   0.0
-        2430 :  None :  0.0 :   0.0
+        2430 :  None : -1.0 :   0.0
         2431 :  None : -1.0 :   0.0
         2432 :  None : -1.0 :   0.0
         2433 :  None : -1.0 :   0.0
@@ -23571,7 +24441,7 @@ Model unknown
         2531 :  None : -1.0 :   0.0
         2532 :  None : -1.0 :   0.0
         2533 :  None : -1.0 :   0.0
-        2534 :  None :  0.0 :   0.0
+        2534 :  None : -1.0 :   0.0
         2535 :  None : -1.0 :   0.0
         2536 :  None : -1.0 :   0.0
         2537 :  None : -1.0 :   0.0
@@ -23642,7 +24512,7 @@ Model unknown
         2602 :  None : -1.0 :   0.0
         2603 :  None : -1.0 :   0.0
         2604 :  None : -1.0 :   0.0
-        2605 :  None : -1.0 :   0.0
+        2605 :  None :  0.0 :   0.0
         2606 :  None : -1.0 :   0.0
         2607 :  None : -1.0 :   0.0
         2608 :  None : -1.0 :   0.0
@@ -23963,7 +24833,7 @@ Model unknown
         2923 :  None : -1.0 :   0.0
         2924 :  None : -1.0 :   0.0
         2925 :  None : -1.0 :   0.0
-        2926 :  None : -1.0 :   0.0
+        2926 :  None :  0.0 :   0.0
         2927 :  None : -1.0 :   0.0
         2928 :  None : -1.0 :   0.0
         2929 :  None : -1.0 :   0.0
@@ -24069,7 +24939,7 @@ Model unknown
         3029 :  None : -1.0 :   0.0
         3030 :  None : -1.0 :   0.0
         3031 :  None : -1.0 :   0.0
-        3032 :  None : -1.0 :   0.0
+        3032 :  None :  0.0 :   0.0
         3033 :  None : -1.0 :   0.0
         3034 :  None : -1.0 :   0.0
         3035 :  None : -1.0 :   0.0
@@ -24194,7 +25064,7 @@ Model unknown
         3154 :  None : -1.0 :   0.0
         3155 :  None : -1.0 :   0.0
         3156 :  None : -1.0 :   0.0
-        3157 :  None :  0.0 :   0.0
+        3157 :  None : -1.0 :   0.0
         3158 :  None : -1.0 :   0.0
         3159 :  None : -1.0 :   0.0
         3160 :  None : -1.0 :   0.0
@@ -24246,7 +25116,7 @@ Model unknown
         3206 :  None : -1.0 :   0.0
         3207 :  None : -1.0 :   0.0
         3208 :  None : -1.0 :   0.0
-        3209 :  None : -1.0 :   0.0
+        3209 :  None :  0.0 :   0.0
         3210 :  None : -1.0 :   0.0
         3211 :  None : -1.0 :   0.0
         3212 :  None : -1.0 :   0.0
@@ -24419,7 +25289,7 @@ Model unknown
         3379 :  None : -1.0 :   0.0
         3380 :  None : -1.0 :   0.0
         3381 :  None : -1.0 :   0.0
-        3382 :  None :  0.0 :   0.0
+        3382 :  None : -1.0 :   0.0
         3383 :  None : -1.0 :   0.0
         3384 :  None : -1.0 :   0.0
         3385 :  None : -1.0 :   0.0
@@ -24515,7 +25385,7 @@ Model unknown
         3475 :  None : -1.0 :   0.0
         3476 :  None : -1.0 :   0.0
         3477 :  None : -1.0 :   0.0
-        3478 :  None :  0.0 :   0.0
+        3478 :  None : -1.0 :   0.0
         3479 :  None : -1.0 :   0.0
         3480 :  None : -1.0 :   0.0
         3481 :  None : -1.0 :   0.0
@@ -24571,7 +25441,7 @@ Model unknown
         3531 :  None : -1.0 :   0.0
         3532 :  None : -1.0 :   0.0
         3533 :  None : -1.0 :   0.0
-        3534 :  None : -1.0 :   0.0
+        3534 :  None :  0.0 :   0.0
         3535 :  None : -1.0 :   0.0
         3536 :  None : -1.0 :   0.0
         3537 :  None : -1.0 :   0.0
@@ -24670,7 +25540,7 @@ Model unknown
         3630 :  None : -1.0 :   0.0
         3631 :  None : -1.0 :   0.0
         3632 :  None : -1.0 :   0.0
-        3633 :  None : -1.0 :   0.0
+        3633 :  None :  0.0 :   0.0
         3634 :  None : -1.0 :   0.0
         3635 :  None : -1.0 :   0.0
         3636 :  None : -1.0 :   0.0
@@ -24915,7 +25785,7 @@ Model unknown
         3875 :  None : -1.0 :   0.0
         3876 :  None : -1.0 :   0.0
         3877 :  None : -1.0 :   0.0
-        3878 :  None :  0.0 :   0.0
+        3878 :  None : -1.0 :   0.0
         3879 :  None : -1.0 :   0.0
         3880 :  None : -1.0 :   0.0
         3881 :  None : -1.0 :   0.0
@@ -25033,7 +25903,7 @@ Model unknown
         3993 :  None : -1.0 :   0.0
         3994 :  None : -1.0 :   0.0
         3995 :  None : -1.0 :   0.0
-        3996 :  None :  0.0 :   0.0
+        3996 :  None : -1.0 :   0.0
         3997 :  None : -1.0 :   0.0
         3998 :  None : -1.0 :   0.0
         3999 :  None : -1.0 :   0.0
@@ -25173,7 +26043,7 @@ Model unknown
         4133 :  None : -1.0 :   0.0
         4134 :  None : -1.0 :   0.0
         4135 :  None : -1.0 :   0.0
-        4136 :  None :  0.0 :   0.0
+        4136 :  None : -1.0 :   0.0
         4137 :  None : -1.0 :   0.0
         4138 :  None : -1.0 :   0.0
         4139 :  None : -1.0 :   0.0
@@ -25198,7 +26068,7 @@ Model unknown
         4158 :  None : -1.0 :   0.0
         4159 :  None : -1.0 :   0.0
         4160 :  None : -1.0 :   0.0
-        4161 :  None : -1.0 :   0.0
+        4161 :  None :  0.0 :   0.0
         4162 :  None : -1.0 :   0.0
         4163 :  None : -1.0 :   0.0
         4164 :  None : -1.0 :   0.0
@@ -25397,7 +26267,7 @@ Model unknown
         4357 :  None : -1.0 :   0.0
         4358 :  None : -1.0 :   0.0
         4359 :  None : -1.0 :   0.0
-        4360 :  None : -1.0 :   0.0
+        4360 :  None :  0.0 :   0.0
         4361 :  None : -1.0 :   0.0
         4362 :  None : -1.0 :   0.0
         4363 :  None : -1.0 :   0.0
@@ -25467,7 +26337,7 @@ Model unknown
         4427 :  None : -1.0 :   0.0
         4428 :  None : -1.0 :   0.0
         4429 :  None : -1.0 :   0.0
-        4430 :  None : -1.0 :   0.0
+        4430 :  None :  0.0 :   0.0
         4431 :  None : -1.0 :   0.0
         4432 :  None : -1.0 :   0.0
         4433 :  None : -1.0 :   0.0
@@ -25523,7 +26393,7 @@ Model unknown
         4483 :  None : -1.0 :   0.0
         4484 :  None : -1.0 :   0.0
         4485 :  None : -1.0 :   0.0
-        4486 :  None : -1.0 :   0.0
+        4486 :  None :  0.0 :   0.0
         4487 :  None : -1.0 :   0.0
         4488 :  None : -1.0 :   0.0
         4489 :  None : -1.0 :   0.0
@@ -25774,12 +26644,12 @@ Model unknown
         4734 :  None : -1.0 :   0.0
         4735 :  None : -1.0 :   0.0
         4736 :  None : -1.0 :   0.0
-        4737 :  None :  0.0 :   0.0
+        4737 :  None : -1.0 :   0.0
         4738 :  None : -1.0 :   0.0
         4739 :  None : -1.0 :   0.0
         4740 :  None : -1.0 :   0.0
         4741 :  None : -1.0 :   0.0
-        4742 :  None : -1.0 :   0.0
+        4742 :  None :  0.0 :   0.0
         4743 :  None : -1.0 :   0.0
         4744 :  None : -1.0 :   0.0
         4745 :  None : -1.0 :   0.0
@@ -25902,7 +26772,7 @@ Model unknown
         4862 :  None : -1.0 :   0.0
         4863 :  None : -1.0 :   0.0
         4864 :  None : -1.0 :   0.0
-        4865 :  None :  0.0 :   0.0
+        4865 :  None : -1.0 :   0.0
         4866 :  None : -1.0 :   0.0
         4867 :  None : -1.0 :   0.0
         4868 :  None : -1.0 :   0.0
@@ -25953,7 +26823,7 @@ Model unknown
         4913 :  None : -1.0 :   0.0
         4914 :  None : -1.0 :   0.0
         4915 :  None : -1.0 :   0.0
-        4916 :  None :  0.0 :   0.0
+        4916 :  None : -1.0 :   0.0
         4917 :  None : -1.0 :   0.0
         4918 :  None : -1.0 :   0.0
         4919 :  None : -1.0 :   0.0
@@ -27543,7 +28413,7 @@ Model unknown
         6503 :  None : -1.0 :   0.0
         6504 :  None : -1.0 :   0.0
         6505 :  None : -1.0 :   0.0
-        6506 :  None :  0.0 :   0.0
+        6506 :  None : -1.0 :   0.0
         6507 :  None : -1.0 :   0.0
         6508 :  None : -1.0 :   0.0
         6509 :  None : -1.0 :   0.0

@@ -275,6 +275,19 @@ for v in M.V:
 
 # 2.7.4. Restricciones de los vehículos y los clientes
 
+M.entradaUnicaCliente = ConstraintList()
+M.salidaUnicaCliente = ConstraintList()
+M.entradaYSalidaCliente = ConstraintList()
+for i in M.C:
+    for v in M.V:
+        # Entrada única al cliente
+        M.entradaUnicaCliente.add(sum(M.X[a,i,v] for a in M.A) + sum(M.Z[j,i,v] for j in M.C) + sum(M.U[e,i,v] for e in M.E) <= 1)
+        # Salida única del cliente
+        M.salidaUnicaCliente.add(sum(M.Y[i,a,v] for a in M.A) + sum(M.Z[i,j,v] for j in M.C) + sum(M.W[i,e,v] for e in M.E) <= 1)
+        # Entrada y salida del cliente
+        M.entradaYSalidaCliente.add(sum(M.X[a,i,v] for a in M.A) + sum(M.Z[j,i,v] for j in M.C) + sum(M.U[e,i,v] for e in M.E) - 
+                                    sum(M.Y[i,a,v] for a in M.A) - sum(M.Z[i,j,v] for j in M.C) - sum(M.W[i,e,v] for e in M.E) == 0)
+
 M.visitaClientesIntermediosSalida = ConstraintList()
 M.visitaClientesIntermediosEntrada = ConstraintList()
 for v in M.V:

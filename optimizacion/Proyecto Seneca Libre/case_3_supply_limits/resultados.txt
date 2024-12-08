@@ -1,8 +1,8 @@
 DESGLOSE DE COSTOS
-Costo total: 112374.89097631257 COP
+Costo total: 123898.24534007157 COP
 Costo de carga diario: 10100.0 COP
-Costo de distancia diario: 7856.306012627641 COP
-Costo de tiempo diario: 11784.459018941463 COP
+Costo de distancia diario: 12465.647758131245 COP
+Costo de tiempo diario: 18698.471637196868 COP
 Costo de recarga diario: 1634.1259447434736 COP
 - Costo de energía diario: 1574.1257447434737 COP
 - Costo de tiempo de recarga diario: 60.0002 COP
@@ -16,39 +16,39 @@ Capacidad del almacén: [0.]
 
 VEHÍCULO 2:
 Almacén 2 -> Cliente 2
-Cliente 7 -> Almacén 7
+Cliente 2 -> Almacén 2
 Productos transportados: [15.]
 Capacidad del almacén: [10.]
 
 
 VEHÍCULO 3:
-Almacén 7 -> Cliente 7
-Cliente 6 -> Almacén 6
-Productos transportados: [12.]
-Capacidad del almacén: [0.]
+Almacén 9 -> Cliente 9
+Cliente 9 -> Almacén 9
+Productos transportados: [15.]
+Capacidad del almacén: [43.]
 
 
 VEHÍCULO 4:
 Almacén 6 -> Cliente 6
 Cliente 1 -> Cliente 4
-Cliente 5 -> Cliente 3
-Cliente 8 -> Almacén 4
-Productos transportados: [32.]
+Cliente 4 -> Cliente 1
+Cliente 6 -> Almacén 6
+Productos transportados: [29.]
 Capacidad del almacén: [3.]
 
 
 VEHÍCULO 5:
-Almacén 7 -> Cliente 9
-Cliente 3 -> Cliente 5
-Cliente 9 -> Almacén 7
+Almacén 9 -> Cliente 5
+Cliente 5 -> Cliente 3
+Cliente 3 -> Almacén 9
 Productos transportados: [20.]
-Capacidad del almacén: [0.]
+Capacidad del almacén: [43.]
 
 
 VEHÍCULO 6:
-Almacén 4 -> Cliente 8
-Cliente 4 -> Cliente 1
-Cliente 2 -> Almacén 5
+Almacén 4 -> Cliente 7
+Cliente 7 -> Cliente 8
+Cliente 8 -> Almacén 4
 Productos transportados: [22.]
 Capacidad del almacén: [4.]
 
