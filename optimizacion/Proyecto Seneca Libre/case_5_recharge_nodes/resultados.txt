@@ -10,7 +10,7 @@ Costo de mantenimiento diario: 33000.0 COP
 
 RUTAS TOMADAS POR LOS VEHÍCULOS
 VEHÍCULO 1:
-Almacén 6 -> Cliente 6
+Almacén 3 -> Cliente 3
 Cliente 4 -> Cliente 24
 Cliente 5 -> Cliente 9
 Cliente 7 -> Cliente 23
@@ -38,10 +38,12 @@ Cliente 29 -> Cliente 22
 Cliente 1 -> Estación 1
 Cliente 2 -> Estación 2
 Estación 2 -> Cliente 2
-Cliente 3 -> Estación 3
-Estación 3 -> Cliente 3
+Cliente 6 -> Estación 6
+Estación 6 -> Cliente 6
 Estación 1 -> Cliente 13
-Cliente 6 -> Almacén 6
+Cliente 3 -> Almacén 3
+Productos transportados: [378.]
+Capacidad del almacén: [12.]
 
 
 VEHÍCULO 2:
@@ -49,4 +51,6 @@ Almacén 9 -> Cliente 1
 Cliente 21 -> Estación 7
 Estación 7 -> Cliente 21
 Cliente 30 -> Almacén 2
+Productos transportados: [24.]
+Capacidad del almacén: [20.]
 

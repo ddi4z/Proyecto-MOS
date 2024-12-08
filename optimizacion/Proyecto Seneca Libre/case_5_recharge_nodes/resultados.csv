@@ -1,5 +1,5 @@
 idVehiculo,tipoInicio,numeroInicio,tipoFin,numeroFin
-1,Almacén,6,Cliente,6
+1,Almacén,3,Cliente,3
 1,Cliente,4,Cliente,24
 1,Cliente,5,Cliente,9
 1,Cliente,7,Cliente,23
@@ -27,10 +27,10 @@ idVehiculo,tipoInicio,numeroInicio,tipoFin,numeroFin
 1,Cliente,1,Estación,1
 1,Cliente,2,Estación,2
 1,Estación,2,Cliente,2
-1,Cliente,3,Estación,3
-1,Estación,3,Cliente,3
+1,Cliente,6,Estación,6
+1,Estación,6,Cliente,6
 1,Estación,1,Cliente,13
-1,Cliente,6,Almacén,6
+1,Cliente,3,Almacén,3
 2,Almacén,9,Cliente,1
 2,Cliente,21,Estación,7
 2,Estación,7,Cliente,21
