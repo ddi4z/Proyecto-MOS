@@ -341,10 +341,7 @@ solver_name = "scip"
 # resultado_factible = solver_factible.solve(M, tee=True)
 
 # Solución del modelo
-solver = SolverFactory(solver_name)
-solver.options['numerics/feastol'] = 1e-9
-solver.options['limits/time'] = 570
-solver.options['limits/absgap'] = 10
+solver = SolverFactory("couenne", executable="optimizacion/couenne.exe")
 
 M.FO = Objective(rule=costo_total, sense=minimize)
 resultado = solver.solve(M, tee=True)

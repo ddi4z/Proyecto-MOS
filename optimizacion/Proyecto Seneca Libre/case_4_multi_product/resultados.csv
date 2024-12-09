@@ -1,15 +1,1 @@
 idVehiculo,tipoInicio,numeroInicio,tipoFin,numeroFin
-2,Almacén,9,Cliente,9
-2,Cliente,9,Almacén,9
-3,Almacén,8,Cliente,8
-3,Cliente,8,Almacén,8
-4,Almacén,6,Cliente,6
-4,Cliente,1,Cliente,5
-4,Cliente,5,Cliente,1
-4,Cliente,6,Almacén,6
-5,Almacén,9,Cliente,7
-5,Cliente,7,Cliente,4
-5,Cliente,4,Almacén,4
-6,Almacén,9,Cliente,2
-6,Cliente,2,Cliente,3
-6,Cliente,3,Almacén,9

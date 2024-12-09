@@ -68,7 +68,7 @@ class CargadorDeParametros:
         self.TIPOS_VEHICULO = self.obtenerMatrizTipoVehiculo()
         self.CAPACIDADES_PRODUCTOS_VEHICULO = self.vehiculos["Capacity"].to_numpy()
         self.RANGOS = self.vehiculos["Range"].to_numpy()
-        self.TIEMPOS_RECARGA_COMPLETA = [1, 20, 0.001]
+        self.TIEMPOS_RECARGA_COMPLETA = [1, 20, 0.0001]
         self.VELOCIDADES_PROMEDIO = [None, 40, None]
         self.EFICIENCIAS_ENERGETICAS = [10, 1/0.15, 1/0.15]
         self.TIEMPO_CARGA_MINUTO = 1/5
@@ -90,7 +90,7 @@ class CargadorDeParametros:
         self.TARIFAS_FLETE = [5000, 500, 4000]
         self.TARIFAS_TIEMPO = [500, 500, 500]
         self.COSTOS_MANTENIMIENTO_DIARIO = [30000, 3000, 21000]
-        self.COSTOS_RECARGA_UNIDAD_ENERGIA = [16000, 220.73, 0.01]
+        self.COSTOS_RECARGA_UNIDAD_ENERGIA = [16000, 220.73, 0.001]
         self.COSTO_CARGA_MINUTO = 500
         
 
