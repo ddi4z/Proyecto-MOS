@@ -79,10 +79,9 @@ def N():
 def C_veces_recarga(v):
     return sum(sum(M.X[a,i,v] for i in M.C) for a in M.A) + sum(sum(M.U[e,i,v] for i in M.C) for e in M.E) + sum(sum(M.M[e,f,v] for f in M.E) for e in M.E) + sum(sum(M.L[e,a,v] + M.H[a,e,v] for e in M.E) for a in M.A) 
 
-# Capacidad de carga de un vehículo que salió de un almacén para un tipo de producto específico
-def calcularCargaVehiculo(tp, a, v):
+def calcularCargaVehiculo(tp, v):
     return (
-        sum(M.X[a, i, v] * p.DEMANDAS[tp - 1][i - 1] for i in M.C) +
+        sum(M.X[a, i, v] * p.DEMANDAS[tp - 1][i - 1] for i in M.C for a in M.A) +
         sum(M.Z[i, j, v] * p.DEMANDAS[tp - 1][j - 1] for i in M.C for j in M.C) +
         sum(M.U[e, i, v] * p.DEMANDAS[tp - 1][i - 1] for e in M.E for i in M.C)
     )
@@ -210,15 +209,15 @@ for i in M.C:
 
 # Capacidad de los almacenes
 M.capacidadAlmacen = ConstraintList()
-# for a in M.A:
-#     for tp in M.TP:
-#         M.capacidadAlmacen.add(
-#             sum(
-#                 (sum(M.X[a, i, v] for i in M.C) + sum(M.H[a, e, v] for e in M.E)) *
-#                 calcularCargaVehiculo(tp, a, v)
-#                 for v in M.V
-#             ) <= p.CAPACIDADES_PRODUCTOS_ALMACENES[tp - 1][a - 1]
-#         )
+for a in M.A:
+    for tp in M.TP:
+        M.capacidadAlmacen.add(
+            sum(
+                (sum(M.X[a, i, v] for i in M.C) + sum(M.H[a, e, v] for e in M.E)) *
+                calcularCargaVehiculo(tp, v)
+                for v in M.V
+            ) <= p.CAPACIDADES_PRODUCTOS_ALMACENES[tp - 1][a - 1]
+        )
 
 M.capacidadVehiculo = ConstraintList()
 # Una restricción incluye a la otra
