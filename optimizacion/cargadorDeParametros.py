@@ -45,7 +45,6 @@ class CargadorDeParametros:
         else:
             self.DEMANDAS = np.zeros((1, self.num_clientes))
             self.DEMANDAS[0] = self.clientes["Product"].to_numpy()
-        
         self.LONGITUDES_CLIENTES = self.clientes["Longitude"].to_numpy()
         self.LATITUDES_CLIENTES = self.clientes["Latitude"].to_numpy()
 
@@ -58,7 +57,6 @@ class CargadorDeParametros:
         else:
             self.CAPACIDADES_PRODUCTOS_ALMACENES = np.zeros((1, self.num_almacenes))
             self.CAPACIDADES_PRODUCTOS_ALMACENES[0] = self.capacidades_almacenes["Product"].to_numpy()
-        
         self.LONGITUDES_ALMACENES = self.almacenes["Longitude"].to_numpy()
         self.LATITUDES_ALMACENES =  self.almacenes["Latitude"].to_numpy()
 
@@ -117,6 +115,7 @@ class CargadorDeParametros:
 
         respuesta = requests.get(url, params=parametros)
         datos = respuesta.json()
+        
         for i in range(len(coordenadasFilas)):
             for j in range(len(coordenadasColumnas)):
                 for t in [0,2]:
@@ -165,6 +164,7 @@ class CargadorDeParametros:
         print("3. Caso grandes distancias poca demanda")
         print("4. Caso multiproducto")
         print("5. Caso estaciones de recarga")
+        print("6. Caso algoritmos genéticos")
         caso = int(input("Digite el número del caso de prueba: "))
 
         if caso == 4:
@@ -177,6 +177,7 @@ class CargadorDeParametros:
             "case_3_supply_limits/",
             "case_4_multi_product/",
             "case_5_recharge_nodes/",
+            "case_6_genetic_algorithms/"
         ]
         self.rutaCarpeta = rutaPorDefecto + rutas[caso - 1]
         return self.cargarCaso(rutaPorDefecto + rutas[caso - 1])
